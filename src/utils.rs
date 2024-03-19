@@ -54,15 +54,14 @@ pub fn read_instance(file_path: &str) -> io::Result<Vec<Vec<f32>>> {
 }
 
 
-pub fn random_permutation(n: usize) -> Vec<usize> {
-    let mut permutation: Vec<usize> = (0..n).collect();
+pub fn random_permutation(n: usize) -> Vec<u32> {
+    let mut permutation: Vec<u32> = (0..n as u32).collect();
     let mut rng = rand::thread_rng();
 
     for i in (1..n).rev() {
         let j = rng.gen_range(0..=i);
-        permutation.swap(i, j);
+        permutation.swap(i as usize, j as usize);
     }
-
     permutation
 }
 
