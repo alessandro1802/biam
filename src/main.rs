@@ -20,6 +20,8 @@ fn main() -> io::Result<()> {
 
     let solver = LocalSearch{distance_matrix: distance_matrix, n: n};
     solver.greedy();
+    let solution = solver.random_walk(None).unwrap();
+    println!("RandomWalk: {}", utils::calculate_tour_distance(&solution, &solver.distance_matrix).unwrap());
     let solution_two = solver.random(None).unwrap();
     println!("Random: {}", utils::calculate_tour_distance(&solution_two, &solver.distance_matrix).unwrap());
 

@@ -86,6 +86,35 @@ impl LocalSearch {
         Ok(solution)
     }
 
+    /**
+     * Perform a random walk search for the TSP problem
+     *
+     * @param samples: Number of samples to generate each iteration (default 1000)
+     * @return: The best solution found
+     */
+    pub fn random_walk(&self, samples: Option<usize>) -> Result<Vec<u32>, &'static str> {
+        let mut solution = utils::random_permutation(self.n);
+        let mut distance = utils::calculate_tour_distance(&solution, &self.distance_matrix).unwrap();
+        let mut current_distance = distance;
+        let mut continue_search = true;
+        let (mut x1, mut x2);
+        while continue_search {
+            continue_search = false;
+            for _ in 0..samples.unwrap_or(1000) {
+                (x1, x2) = utils::random_pair(self.n);
+                solution.swap(x1, x2);
+                current_distance = utils::calculate_tour_distance(&solution, &self.distance_matrix).unwrap();
+                if current_distance < distance {
+                    distance = current_distance;
+                    continue_search = true;
+                    break;
+                }
+                solution.swap(x1, x2);
+            }
+        }
+        Ok(solution)
+    }
+
     pub fn steepest(&mut self) {
 
     }
