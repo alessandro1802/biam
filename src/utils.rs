@@ -5,8 +5,8 @@ use rand::prelude::*;
 
 
 struct Coordinate {
-    x: u32,
-    y: u32,
+    x: f32,
+    y: f32,
 }
 
 fn euclidean_distance(coord1: &Coordinate, coord2: &Coordinate) -> f32 {
@@ -43,7 +43,7 @@ pub fn read_instance(file_path: &str) -> io::Result<Vec<Vec<f32>>> {
         if reading_coordinates {
             let parts: Vec<&str> = line.split_whitespace().collect();
             if parts.len() >= 3 {
-                if let (Ok(x), Ok(y)) = (parts[1].parse::<u32>(), parts[2].parse::<u32>()) {
+                if let (Ok(x), Ok(y)) = (parts[1].parse::<f32>(), parts[2].parse::<f32>()) {
                     coordinates.push(Coordinate { x, y });
                 }
             }
