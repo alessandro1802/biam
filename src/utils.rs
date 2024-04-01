@@ -45,6 +45,21 @@ fn calculate_distance_matrix(coordinates: &[Coordinate]) -> Vec<Vec<f32>> {
 }
 
 /**
+ * Calculates the total distance of a tour.
+ *
+ * @param tour: The tour.
+ * @param distance_matrix: The distance matrix between the coordinates.
+ * @return The total distance of the tour.
+ */
+pub fn calculate_tour_distance(tour: &[u32], distance_matrix: &[Vec<f32>]) -> io::Result<f32> {
+    let mut distance = 0.0;
+    for i in 0..tour.len() {
+        distance += distance_matrix[tour[i] as usize][tour[(i + 1) % tour.len()] as usize];
+    }
+    Ok(distance)
+}
+
+/**
  * Read an instance from a file.
  *
  * @param file_path: The path to the file.
