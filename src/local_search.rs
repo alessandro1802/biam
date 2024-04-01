@@ -1,121 +1,138 @@
 use crate::utils;
 
+/**
+ * LocalSearch struct
+ *
+ * This struct contains the necessary information to perform a local search
+ * for the TSP problem. It contains the distance matrix, the number of cities,
+ * the best solution found and its distance, the current solution and its distance.
+ *
+ * @field distance_matrix: The distance matrix of the TSP problem
+ * @field n: The number of nodes
+ * @field solution: The best solution found
+ * @field distance: The distance of the best solution found
+ * @field current_solution: The current solution
+ * @field current_distance: The distance of the current solution
+ */
 pub struct LocalSearch {
     pub distance_matrix: Vec<Vec<f32>>,
     pub n: usize,
+    solution: Vec<u32>,
+    distance: f32,
+    current_solution: Vec<u32>,
+    current_distance: f32,
 }
 
 impl LocalSearch {
-    pub fn greedy(&self) {
-        let solution = utils::random_permutation(self.n);
-        println!("Initial solution: {:?}", solution);
+    /**
+     * Create a new LocalSearch instance
+     *
+     * @param distance_matrix: The distance matrix of the TSP problem
+     * @return: A new LocalSearch instance
+     */
+    pub fn new(distance_matrix: Vec<Vec<f32>>) -> LocalSearch {
+        let n = distance_matrix.len();
+        let solution = utils::random_permutation(n);
+        let distance = utils::calculate_tour_distance(&solution, &distance_matrix).unwrap();
+        LocalSearch {
+            distance_matrix,
+            n,
+            solution: solution.clone(),
+            distance: distance,
+            current_solution: solution.clone(),
+            current_distance: distance,
+        }
+    }
+
+    /**
+     * Initialize the LocalSearch instance to random solution
+     */
+    pub fn init_random(&mut self) {
+        self.solution = utils::random_permutation(self.n);
+        self.distance = utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap();
+        self.current_solution = self.solution.clone();
+        self.current_distance = self.distance;
+    }
+
+    /**
+     * Perform a greedy search for the TSP problem
+     *
+     * @return: The best solution found and its distance
+     */
+    pub fn greedy(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
         for i in 0..self.n {
             for j in (i + 1)..self.n {
-                println!("Edge: ({}, {})", solution[i], solution[j]);
+                self.current_solution.swap(i, j);
+                self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
+                if self.current_distance < self.distance {
+                    self.solution = self.current_solution.clone();
+                    self.distance = self.current_distance;
+                }
+                self.current_solution.swap(i, j);
             }
         }
-//        while better_found:
-//            # Randomly choose neighbourhood
-//            if random.random() > 0.5:
-//                    neighbourhood_idx = 1
-//            else:
-//                neighbourhood_idx = 0
-//            if neighbourhood_idx == 0:
-//                for i in range(self.targetSolutionSize):
-//                    edge1_idx = [i, (i + 1) % self.targetSolutionSize]
-//                    edge1 = [current_sol[edge1_idx[0]], current_sol[edge1_idx[1]]]
-//                    for j in range(i + 2, self.targetSolutionSize):
-//                        if (next_j := (j + 1) % self.targetSolutionSize) == i:
-//                            continue
-//                        edge2_idx = [j, next_j]
-//                        edge2 = [current_sol[edge2_idx[0]], current_sol[edge2_idx[1]]]
-//                        # Using nodes themselves
-//                        delta = self.getDeltaIntraEdges(edge1, edge2)
-//                        if delta < 0:
-//                            # Using node indices
-//                            # First part, Reversed middle part, Last part
-//                            best_route = deepcopy(current_sol)
-//                            best_route = best_route[:edge1_idx[1]] + best_route[edge1_idx[1]: (j + 1)][::-1] + best_route[(j + 1):]
-//                            break
-//                        if best_route:
-//                            current_sol = best_route
-//                            better_found = True
-//                            break
-//            # Inter-route
-//            else:
-//            # Get a list of not selected nodes
-//                not_selected = list(set(self.cities) - set(current_sol))
-//                for i in range(self.targetSolutionSize):
-//                    for node_j in not_selected:
-//                        delta = self.getDeltaInter(current_sol[i - 1], current_sol[i], current_sol[(i + 1) % self.targetSolutionSize], node_j)
-//                        if delta < 0:
-//                            best_route = deepcopy(current_sol)
-//                            best_route[i] = node_j
-//                            break
-//                        if best_route:
-//                            current_sol = best_route
-//                            better_found = True
-//                            break
+        Ok((self.solution.clone(), self.distance))
     }
 
     /**
      * Perform a random solution search for the TSP problem
      *
      * @param samples: Number of samples to generate each iteration (default 1000)
-     * @return: The best solution found
+     * @return: The best solution found and its distance
      */
-    pub fn random(&self, samples: Option<usize>) -> Result<Vec<u32>, &'static str> {
-        let mut solution = utils::random_permutation(self.n);
-        let mut distance = utils::calculate_tour_distance(&solution, &self.distance_matrix).unwrap();
-        let mut current_solution = solution.clone();
-        let mut current_distance = distance;
-        let mut continue_search = true;
-        while continue_search {
-            continue_search = false;
+    pub fn random(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
+        while self.distance == self.current_distance {
             for _ in 0..samples.unwrap_or(1000) {
-                current_solution = utils::random_permutation(self.n);
-                current_distance = utils::calculate_tour_distance(&current_solution, &self.distance_matrix).unwrap();
-                if current_distance < distance {
-                    solution = current_solution.clone();
-                    distance = current_distance;
-                    continue_search = true;
+                self.current_solution = utils::random_permutation(self.n);
+                self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
+                if self.current_distance < self.distance {
+                    self.solution = self.current_solution.clone();
+                    self.distance = self.current_distance;
                     break;
                 }
             }
         }
-        Ok(solution)
+        Ok((self.solution.clone(), self.distance))
     }
 
     /**
      * Perform a random walk search for the TSP problem
      *
      * @param samples: Number of samples to generate each iteration (default 1000)
-     * @return: The best solution found
+     * @return: The best solution found and its distance
      */
-    pub fn random_walk(&self, samples: Option<usize>) -> Result<Vec<u32>, &'static str> {
-        let mut solution = utils::random_permutation(self.n);
-        let mut distance = utils::calculate_tour_distance(&solution, &self.distance_matrix).unwrap();
-        let mut current_distance = distance;
-        let mut continue_search = true;
+    pub fn random_walk(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
         let (mut x1, mut x2);
-        while continue_search {
-            continue_search = false;
+        while self.distance == self.current_distance {
             for _ in 0..samples.unwrap_or(1000) {
                 (x1, x2) = utils::random_pair(self.n);
-                solution.swap(x1, x2);
-                current_distance = utils::calculate_tour_distance(&solution, &self.distance_matrix).unwrap();
-                if current_distance < distance {
-                    distance = current_distance;
-                    continue_search = true;
+                self.solution.swap(x1, x2);
+                self.current_distance = utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap();
+                if self.current_distance < self.distance {
+                    self.distance = self.current_distance;
                     break;
                 }
-                solution.swap(x1, x2);
+                self.solution.swap(x1, x2);
             }
         }
-        Ok(solution)
+        Ok((self.solution.clone(), self.distance))
     }
 
-    pub fn steepest(&mut self) {
+    /**
+     * Perform a steepest search for the TSP problem
+     *
+     * @return: The best solution found and its distance
+     */
+    pub fn steepest(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+        Err("Function not implemented")
+    }
 
+    /**
+     * Perform a heuristic search for the TSP problem
+     *
+     * @return: The best solution found and its distance
+     */
+    pub fn heuristic(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+        Err("Function not implemented")
     }
 }
