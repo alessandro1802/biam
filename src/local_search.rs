@@ -60,17 +60,17 @@ impl LocalSearch {
      * @return: The best solution found and its distance
      */
     pub fn greedy(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+        let mut delta;
         for i in 0..self.n {
             for j in (i + 1)..self.n {
-                self.current_solution.swap(i, j);
-                self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
-                if self.current_distance < self.distance {
-                    self.solution = self.current_solution.clone();
-                    self.distance = self.current_distance;
+                delta = utils::calculate_delta(&self.solution, &self.distance_matrix, i, j).unwrap();
+                if delta < 0.0 {
+                    self.solution.swap(i, j);
+                    self.distance = self.distance + delta;
                 }
-                self.current_solution.swap(i, j);
             }
         }
+        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap());
         Ok((self.solution.clone(), self.distance))
     }
 
@@ -102,19 +102,22 @@ impl LocalSearch {
      * @return: The best solution found and its distance
      */
     pub fn random_walk(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
-        let (mut x1, mut x2);
-        while self.distance == self.current_distance {
+        let (mut x1, mut x2, mut delta);
+        let mut continue_search = true;
+        while continue_search {
+            continue_search = false;
             for _ in 0..samples.unwrap_or(1000) {
                 (x1, x2) = utils::random_pair(self.n);
-                self.solution.swap(x1, x2);
-                self.current_distance = utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap();
-                if self.current_distance < self.distance {
-                    self.distance = self.current_distance;
+                delta = utils::calculate_delta(&self.solution, &self.distance_matrix, x1, x2).unwrap();
+                if delta < 0.0 {
+                    self.solution.swap(x1, x2);
+                    self.distance = self.distance + delta;
+                    continue_search = true;
                     break;
                 }
-                self.solution.swap(x1, x2);
             }
         }
+        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap());
         Ok((self.solution.clone(), self.distance))
     }
 

@@ -60,6 +60,38 @@ pub fn calculate_tour_distance(tour: &[u32], distance_matrix: &[Vec<f32>]) -> io
 }
 
 /**
+ * Calculate delta of the total distances of a tour after swapping two edges.
+ * The delta is the difference between the total distances of the tours before and after the swap.
+ *
+ * @param tour: The tour.
+ * @param distance_matrix: The distance matrix between the coordinates.
+ * @param i: The first index.
+ * @param j: The second index.
+ * @return The delta of the total distances of the tours after swapping two edges.
+ */
+pub fn calculate_delta(tour: &[u32], distance_matrix: &[Vec<f32>], i: usize, j: usize) -> io::Result<f32> {
+    let n = tour.len();
+    let el_before_i = tour[(i + n - 1) % n] as usize;
+    let el_after_i = tour[(i + 1) % n] as usize;
+    let el_before_j = tour[(j + n - 1) % n] as usize;
+    let el_after_j = tour[(j + 1) % n] as usize;
+
+    let mut delta = 0.0;
+
+    delta += distance_matrix[el_before_i][tour[i] as usize];
+    delta += distance_matrix[tour[i] as usize][el_after_i];
+    delta += distance_matrix[el_before_j][tour[j] as usize];
+    delta += distance_matrix[tour[j] as usize][el_after_j];
+
+    delta -= distance_matrix[el_before_i][tour[j] as usize];
+    delta -= distance_matrix[tour[j] as usize][el_after_i];
+    delta -= distance_matrix[el_before_j][tour[i] as usize];
+    delta -= distance_matrix[tour[i] as usize][el_after_j];
+
+    Ok(delta)
+}
+
+/**
  * Read an instance from a file.
  *
  * @param file_path: The path to the file.
