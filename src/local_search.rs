@@ -45,7 +45,7 @@ impl LocalSearch {
     }
 
     /**
-     * Initialize the LocalSearch instance to random solution
+     * Initialize the random initial solution
      */
     pub fn init_random(&mut self) {
         self.solution = utils::random_permutation(self.n);
@@ -55,23 +55,61 @@ impl LocalSearch {
     }
 
     /**
+     * Calculate Intra-route delta
+     */
+    fn get_delta_intra_route(&self, i: u32, next_i: u32, j: u32, next_j: u32) -> f32 {
+        self.distance_matrix[i as usize][j as usize] + self.distance_matrix[next_i as usize][next_j as usize]
+        - (self.distance_matrix[i as usize][next_i as usize] + self.distance_matrix[j as usize][next_j as usize])
+    }
+
+    /**
      * Perform a greedy search for the TSP problem
+     * Intra-route neighbourhood: Iterate all distinct 2-edge pairs
      *
      * @return: The best solution found and its distance
      */
     pub fn greedy(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
-        let mut delta;
-        for i in 0..self.n {
-            for j in (i + 1)..self.n {
-                delta = utils::calculate_delta(&self.solution, &self.distance_matrix, i, j).unwrap();
-                if delta < 0.0 {
-                    self.solution.swap(i, j);
-                    self.distance = self.distance + delta;
+        let mut current_tour = utils::random_permutation(self.n);
+        let mut best_tour = current_tour.clone();
+
+        let mut improvement = true;
+        while improvement {
+            improvement = false;
+            for i in 0..self.n {
+                let next_i = (i + 1) % self.n;
+                for j in i + 2..self.n {
+                    let next_j = (j + 1) % self.n;
+                    // Skip directly preceeding edge
+                    if next_j == i { continue; }
+                    // Calculated delta fitness
+                    let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
+
+                    if delta < 0.0 {
+                        // Extract the slice [:next_i)
+                        let first_part = current_tour[..next_i].to_vec();
+                        // Extract and reverse the slice [next_i, (j + 1))
+                        let mut middle_part_rev = current_tour[next_i..=j].to_vec();
+                        middle_part_rev.reverse();
+                        // Extract the slice [(j + 1):]
+                        let last_part = current_tour[(j + 1)..].to_vec();
+                        // Combine the slices
+                        best_tour.clear();
+                        best_tour.extend_from_slice(&first_part);
+                        best_tour.extend_from_slice(&middle_part_rev);
+                        best_tour.extend_from_slice(&last_part);
+
+                        improvement = true;
+                        break;
+                    }
+                }
+                if improvement {
+                    current_tour = best_tour.clone();
+                    break;
                 }
             }
         }
-        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap());
-        Ok((self.solution.clone(), self.distance))
+
+        Ok((best_tour, utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap()))
     }
 
     /**
