@@ -176,19 +176,17 @@ impl LocalSearch {
     /**
      * Perform a Random Search on the TSP problem
      *
-     * @param samples: Number of samples to generate each iteration (default 1000)
+     * @param time_limit_ms: The time limit in milliseconds
      * @return: The best solution found and its distance
      */
-    pub fn random(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
-        while self.distance == self.current_distance {
-            for _ in 0..samples.unwrap_or(1000) {
-                self.current_solution = utils::random_permutation(self.n);
-                self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
-                if self.current_distance < self.distance {
-                    self.solution = self.current_solution.clone();
-                    self.distance = self.current_distance;
-                    break;
-                }
+    pub fn random(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32), &'static str> {
+        let time_start = std::time::Instant::now();
+        while (time_start.elapsed().as_millis() as f64) < time_limit_ms {
+            self.current_solution = utils::random_permutation(self.n);
+            self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
+            if self.current_distance < self.distance {
+                self.solution = self.current_solution.clone();
+                self.distance = self.current_distance;
             }
         }
         Ok((self.solution.clone(), self.distance))
@@ -197,29 +195,24 @@ impl LocalSearch {
     /**
      * Perform a Random Walk search on the TSP problem
      *
-     * @param samples: Number of samples to generate each iteration (default 1000)
+     * @param time_limit_ms: The time limit in milliseconds
      * @return: The best solution found and its distance
      */
-    pub fn random_walk(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn random_walk(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32), &'static str> {
         let (mut i, mut j, mut delta, mut next_i, mut next_j);
-        let mut improvement = true;
-        while improvement {
-            improvement = false;
-            for _ in 0..samples.unwrap_or(1000) {
-                (i, j) = utils::random_pair(self.n);
-                if i > j { std::mem::swap(&mut i, &mut j); }
+        let time_start = std::time::Instant::now();
+        while (time_start.elapsed().as_millis() as f64) < time_limit_ms {
+            (i, j) = utils::random_pair(self.n);
+            if i > j { std::mem::swap(&mut i, &mut j); }
 
-                next_i = (i + 1) % self.n;
-                next_j = (j + 1) % self.n;
-                if next_j == i { continue; }
+            next_i = (i + 1) % self.n;
+            next_j = (j + 1) % self.n;
+            if next_j == i { continue; }
 
-                delta = self.get_delta_intra_route(self.solution[i], self.solution[next_i], self.solution[j], self.solution[next_j]);
-                if delta < 0.0 {
-                    self.solution = self.swap_2_edges(&self.solution, next_i, j, self.solution.clone());
-                    self.distance = self.distance + delta;
-                    improvement = true;
-                    break;
-                }
+            delta = self.get_delta_intra_route(self.solution[i], self.solution[next_i], self.solution[j], self.solution[next_j]);
+            if delta < 0.0 {
+                self.solution = self.swap_2_edges(&self.solution, next_i, j, self.solution.clone());
+                self.distance = self.distance + delta;
             }
         }
         Ok((self.solution.clone(), self.distance))

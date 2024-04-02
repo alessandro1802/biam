@@ -1,7 +1,6 @@
 use std::io;
 use std::io::Write;
-mod utils;
-mod local_search;
+mod utils; mod local_search;
 use local_search::LocalSearch;
 
 /**
@@ -85,7 +84,7 @@ fn main() -> io::Result<()> {
     for _ in 0..10 {
         solver.init_random();
         time_start = std::time::Instant::now();
-        let (solution_r, distance_r) = solver.random(None).unwrap();
+        let (solution_r, distance_r) = solver.random(avg_time_s).unwrap();
         elapsed_time.push(time_start.elapsed().as_millis());
         distances.push(distance_r);
         solutions.push(solution_r);
@@ -99,7 +98,7 @@ fn main() -> io::Result<()> {
     for _ in 0..10 {
         solver.init_random();
         time_start = std::time::Instant::now();
-        let (solution_rw, distance_rw) = solver.random_walk(None).unwrap();
+        let (solution_rw, distance_rw) = solver.random_walk(avg_time_s).unwrap();
         elapsed_time.push(time_start.elapsed().as_millis());
         distances.push(distance_rw);
         solutions.push(solution_rw);
