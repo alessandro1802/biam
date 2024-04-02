@@ -57,6 +57,12 @@ impl LocalSearch {
 
     /**
      * Calculate Intra-route delta
+     *
+     * @param i: The first node of the first edge
+     * @param next_i: The second node of the first edge
+     * @param j: The first node of the second edge
+     * @param next_j: The second node of the second edge
+     * @return: The delta fitness
      */
     fn get_delta_intra_route(&self, i: u32, next_i: u32, j: u32, next_j: u32) -> f32 {
         self.distance_matrix[i as usize][j as usize] + self.distance_matrix[next_i as usize][next_j as usize]
@@ -65,6 +71,12 @@ impl LocalSearch {
 
     /**
      * Swap 2 edges inplace
+     *
+     * @param current_tour: The current tour
+     * @param next_i: The second node of the first edge
+     * @param j: The first node of the second edge
+     * @param best_tour: The best tour found
+     * @return: The best tour found
      */
     fn swap_2_edges(&self, current_tour: &[u32], next_i: usize, j: usize, mut best_tour: Vec<u32>) -> Vec<u32> {
         // Extract the slice [:next_i)
@@ -100,7 +112,7 @@ impl LocalSearch {
                 let next_i = (i + 1) % self.n;
                 for j in i + 2..self.n {
                     let next_j = (j + 1) % self.n;
-                    // Skip directly preceeding edge
+                    // Skip directly proceeding edge
                     if next_j == i { continue; }
                     // Calculated delta fitness
                     let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
@@ -139,7 +151,7 @@ impl LocalSearch {
                 let next_i = (i + 1) % self.n;
                 for j in i + 2..self.n {
                     let next_j = (j + 1) % self.n;
-                    // Skip directly preceeding edge
+                    // Skip directly proceeding edge
                     if next_j == i { continue; }
                     // Calculated delta fitness
                     let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
@@ -189,22 +201,27 @@ impl LocalSearch {
      * @return: The best solution found and its distance
      */
     pub fn random_walk(&mut self, samples: Option<usize>) -> Result<(Vec<u32>, f32), &'static str> {
-        let (mut x1, mut x2, mut delta);
-        let mut continue_search = true;
-        while continue_search {
-            continue_search = false;
+        let (mut i, mut j, mut delta, mut next_i, mut next_j);
+        let mut improvement = true;
+        while improvement {
+            improvement = false;
             for _ in 0..samples.unwrap_or(1000) {
-                (x1, x2) = utils::random_pair(self.n);
-                delta = utils::calculate_delta(&self.solution, &self.distance_matrix, x1, x2).unwrap();
+                (i, j) = utils::random_pair(self.n);
+                if i > j { std::mem::swap(&mut i, &mut j); }
+
+                next_i = (i + 1) % self.n;
+                next_j = (j + 1) % self.n;
+                if next_j == i { continue; }
+
+                delta = self.get_delta_intra_route(self.solution[i], self.solution[next_i], self.solution[j], self.solution[next_j]);
                 if delta < 0.0 {
-                    self.solution.swap(x1, x2);
+                    self.solution = self.swap_2_edges(&self.solution, next_i, j, self.solution.clone());
                     self.distance = self.distance + delta;
-                    continue_search = true;
+                    improvement = true;
                     break;
                 }
             }
         }
-        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap()); // TODO remove print
         Ok((self.solution.clone(), self.distance))
     }
 
