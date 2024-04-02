@@ -63,8 +63,7 @@ impl LocalSearch {
     }
 
     /**
-     * Perform a greedy search for the TSP problem
-     * Intra-route neighbourhood: Iterate all distinct 2-edge pairs
+     * Perform a Greedy Local Search on the TSP problem
      *
      * @return: The best solution found and its distance
      */
@@ -75,6 +74,7 @@ impl LocalSearch {
         let mut improvement = true;
         while improvement {
             improvement = false;
+            // Intra-route neighbourhood: Iterate all distinct 2-edge pairs
             for i in 0..self.n {
                 let next_i = (i + 1) % self.n;
                 for j in i + 2..self.n {
@@ -108,8 +108,60 @@ impl LocalSearch {
                 }
             }
         }
+        let distance = utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap();
+        Ok((current_tour, distance))
+    }
 
-        Ok((best_tour, utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap()))
+    /**
+     * Perform a Steepest Local Search on the TSP problem
+     *
+     * @return: The best solution found and its distance
+     */
+    pub fn steepest(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+        let mut current_tour = utils::random_permutation(self.n);
+        let mut best_tour = current_tour.clone();
+
+        let mut best_delta: f32 = 0.0;
+        let mut improvement = true;
+        while improvement {
+            improvement = false;
+            // Intra-route neighbourhood: Iterate all distinct 2-edge pairs
+            for i in 0..self.n {
+                let next_i = (i + 1) % self.n;
+                for j in i + 2..self.n {
+                    let next_j = (j + 1) % self.n;
+                    // Skip directly preceeding edge
+                    if next_j == i { continue; }
+                    // Calculated delta fitness
+                    let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
+
+                    if delta < best_delta {
+                        // Extract the slice [:next_i)
+                        let first_part = current_tour[..next_i].to_vec();
+                        // Extract and reverse the slice [next_i, (j + 1))
+                        let mut middle_part_rev = current_tour[next_i..=j].to_vec();
+                        middle_part_rev.reverse();
+                        // Extract the slice [(j + 1):]
+                        let last_part = current_tour[(j + 1)..].to_vec();
+                        // Combine the slices
+                        best_tour.clear();
+                        best_tour.extend_from_slice(&first_part);
+                        best_tour.extend_from_slice(&middle_part_rev);
+                        best_tour.extend_from_slice(&last_part);
+
+                        best_delta = delta;
+                        improvement = true;
+                    }
+                }
+            }
+            if improvement {
+                current_tour = best_tour.clone();
+                best_delta = 0.0;
+            }
+        }
+
+        let distance = utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap();
+        Ok((current_tour, distance))
     }
 
     /**
@@ -155,18 +207,11 @@ impl LocalSearch {
                 }
             }
         }
-        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap());
+        println!("{:?} {:?}", self.distance, utils::calculate_tour_distance(&self.solution, &self.distance_matrix).unwrap()); // TODO remove print
         Ok((self.solution.clone(), self.distance))
     }
 
-    /**
-     * Perform a steepest search for the TSP problem
-     *
-     * @return: The best solution found and its distance
-     */
-    pub fn steepest(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
-        Err("Function not implemented")
-    }
+
 
     /**
      * Perform a heuristic search for the TSP problem
