@@ -1,3 +1,4 @@
+use rand::Rng;
 use crate::utils;
 
 /**
@@ -45,7 +46,7 @@ impl LocalSearch {
     }
 
     /**
-     * Initialize the random initial solution
+     * Initialize a random initial solution
      */
     pub fn init_random(&mut self) {
         self.solution = utils::random_permutation(self.n);
@@ -161,7 +162,7 @@ impl LocalSearch {
     }
 
     /**
-     * Perform a random solution search for the TSP problem
+     * Perform a Random Search on the TSP problem
      *
      * @param samples: Number of samples to generate each iteration (default 1000)
      * @return: The best solution found and its distance
@@ -182,7 +183,7 @@ impl LocalSearch {
     }
 
     /**
-     * Perform a random walk search for the TSP problem
+     * Perform a Random Walk search on the TSP problem
      *
      * @param samples: Number of samples to generate each iteration (default 1000)
      * @return: The best solution found and its distance
@@ -207,14 +208,42 @@ impl LocalSearch {
         Ok((self.solution.clone(), self.distance))
     }
 
-
-
     /**
-     * Perform a heuristic search for the TSP problem
+     * Perform a Heuristic search on the TSP problem
      *
      * @return: The best solution found and its distance
      */
     pub fn heuristic(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
-        Err("Function not implemented")
+        let mut rng = rand::thread_rng();
+
+        let mut visited = vec![false; self.n];
+        let mut tour : Vec<u32> = Vec::with_capacity(self.n);
+        let mut total_distance = 0.0;
+
+        // Start with a random city
+        let mut current_city = rng.gen_range(0..self.n);
+        tour.push(current_city as u32);
+        visited[current_city] = true;
+        // Iterate until all cities are visited
+        while tour.len() < self.n {
+            let mut min_distance = f32::MAX;
+            let mut nearest_city = 0;
+            // Find the nearest unvisited city
+            for (city, &is_visited) in visited.iter().enumerate() {
+                if !is_visited && self.distance_matrix[current_city][city] < min_distance {
+                    min_distance = self.distance_matrix[current_city][city];
+                    nearest_city = city;
+                }
+            }
+            // Move to the nearest city
+            current_city = nearest_city;
+            tour.push(current_city as u32);
+            visited[current_city] = true;
+            total_distance += min_distance;
+        }
+        // Add distance from the last city back to the starting city
+        total_distance += self.distance_matrix[tour[self.n - 1] as usize][tour[0] as usize];
+
+        Ok((tour, total_distance))
     }
 }
