@@ -1,5 +1,7 @@
 use std::io;
 use std::io::Write;
+extern crate glob;
+use glob::glob;
 mod utils; mod local_search;
 use local_search::LocalSearch;
 
@@ -53,85 +55,50 @@ fn save_solution(instance_name: &str, algorithm: &str, solutions: &Vec<Vec<u32>>
     result.expect("Error writing to file");
 }
 
-fn main() -> io::Result<()> {
-    let file_path = "./data/a280.txt";
-    let instance_name = file_path.split("/").last().unwrap().split(".").next().unwrap();
-    let distance_matrix = utils::read_instance(file_path)?;
-    let mut solver = LocalSearch::new(distance_matrix);
 
+fn main() -> io::Result<()> {
     // Measurement variables
     let mut time_start;
+    let mut avg_time: f64 = 0.0;
     let mut elapsed_time = Vec::new();
     let mut distances = Vec::new();
     let mut solutions = Vec::new();
 
-    // Run the steepest algorithm 10 times
-    for _ in 0..10 {
-        solver.init_random();
-        time_start = std::time::Instant::now();
-        let (solution_s, distance_s) = solver.steepest().unwrap();
-        elapsed_time.push(time_start.elapsed().as_millis());
-        distances.push(distance_s);
-        solutions.push(solution_s);
-    }
-    save_solution(instance_name, "steepest", &solutions, &distances, &elapsed_time);
-    let avg_time_s = elapsed_time.iter().sum::<u128>() as f64 / elapsed_time.len() as f64;
-    elapsed_time.clear();
-    distances.clear();
-    solutions.clear();
+    let algorithms = vec!["greedy", "steepest", "random", "random_walk", "heuristic"];
+    let runs = 10;
 
-    // Run the random algorithm 10 times
-    for _ in 0..10 {
-        solver.init_random();
-        time_start = std::time::Instant::now();
-        let (solution_r, distance_r) = solver.random(avg_time_s).unwrap();
-        elapsed_time.push(time_start.elapsed().as_millis());
-        distances.push(distance_r);
-        solutions.push(solution_r);
-    }
-    save_solution(instance_name, "random", &solutions, &distances, &elapsed_time);
-    elapsed_time.clear();
-    distances.clear();
-    solutions.clear();
+    for file_path in glob("./data/*.txt").expect("Failed to read glob pattern") {
+        //        println!("{}", file_path.unwrap().display());
+        let path = file_path.unwrap().display().to_string();
+        let instance_name = path.split("/").last().unwrap().split(".").next().unwrap();
+        println!("{:?}", instance_name);
+        let distance_matrix = utils::read_instance(&path)?;
+        let mut solver = LocalSearch::new(distance_matrix);
 
-    // Run the random walk algorithm 10 times
-    for _ in 0..10 {
-        solver.init_random();
-        time_start = std::time::Instant::now();
-        let (solution_rw, distance_rw) = solver.random_walk(avg_time_s).unwrap();
-        elapsed_time.push(time_start.elapsed().as_millis());
-        distances.push(distance_rw);
-        solutions.push(solution_rw);
+        for algorithm_name in &algorithms {
+            for _ in 0..runs {
+                solver.init_random();
+                time_start = std::time::Instant::now();
+                let (solution_g, distance_g) = match *algorithm_name {
+                    "greedy" => solver.greedy().unwrap(),
+                    "steepest" => solver.steepest().unwrap(),
+                    "random" => solver.random(avg_time).unwrap(),
+                    "random_walk" => solver.random_walk(avg_time).unwrap(),
+                    "heuristic" => solver.heuristic().unwrap(),
+                    _ => panic!("Unknown algorithm"),
+                };
+                elapsed_time.push(time_start.elapsed().as_millis());
+                distances.push(distance_g);
+                solutions.push(solution_g);
+            }
+            save_solution(instance_name, algorithm_name, &solutions, &distances, &elapsed_time);
+            avg_time = elapsed_time.iter().sum::<u128>() as f64 / elapsed_time.len() as f64;
+            println!("\t{:?}: {:?}", algorithm_name, avg_time);
+            elapsed_time.clear();
+            distances.clear();
+            solutions.clear();
+        }
     }
-    save_solution(instance_name, "random_walk", &solutions, &distances, &elapsed_time);
-    elapsed_time.clear();
-    distances.clear();
-    solutions.clear();
-
-    // Run the greedy algorithm 10 times
-    for _ in 0..10 {
-        solver.init_random();
-        time_start = std::time::Instant::now();
-        let (solution_g, distance_g) = solver.greedy().unwrap();
-        elapsed_time.push(time_start.elapsed().as_millis());
-        distances.push(distance_g);
-        solutions.push(solution_g);
-    }
-    save_solution(instance_name, "greedy", &solutions, &distances, &elapsed_time);
-    elapsed_time.clear();
-    distances.clear();
-    solutions.clear();
-
-    // Run the heuristic algorithm 10 times
-    for _ in 0..10 {
-        solver.init_random();
-        time_start = std::time::Instant::now();
-        let (solution_h, distance_h) = solver.heuristic().unwrap();
-        elapsed_time.push(time_start.elapsed().as_millis());
-        distances.push(distance_h);
-        solutions.push(solution_h);
-    }
-    save_solution(instance_name, "heuristic", &solutions, &distances, &elapsed_time);
 
     Ok(())
 }

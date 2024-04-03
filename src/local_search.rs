@@ -70,13 +70,13 @@ impl LocalSearch {
     }
 
     /**
-     * Swap 2 edges inplace
+     * Swap 2 edges
      *
      * @param current_tour: The current tour
-     * @param next_i: The second node of the first edge
-     * @param j: The first node of the second edge
+     * @param next_i: The second node index of the first edge
+     * @param j: The first node index of the second edge
      * @param best_tour: The best tour found
-     * @return: The best tour found
+     * @return: The modified best tour found
      */
     fn swap_2_edges(&self, current_tour: &[u32], next_i: usize, j: usize, mut best_tour: Vec<u32>) -> Vec<u32> {
         // Extract the slice [:next_i)
