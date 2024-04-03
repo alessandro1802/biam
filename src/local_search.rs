@@ -202,7 +202,7 @@ impl LocalSearch {
                 self.distance = self.current_distance;
             }
         }
-        Ok((self.solution.clone(), self.distance, evaluated, 0))
+        Ok((self.solution.clone(), self.distance, 0, evaluated))
     }
 
     /**
@@ -232,7 +232,7 @@ impl LocalSearch {
                 self.distance = self.distance + delta;
             }
         }
-        Ok((self.solution.clone(), self.distance, evaluated, 0))
+        Ok((self.solution.clone(), self.distance, 0, evaluated))
     }
 
     /**
