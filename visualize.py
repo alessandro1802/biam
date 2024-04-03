@@ -132,6 +132,36 @@ def step_plot(algorithm_names, save_path):
     fig.suptitle("Average number of steps", fontsize = 32)
     plt.savefig(save_path)
 
+def solution_evaluations_plot(algorithm_names, save_path):
+    rows = 2
+    cols = int(len(results) / 2)
+    bar_width = 1
+
+    fig, axes = plt.subplots(rows, cols, figsize = (16, 9))
+    fig.tight_layout(h_pad=5)
+    plt.subplots_adjust(top=0.9)
+
+    for i, (instance_name, algrorithms) in enumerate(results.items()):
+        row = i // 4
+        col = i - row * 4
+
+        pos = np.arange(len(algorithm_names)) * bar_width
+
+        evals_avg = [np.mean(algrorithms[algorithm_name]["evaluated"]) for algorithm_name in algorithm_names]
+        evals_stds = [np.std(algrorithms[algorithm_name]["evaluated"]) for algorithm_name in algorithm_names]
+
+        axes[row, col].bar(pos, evals_avg,
+                           yerr=evals_stds, ecolor='black', capsize=10,
+                           edgecolor='white', width=bar_width)
+
+        axes[row, col].set_title(instance_name)
+        axes[row, col].set_xticks(pos)
+        axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
+        axes[row, col].tick_params(axis='y', labelsize=7)
+
+    fig.suptitle("Average number of solution evaluation with STD", fontsize = 32)
+    plt.savefig(save_path)
+
 
 data_path = "./results"
 optima = {"berlin52": 7_542,
@@ -167,3 +197,10 @@ if __name__ == "__main__":
     # Step plot
     save_path = './plots/steps.svg'
     step_plot(['greedy', 'steepest'], save_path)
+
+    # Step plots
+    save_path = './plots/evaluations_LS.svg'
+    solution_evaluations_plot(['greedy', 'steepest'], save_path)
+
+    save_path = './plots/evaluations_RS-RW.svg'
+    solution_evaluations_plot(['random_walk', 'random'], save_path)
