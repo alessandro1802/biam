@@ -46,6 +46,33 @@ def efficiency_plot(algorithm_order, save_path):
     fig.legend(["Best", "Average"], loc='upper right')
     plt.savefig(save_path)
 
+def runtime_plot(algorithm_order, save_path):
+    rows = 2
+    cols = int(len(results) / 2)
+    bar_width = 1
+
+    fig, axes = plt.subplots(rows, cols, figsize = (16, 9))
+    fig.tight_layout(h_pad=5)
+    plt.subplots_adjust(top=0.9)
+
+    for i, (instance_name, algrorithms) in enumerate(results.items()):
+        row = i // 4
+        col = i - row * 4
+
+        pos = np.arange(len(algorithm_order)) * bar_width
+
+        runtimes_avg = [np.mean(algrorithms[algorithm_name]["runtimes"]) for algorithm_name in algorithm_order]
+
+        axes[row, col].bar(pos, runtimes_avg, edgecolor='white', width=bar_width)
+
+        axes[row, col].set_title(instance_name)
+        axes[row, col].set_xticks(pos)
+        axes[row, col].set_xticklabels(algorithm_order, fontsize=7)
+        axes[row, col].tick_params(axis='y', labelsize=7)
+
+    fig.suptitle("Runtime", fontsize = 32)
+    plt.savefig(save_path)
+
 
 data_path = "./results"
 optima = {"berlin52": 7_542,
@@ -63,10 +90,13 @@ algorithm_order = ['greedy', 'steepest', 'heuristic', 'random_walk', 'random']
 if __name__ == "__main__":
     results = read_results(data_path)
     
-    # Efficiency plots
+    # Quality plots
     save_path = './plots/quality_all.svg'
     efficiency_plot(algorithm_order, save_path)
     
     save_path = './plots/quality_no-R.svg'
     efficiency_plot(algorithm_order[:-1], save_path)
     
+    # Runtime plot
+    save_path = './plots/runtime.svg'
+    runtime_plot(algorithm_order, save_path)
