@@ -100,9 +100,12 @@ impl LocalSearch {
      *
      * @return: The best solution found and its distance
      */
-    pub fn greedy(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn greedy(&mut self) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
         let mut current_tour = utils::random_permutation(self.n);
         let mut best_tour = current_tour.clone();
+
+        let mut evaluated = 0;
+        let mut steps = 0;
 
         let mut improvement = true;
         while improvement {
@@ -116,6 +119,7 @@ impl LocalSearch {
                     if next_j == i { continue; }
                     // Calculated delta fitness
                     let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
+                    evaluated += 1;
 
                     if delta < 0.0 {
                         best_tour = self.swap_2_edges(&current_tour, next_i, j, best_tour);
@@ -125,12 +129,13 @@ impl LocalSearch {
                 }
                 if improvement {
                     current_tour = best_tour.clone();
+                    steps += 1;
                     break;
                 }
             }
         }
         let distance = utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap();
-        Ok((current_tour, distance))
+        Ok((current_tour, distance, steps, evaluated))
     }
 
     /**
@@ -138,9 +143,12 @@ impl LocalSearch {
      *
      * @return: The best solution found and its distance
      */
-    pub fn steepest(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn steepest(&mut self) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
         let mut current_tour = utils::random_permutation(self.n);
         let mut best_tour = current_tour.clone();
+
+        let mut evaluated = 0;
+        let mut steps = 0;
 
         let mut best_delta: f32 = 0.0;
         let mut improvement = true;
@@ -155,6 +163,7 @@ impl LocalSearch {
                     if next_j == i { continue; }
                     // Calculated delta fitness
                     let delta = self.get_delta_intra_route(current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
+                    evaluated += 1;
 
                     if delta < best_delta {
                         best_tour = self.swap_2_edges(&current_tour, next_i, j, best_tour);
@@ -165,12 +174,13 @@ impl LocalSearch {
             }
             if improvement {
                 current_tour = best_tour.clone();
+                steps += 1;
                 best_delta = 0.0;
             }
         }
 
         let distance = utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap();
-        Ok((current_tour, distance))
+        Ok((current_tour, distance, steps, evaluated))
     }
 
     /**
@@ -179,17 +189,20 @@ impl LocalSearch {
      * @param time_limit_ms: The time limit in milliseconds
      * @return: The best solution found and its distance
      */
-    pub fn random(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn random(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
+        let mut evaluated = 0;
+
         let time_start = std::time::Instant::now();
         while (time_start.elapsed().as_millis() as f64) < time_limit_ms {
             self.current_solution = utils::random_permutation(self.n);
             self.current_distance = utils::calculate_tour_distance(&self.current_solution, &self.distance_matrix).unwrap();
+            evaluated += 1;
             if self.current_distance < self.distance {
                 self.solution = self.current_solution.clone();
                 self.distance = self.current_distance;
             }
         }
-        Ok((self.solution.clone(), self.distance))
+        Ok((self.solution.clone(), self.distance, evaluated, 0))
     }
 
     /**
@@ -198,7 +211,9 @@ impl LocalSearch {
      * @param time_limit_ms: The time limit in milliseconds
      * @return: The best solution found and its distance
      */
-    pub fn random_walk(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn random_walk(&mut self, time_limit_ms: f64) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
+        let mut evaluated = 0;
+
         let (mut i, mut j, mut delta, mut next_i, mut next_j);
         let time_start = std::time::Instant::now();
         while (time_start.elapsed().as_millis() as f64) < time_limit_ms {
@@ -210,12 +225,14 @@ impl LocalSearch {
             if next_j == i { continue; }
 
             delta = self.get_delta_intra_route(self.solution[i], self.solution[next_i], self.solution[j], self.solution[next_j]);
+            evaluated += 1;
+
             if delta < 0.0 {
                 self.solution = self.swap_2_edges(&self.solution, next_i, j, self.solution.clone());
                 self.distance = self.distance + delta;
             }
         }
-        Ok((self.solution.clone(), self.distance))
+        Ok((self.solution.clone(), self.distance, evaluated, 0))
     }
 
     /**
@@ -223,7 +240,7 @@ impl LocalSearch {
      *
      * @return: The best solution found and its distance
      */
-    pub fn heuristic(&mut self) -> Result<(Vec<u32>, f32), &'static str> {
+    pub fn heuristic(&mut self) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
         let mut rng = rand::thread_rng();
 
         let mut visited = vec![false; self.n];
@@ -254,6 +271,6 @@ impl LocalSearch {
         // Add distance from the last city back to the starting city
         total_distance += self.distance_matrix[tour[self.n - 1] as usize][tour[0] as usize];
 
-        Ok((tour, total_distance))
+        Ok((tour, total_distance, 0, 0))
     }
 }

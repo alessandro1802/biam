@@ -79,7 +79,7 @@ fn main() -> io::Result<()> {
             for _ in 0..runs {
                 solver.init_random();
                 time_start = std::time::Instant::now();
-                let (solution_g, distance_g) = match *algorithm_name {
+                let (solution, distance, steps, evaluated) = match *algorithm_name {
                     "greedy" => solver.greedy().unwrap(),
                     "steepest" => solver.steepest().unwrap(),
                     "random" => solver.random(avg_time).unwrap(),
@@ -88,8 +88,8 @@ fn main() -> io::Result<()> {
                     _ => panic!("Unknown algorithm"),
                 };
                 elapsed_time.push(time_start.elapsed().as_millis());
-                distances.push(distance_g);
-                solutions.push(solution_g);
+                distances.push(distance);
+                solutions.push(solution);
             }
             save_solution(instance_name, algorithm_name, &solutions, &distances, &elapsed_time);
             avg_time = elapsed_time.iter().sum::<u128>() as f64 / elapsed_time.len() as f64;
