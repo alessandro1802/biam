@@ -62,15 +62,18 @@ def runtime_plot(algorithm_names, save_path):
         pos = np.arange(len(algorithm_names)) * bar_width
 
         runtimes_avg = [np.mean(algrorithms[algorithm_name]["runtimes"]) for algorithm_name in algorithm_names]
+        runtimes_std = [np.std(algrorithms[algorithm_name]["runtimes"]) for algorithm_name in algorithm_names]
 
-        axes[row, col].bar(pos, runtimes_avg, edgecolor='white', width=bar_width)
+        axes[row, col].bar(pos, runtimes_avg,
+                           yerr=runtimes_std, ecolor='black', capsize=10,
+                           edgecolor='white', width=bar_width)
 
         axes[row, col].set_title(instance_name)
         axes[row, col].set_xticks(pos)
         axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
-    fig.suptitle("Runtime", fontsize = 32)
+    fig.suptitle("Runtime with STD", fontsize = 32)
     plt.savefig(save_path)
 
 def efficiency_plot(algorithm_names, save_path, weight_runtime = 0.5, weight_score = 0.5):
@@ -121,15 +124,18 @@ def step_plot(algorithm_names, save_path):
         pos = np.arange(len(algorithm_names)) * bar_width
 
         steps_avg = [np.mean(algrorithms[algorithm_name]["steps"]) for algorithm_name in algorithm_names]
+        steps_stds = [np.std(algrorithms[algorithm_name]["steps"]) for algorithm_name in algorithm_names]
 
-        axes[row, col].bar(pos, steps_avg, edgecolor='white', width=bar_width)
+        axes[row, col].bar(pos, steps_avg,
+                           yerr=steps_stds, ecolor='black', capsize=10,
+                           edgecolor='white', width=bar_width)
 
         axes[row, col].set_title(instance_name)
         axes[row, col].set_xticks(pos)
         axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
-    fig.suptitle("Average number of steps", fontsize = 32)
+    fig.suptitle("Average number of steps with STD", fontsize = 32)
     plt.savefig(save_path)
 
 def solution_evaluations_plot(algorithm_names, save_path):
@@ -183,7 +189,7 @@ if __name__ == "__main__":
     save_path = './plots/quality_all.svg'
     quality_plot(algorithm_names, save_path)
     
-    save_path = './plots/quality_no-R.svg'
+    save_path = './plots/quality_no-RS.svg'
     quality_plot(algorithm_names[:-1], save_path)
     
     # Runtime plot
