@@ -5,9 +5,11 @@ extern crate glob;
 use glob::glob;
 
 mod utils;
-mod local_search; mod random;
+mod local_search; mod random; mod simulated_annealing;
+
 use local_search::LocalSearch;
 use random::Random;
+use simulated_annealing::SimulatedAnnealing;
 
 use serde::{Serialize, Deserialize};
 use serde_json;
@@ -76,7 +78,8 @@ fn main() -> io::Result<()> {
     let mut time_start;
     let mut avg_time: f64 = 0.0;
 
-    let algorithms = vec!["greedy", "steepest", "random_search", "random_walk", "heuristic"];
+//    let algorithms = vec!["greedy", "steepest", "random_search", "random_walk", "heuristic"];
+    let algorithms = vec!["simulated_annealing"];
     let runs = 10;
 
     for file_path in glob("./data/*.txt").expect("Failed to read glob pattern") {
@@ -85,7 +88,9 @@ fn main() -> io::Result<()> {
         println!("{:?}", instance_name);
         let distance_matrix = utils::read_instance(&path)?;
         let mut solver_LS = LocalSearch::new(distance_matrix.clone());
-        let mut solver_R = Random::new(distance_matrix);
+        let mut solver_R = Random::new(distance_matrix.clone());
+        let mut solver_SA = SimulatedAnnealing::new(distance_matrix.clone());
+        solver_SA.determine_initial_temperature();
 
         for algorithm_name in &algorithms {
             let mut elapsed_time = Vec::new();
@@ -102,6 +107,7 @@ fn main() -> io::Result<()> {
                     "random_search" => solver_R.search(avg_time).unwrap(),
                     "random_walk" => solver_R.walk(avg_time).unwrap(),
                     "heuristic" => solver_LS.heuristic().unwrap(),
+                    "simulated_annealing" => solver_SA.run().unwrap(),
                     _ => panic!("Unknown algorithm"),
                 };
                 elapsed_time.push(time_start.elapsed().as_millis());
