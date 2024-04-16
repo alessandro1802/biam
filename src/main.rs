@@ -1,11 +1,17 @@
 use std::io;
 use std::io::Write;
+
 extern crate glob;
 use glob::glob;
-mod utils; mod local_search;
+
+mod utils;
+mod local_search; mod random;
 use local_search::LocalSearch;
+use random::Random;
+
 use serde::{Serialize, Deserialize};
 use serde_json;
+
 
 // Struct to save the solution
 #[derive(Serialize, Deserialize)]
@@ -70,16 +76,16 @@ fn main() -> io::Result<()> {
     let mut time_start;
     let mut avg_time: f64 = 0.0;
 
-    let algorithms = vec!["greedy", "steepest", "random", "random_walk", "heuristic"];
+    let algorithms = vec!["greedy", "steepest", "random_search", "random_walk", "heuristic"];
     let runs = 10;
 
     for file_path in glob("./data/*.txt").expect("Failed to read glob pattern") {
-        //        println!("{}", file_path.unwrap().display());
         let path = file_path.unwrap().display().to_string();
         let instance_name = path.split("/").last().unwrap().split(".").next().unwrap();
         println!("{:?}", instance_name);
         let distance_matrix = utils::read_instance(&path)?;
-        let mut solver = LocalSearch::new(distance_matrix);
+        let mut solver_LS = LocalSearch::new(distance_matrix.clone());
+        let mut solver_R = Random::new(distance_matrix);
 
         for algorithm_name in &algorithms {
             let mut elapsed_time = Vec::new();
@@ -88,14 +94,14 @@ fn main() -> io::Result<()> {
             let mut steps = Vec::new();
             let mut evaluated = Vec::new();
             for _ in 0..runs {
-                solver.init_random();
+                solver_R.init_random();
                 time_start = std::time::Instant::now();
                 let (solution, distance, step, eval) = match *algorithm_name {
-                    "greedy" => solver.greedy().unwrap(),
-                    "steepest" => solver.steepest().unwrap(),
-                    "random" => solver.random(avg_time).unwrap(),
-                    "random_walk" => solver.random_walk(avg_time).unwrap(),
-                    "heuristic" => solver.heuristic().unwrap(),
+                    "greedy" => solver_LS.greedy().unwrap(),
+                    "steepest" => solver_LS.steepest().unwrap(),
+                    "random_search" => solver_R.search(avg_time).unwrap(),
+                    "random_walk" => solver_R.walk(avg_time).unwrap(),
+                    "heuristic" => solver_LS.heuristic().unwrap(),
                     _ => panic!("Unknown algorithm"),
                 };
                 elapsed_time.push(time_start.elapsed().as_millis());
