@@ -76,7 +76,7 @@ def runtime_plot(algorithm_names, save_path):
         axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
-    fig.suptitle("Runtime with STD", fontsize = 32)
+    fig.suptitle("Runtime", fontsize = 32)
     plt.savefig(save_path)
 
 def efficiency_plot(algorithm_names, save_path, weight_runtime = 0.5, weight_score = 0.5):
@@ -138,7 +138,7 @@ def step_plot(algorithm_names, save_path):
         axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
-    fig.suptitle("Average number of steps with STD", fontsize = 32)
+    fig.suptitle("Average number of steps", fontsize = 32)
     plt.savefig(save_path)
 
 def solution_evaluations_plot(algorithm_names, save_path):
@@ -168,7 +168,7 @@ def solution_evaluations_plot(algorithm_names, save_path):
         axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
-    fig.suptitle("Average number of solution evaluation with STD", fontsize = 32)
+    fig.suptitle("Average number of solution evaluations", fontsize = 32)
     plt.savefig(save_path)
 
 
