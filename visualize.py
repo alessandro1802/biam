@@ -33,9 +33,12 @@ def quality_plot(algorithm_names, save_path):
 
         diff_best = [algrorithms[algorithm_name]["best_distance"] - optima[instance_name] for algorithm_name in algorithm_names]
         diff_avg = [np.mean(algrorithms[algorithm_name]["distances"]) - optima[instance_name] for algorithm_name in algorithm_names]
+        std_diff_avg = [np.std(algrorithms[algorithm_name]["distances"]) for algorithm_name in algorithm_names]
 
         axes[row, col].bar(pos, diff_best, edgecolor='white', width=bar_width)
-        axes[row, col].bar(pos, diff_avg, bottom=diff_best, edgecolor='white', width=bar_width)
+        axes[row, col].bar(pos, diff_avg, bottom=diff_best,
+                           yerr=std_diff_avg, ecolor='black', capsize=10,
+                           edgecolor='white', width=bar_width)
 
         axes[row, col].set_title(instance_name)
         axes[row, col].set_xticks(pos)
