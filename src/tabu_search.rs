@@ -82,7 +82,10 @@ impl TabuSearch {
 
             // Take the first non-tabu move
             for possible_move in moves {
-                if tabu_list[possible_move.0][possible_move.1] == 0 {
+                // If not tabu or move gives better solution than best solution found so far
+                if tabu_list[possible_move.0][possible_move.1] == 0 ||
+                   current_distance + possible_move.2 < best_distance
+                {
                     let next_i = (possible_move.0 + 1) % self.n;
                     current_tour = utils::swap_2_edges(&current_tour, next_i, possible_move.1, best_tour.clone());
                     current_distance += possible_move.2;
