@@ -4,10 +4,11 @@ use biam::utils;
 use biam::local_search::LocalSearch;
 
 
+#[allow(non_snake_case)]
 fn main() -> io::Result<()> {
     // Measurement variables
     let mut time_start;
-    let mut avg_time: f64 = 0.0;
+    let mut avg_time: f64;
 
     let instances = vec!["data/a280.txt", "data/berlin52.txt", "data/rat99.txt"];
     let algorithms = vec!["greedy", "steepest"];

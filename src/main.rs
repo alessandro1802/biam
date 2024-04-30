@@ -1,6 +1,6 @@
 use std::io;
 
-extern crate glob;
+// extern crate glob;
 use glob::glob;
 
 use biam::utils;
@@ -10,6 +10,8 @@ use biam::random::Random;
 use biam::simulated_annealing::SimulatedAnnealing;
 use biam::tabu_search::TabuSearch;
 
+
+#[allow(non_snake_case)]
 fn main() -> io::Result<()> {
     // Measurement variables
     let mut time_start;

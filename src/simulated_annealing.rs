@@ -14,7 +14,7 @@ use crate::utils;
 pub struct SimulatedAnnealing {
     pub distance_matrix: Vec<Vec<f32>>,
     pub n: usize,
-    T: f64,
+    temperature: f64,
     alpha: f64,
 }
 
@@ -27,13 +27,13 @@ impl SimulatedAnnealing {
     */
     pub fn new(distance_matrix: Vec<Vec<f32>>) -> SimulatedAnnealing {
         let n = distance_matrix.len();
-        let T = 0.0;
+        let temperature = 0.0;
 
         let alpha = 0.99;
         SimulatedAnnealing {
             distance_matrix,
             n,
-            T,
+            temperature,
             alpha,
         }
     }
@@ -68,7 +68,7 @@ impl SimulatedAnnealing {
         avg_pos_delta /= n_samples as f64;
         
         // Set acceptance probability of non-improving solution to 95%;
-        self.T = -avg_pos_delta / (0.99_f64).ln();
+        self.temperature = -avg_pos_delta / (0.99_f64).ln();
     }
 
     
@@ -78,7 +78,7 @@ impl SimulatedAnnealing {
     * @return: The best solution found and its distance
     */
     pub fn run(&self) -> Result<(Vec<u32>, f32, u32, u32), &'static str> {
-        let mut current_T = self.T;
+        let mut current_temperature = self.temperature;
         let mut current_tour = utils::random_permutation(self.n);
         let mut best_tour = current_tour.clone();
 
@@ -86,7 +86,7 @@ impl SimulatedAnnealing {
         let mut steps = 0;
 //        let mut no_improvement = 0;
 
-        while current_T > 0.001 {
+        while current_temperature > 0.001 {
             let mut accept = false;
             // Intra-route neighbourhood: Iterate all distinct 2-edge pairs
             for i in 0..self.n {
@@ -99,7 +99,7 @@ impl SimulatedAnnealing {
                     let delta = utils::get_delta_intra_route(&self.distance_matrix,current_tour[i], current_tour[next_i], current_tour[j], current_tour[next_j]);
                     evaluated += 1;
 
-                    if delta < 0.0 || f64::exp(-delta as f64 / current_T) > rand::random() {
+                    if delta < 0.0 || f64::exp(-delta as f64 / current_temperature) > rand::random() {
                         best_tour = utils::swap_2_edges(&current_tour, next_i, j, best_tour);
                         accept = true;
                         break;
@@ -107,23 +107,12 @@ impl SimulatedAnnealing {
                 }
                 if accept {
                     current_tour = best_tour.clone();
-//                    no_improvement = 0;
                     steps += 1;
                     break;
                 }
             }
-//            if !accept {
-//                no_improvement += 1;
-//                // Stopping criterion: no improvement
-//                if no_improvement >= 10 {
-//                    break;
-//                }
-//            }
-            // Decrease the temperature T by multiplying with the cooling rate alpha
-            // Geometric decay
-//            current_T *= self.alpha;
             // Exponential decay
-            current_T = current_T / (1.0 + self.alpha * current_T);
+            current_temperature = current_temperature / (1.0 + self.alpha * current_temperature);
         }
         
         let distance = utils::calculate_tour_distance(&current_tour, &self.distance_matrix).unwrap();
