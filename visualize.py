@@ -280,39 +280,39 @@ algorithm_names = ['greedy', 'steepest', 'heuristic', 'simulated_annealing', 'ta
 if __name__ == "__main__":
     results = read_results(data_path)
     
-    # # Quality plots
-    # save_path = './plots/quality_all.svg'
-    # quality_plot(algorithm_names, save_path)
+    # Quality plots
+    save_path = './plots/quality_all.svg'
+    quality_plot(algorithm_names, save_path)
     
-    # save_path = './plots/quality_no-RS.svg'
-    # quality_plot(algorithm_names[:-1], save_path)
+    save_path = './plots/quality_no-RS.svg'
+    quality_plot(algorithm_names[:-1], save_path)
 
-    # save_path = './plots/quality_no-RS-SA.svg'
-    # quality_plot(algorithm_names[:3] + algorithm_names[4:-1], save_path)
+    save_path = './plots/quality_no-RS-SA.svg'
+    quality_plot(algorithm_names[:3] + algorithm_names[4:-1], save_path)
     
-    # # Runtime plot
-    # save_path = './plots/runtime.svg'
-    # runtime_plot(algorithm_names, save_path)
+    # Runtime plot
+    save_path = './plots/runtime.svg'
+    runtime_plot(algorithm_names, save_path)
 
     # Efficiency plot
     save_path = './plots/efficiency.svg'
     efficiency_plot(algorithm_names, save_path)
 
-    # # Step plot
-    # save_path = './plots/steps.svg'
-    # step_plot(['greedy', 'steepest'], save_path)
+    # Step plot
+    save_path = './plots/steps.svg'
+    step_plot(['greedy', 'steepest'], save_path)
 
-    # # Evaluations plots
-    # save_path = './plots/evaluations_LS.svg'
-    # solution_evaluations_plot(['greedy', 'steepest'], save_path)
+    # Evaluations plots
+    save_path = './plots/evaluations_LS.svg'
+    solution_evaluations_plot(['greedy', 'steepest'], save_path)
 
     save_path = './plots/evaluations_RS-RW.svg'
     solution_evaluations_plot(['random_walk', 'random_search'], save_path)
 
-    # # Initial vs Final plot
-    # save_path = './plots/init_vs_final.svg'
-    # init_vs_final_plot(save_path)
+    # Initial vs Final plot
+    save_path = './plots/init_vs_final.svg'
+    init_vs_final_plot(save_path)
 
-    # # Similarity plot
-    # save_path = './plots/similarity.svg'
-    # similarity_plot(save_path)
+    # Similarity plot
+    save_path = './plots/similarity.svg'
+    similarity_plot(save_path)
