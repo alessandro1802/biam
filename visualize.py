@@ -24,8 +24,8 @@ def quality_plot(algorithm_names, save_path):
     bar_width = 1
 
     fig, axes = plt.subplots(rows, cols, figsize = (16, 9))
-    fig.tight_layout(h_pad=5)
-    plt.subplots_adjust(top=0.9)
+    fig.tight_layout(h_pad=7)
+    plt.subplots_adjust(top=0.9, bottom = 0.1)
 
     for i, (instance_name, algrorithms) in enumerate(results.items()):
         row = i // 4
@@ -44,7 +44,7 @@ def quality_plot(algorithm_names, save_path):
 
         axes[row, col].set_title(instance_name)
         axes[row, col].set_xticks(pos)
-        axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
+        axes[row, col].set_xticklabels(algorithm_names, fontsize=7, rotation=45)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
     fig.suptitle("Distance to optimum", fontsize = 32)
@@ -274,7 +274,7 @@ optima = {"berlin52": 7_542,
           "rat575": 6_773,
           "a280": 2_579,
           "p654": 34_643}
-algorithm_names = ['greedy', 'steepest', 'heuristic', 'random_walk', 'random', 'simulated_annealin', 'tabu_search']
+algorithm_names = ['greedy', 'steepest', 'heuristic', 'simulated_annealing', 'tabu_search', 'random_walk', 'random_search']
 
 
 if __name__ == "__main__":
@@ -286,6 +286,9 @@ if __name__ == "__main__":
     
     save_path = './plots/quality_no-RS.svg'
     quality_plot(algorithm_names[:-1], save_path)
+
+    save_path = './plots/quality_no-RS-SA.svg'
+    quality_plot(algorithm_names[:3] + algorithm_names[4:-1], save_path)
     
     # Runtime plot
     save_path = './plots/runtime.svg'
@@ -295,21 +298,21 @@ if __name__ == "__main__":
     save_path = './plots/efficiency.svg'
     efficiency_plot(algorithm_names, save_path)
 
-    # Step plot
-    save_path = './plots/steps.svg'
-    step_plot(['greedy', 'steepest'], save_path)
+    # # Step plot
+    # save_path = './plots/steps.svg'
+    # step_plot(['greedy', 'steepest'], save_path)
 
-    # Evaluations plots
-    save_path = './plots/evaluations_LS.svg'
-    solution_evaluations_plot(['greedy', 'steepest'], save_path)
+    # # Evaluations plots
+    # save_path = './plots/evaluations_LS.svg'
+    # solution_evaluations_plot(['greedy', 'steepest'], save_path)
 
     save_path = './plots/evaluations_RS-RW.svg'
-    solution_evaluations_plot(['random_walk', 'random'], save_path)
+    solution_evaluations_plot(['random_walk', 'random_search'], save_path)
 
-    # Initial vs Final plot
-    save_path = './plots/init_vs_final.svg'
-    init_vs_final_plot(save_path)
+    # # Initial vs Final plot
+    # save_path = './plots/init_vs_final.svg'
+    # init_vs_final_plot(save_path)
 
-    # Similarity plot
-    save_path = './plots/similarity.svg'
-    similarity_plot(save_path)
+    # # Similarity plot
+    # save_path = './plots/similarity.svg'
+    # similarity_plot(save_path)
