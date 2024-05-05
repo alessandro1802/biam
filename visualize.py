@@ -173,6 +173,39 @@ def solution_evaluations_plot(algorithm_names, save_path):
     fig.suptitle("Average number of solution evaluations", fontsize = 32)
     plt.savefig(save_path)
 
+def init_vs_final_plot(save_path):
+    results_path = join(data_path, "init_final")
+    
+    # Get all solutions 
+    results = dict()
+    for intance in glob(join(results_path, "*")):
+        instance_name = intance.split('/')[-1]
+        results[instance_name] = dict()
+        for algorithm in glob(join(intance, "*")):
+            algorithm_name = algorithm.split('/')[-1].split('.')[0]
+            solutions_type, algorithm_name = algorithm_name.split('_')
+            if algorithm_name not in results[instance_name]:
+                results[instance_name][algorithm_name] = dict()
+            with open(algorithm, 'r') as file:
+                results[instance_name][algorithm_name][solutions_type] =  json.load(file)["distances"]
+    
+    # Plot
+    fig = plt.figure(figsize=(16, 9))
+    fig, axes = plt.subplots(1, len(results.keys()), figsize = (21, 7))
+    axes[0].set_ylabel('Final')
+
+    for i, instance_name in enumerate(results.keys()):
+        algorithm_names = list(results[instance_name].keys())
+        for algorithm_name in results[instance_name].keys():
+            axes[i].scatter(results[instance_name][algorithm_name]["init"], results[instance_name][algorithm_name]["final"])
+        axes[i].set_title(instance_name)
+        axes[i].set_xlabel('Initial')
+        axes[i].set_xlim(xmin=min(results[instance_name][algorithm_name]["final"]))
+        
+    fig.suptitle("Quality of initial vs final solution", fontsize = 32)
+    fig.legend(algorithm_names, loc='upper right')
+    plt.savefig(save_path)
+
 def similarity_plot(save_path):
     results_path = join(data_path, "similarity")
 
@@ -272,6 +305,10 @@ if __name__ == "__main__":
 
     save_path = './plots/evaluations_RS-RW.svg'
     solution_evaluations_plot(['random_walk', 'random'], save_path)
+
+    # Initial vs Final plot
+    save_path = './plots/init_vs_final.svg'
+    init_vs_final_plot(save_path)
 
     # Similarity plot
     save_path = './plots/similarity.svg'
