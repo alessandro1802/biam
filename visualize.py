@@ -9,12 +9,14 @@ def read_results(data_path):
     results = dict()
     for intance in glob(join(data_path, "*")):
         instance_name = intance.split('/')[-1]
-        results[instance_name] = dict()
-        for algorithm in glob(join(intance, "*.json")):
-            algorithm_name = algorithm.split('/')[-1].split('.')[0]
-            with open(algorithm, 'r') as file:
-                results[instance_name][algorithm_name] = json.load(file)
+        if instance_name in optima.keys():
+            results[instance_name] = dict()
+            for algorithm in glob(join(intance, "*.json")):
+                algorithm_name = algorithm.split('/')[-1].split('.')[0]
+                with open(algorithm, 'r') as file:
+                    results[instance_name][algorithm_name] = json.load(file)
     return results
+
 
 def quality_plot(algorithm_names, save_path):
     rows = 2
@@ -171,6 +173,64 @@ def solution_evaluations_plot(algorithm_names, save_path):
     fig.suptitle("Average number of solution evaluations", fontsize = 32)
     plt.savefig(save_path)
 
+def similarity_plot(save_path):
+    results_path = join(data_path, "similarity")
+
+    # Get all solutions and extract best ones
+    results = dict()
+    best_solutions = dict()
+    for intance in glob(join(results_path, "*")):
+        instance_name = intance.split('/')[-1]
+        results[instance_name] = dict()
+        best_solutions[instance_name] = dict()
+        for algorithm in glob(join(intance, "*")):
+            algorithm_name = algorithm.split('/')[-1]
+            results[instance_name][algorithm_name] = [[], [], []]
+            for run in glob(join(algorithm, "*.json")):
+                with open(run, 'r') as file:
+                    solution = json.load(file)
+                    # Store fitness
+                    results[instance_name][algorithm_name][0].append(solution['best_distance'])
+                    # Store solution
+                    results[instance_name][algorithm_name][1].append(solution['best_solution'])
+            best_solution_idx = np.argmin(results[instance_name][algorithm_name][0])
+            # Move best solution
+            best_solutions[instance_name][algorithm_name] = results[instance_name][algorithm_name][1].pop(best_solution_idx)
+            results[instance_name][algorithm_name][0].pop(best_solution_idx)
+    
+    # Get number of common edges
+    def getEdges(solution):
+        tmp = np.roll(solution, -1)
+        return [list(edge) for edge in np.stack([solution, tmp]).T]
+    def similarityEdges(edges1_with_rev, edges2):
+        return len([edge for edge in edges2 if edge in edges1_with_rev])
+    
+    for instance_name in results.keys():
+        for algorithm_name in results[instance_name].keys():
+            best_edges = getEdges(best_solutions[instance_name][algorithm_name])
+            # Calculate reversed edges
+            best_edges_rev = [[edge[1], edge[0]] for edge in best_edges]
+            # Concatenate
+            best_edges += best_edges_rev
+            for solution in results[instance_name][algorithm_name][1]:
+                results[instance_name][algorithm_name][2].append(similarityEdges(best_edges_rev, getEdges(solution)))
+
+    # Plot
+    fig = plt.figure(figsize=(16, 9))
+    fig, axes = plt.subplots(1, len(results.keys()), figsize = (16, 9), sharey = True)
+    axes[0].set_ylabel('Number of common edges')
+
+    for i, instance_name in enumerate(results.keys()):
+        algorithm_names = list(results[instance_name].keys())
+        for algorithm_name in results[instance_name].keys():
+            axes[i].scatter(results[instance_name][algorithm_name][0], results[instance_name][algorithm_name][2])
+        axes[i].set_title(instance_name)
+        axes[i].set_xlabel('Quality')
+        
+    fig.suptitle("Similarity", fontsize = 32)
+    fig.legend(algorithm_names, loc='upper right')
+    plt.savefig(save_path)
+
 
 data_path = "./results"
 optima = {"berlin52": 7_542,
@@ -180,9 +240,8 @@ optima = {"berlin52": 7_542,
           "rat195": 2_323,
           "rat575": 6_773,
           "a280": 2_579,
-          "p654": 34_643,
-          "d1291": 50_801}
-algorithm_names = ['greedy', 'steepest', 'heuristic', 'random_walk', 'random']
+          "p654": 34_643}
+algorithm_names = ['greedy', 'steepest', 'heuristic', 'random_walk', 'random', 'simulated_annealin', 'tabu_search']
 
 
 if __name__ == "__main__":
@@ -207,9 +266,13 @@ if __name__ == "__main__":
     save_path = './plots/steps.svg'
     step_plot(['greedy', 'steepest'], save_path)
 
-    # Step plots
+    # Evaluations plots
     save_path = './plots/evaluations_LS.svg'
     solution_evaluations_plot(['greedy', 'steepest'], save_path)
 
     save_path = './plots/evaluations_RS-RW.svg'
     solution_evaluations_plot(['random_walk', 'random'], save_path)
+
+    # Similarity plot
+    save_path = './plots/similarity.svg'
+    similarity_plot(save_path)
