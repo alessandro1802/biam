@@ -57,8 +57,8 @@ def runtime_plot(algorithm_names, save_path):
     bar_width = 1
 
     fig, axes = plt.subplots(rows, cols, figsize = (16, 9))
-    fig.tight_layout(h_pad=5)
-    plt.subplots_adjust(top=0.9)
+    fig.tight_layout(h_pad=7)
+    plt.subplots_adjust(top=0.9, bottom = 0.1)
 
     for i, (instance_name, algrorithms) in enumerate(results.items()):
         row = i // 4
@@ -75,7 +75,7 @@ def runtime_plot(algorithm_names, save_path):
 
         axes[row, col].set_title(instance_name)
         axes[row, col].set_xticks(pos)
-        axes[row, col].set_xticklabels(algorithm_names, fontsize=7)
+        axes[row, col].set_xticklabels(algorithm_names, fontsize=7, rotation=45)
         axes[row, col].tick_params(axis='y', labelsize=7)
 
     fig.suptitle("Runtime", fontsize = 32)
@@ -280,15 +280,15 @@ algorithm_names = ['greedy', 'steepest', 'heuristic', 'simulated_annealing', 'ta
 if __name__ == "__main__":
     results = read_results(data_path)
     
-    # Quality plots
-    save_path = './plots/quality_all.svg'
-    quality_plot(algorithm_names, save_path)
+    # # Quality plots
+    # save_path = './plots/quality_all.svg'
+    # quality_plot(algorithm_names, save_path)
     
-    save_path = './plots/quality_no-RS.svg'
-    quality_plot(algorithm_names[:-1], save_path)
+    # save_path = './plots/quality_no-RS.svg'
+    # quality_plot(algorithm_names[:-1], save_path)
 
-    save_path = './plots/quality_no-RS-SA.svg'
-    quality_plot(algorithm_names[:3] + algorithm_names[4:-1], save_path)
+    # save_path = './plots/quality_no-RS-SA.svg'
+    # quality_plot(algorithm_names[:3] + algorithm_names[4:-1], save_path)
     
     # Runtime plot
     save_path = './plots/runtime.svg'
