@@ -1,0 +1,9 @@
+sim_params:
+f0_p_new: 0.5
+f0_p_del: 0.5
+f0_p_swp: 0.2
+f0_p_pos: 1.8
+f0_p_den: 1.1
+f0_p_frc: 0.6
+f0_p_ing: 1.3
+f0_p_asm: 0.5
