@@ -1,0 +1,2987 @@
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.845
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.31343788885146223
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.158
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.27308478446524115
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.728, rotstif=0.935
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.2468025116259194
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.728, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.2468025116259194
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.365
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.821
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.854
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.27
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.903
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.445
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.346
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.958
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.431
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.271
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.874
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.958
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.962
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.788
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.954
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.94
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22901018872687132
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.346
+p:0.676, 0.023, 0.359, fr=0.487
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22714161746470463
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|:r=0.896
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.22272505133725382
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.958
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.846
+~
+vertpos:0.19087887005888451
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -2.875
+c:1, 2, 2.468
+~
+vertpos:0.19072867885549463
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.713, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.16848154825774478
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.713, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.16848154825774478
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.713, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.16848154825774478
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:0.504, -0.521, 1.732
+j:0, 1, stif=0.845, rotstif=0.925
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.14679327278694423
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.083
+p:0.676, 0.023, 0.359, fr=0.322
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.13441306406325115
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|:p=0.274
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.12758405487946683
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:-0.773, 0.033, -1.547
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 0
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12743504493777566
+
+org:
+genotype:~
+//0
+p:fr=0.255
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12613713879895272
+
+org:
+genotype:~
+//0
+p:fr=0.018
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12334523259487332
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -4.845
+c:1, 2, 2.468
+~
+vertpos:0.1226465740744557
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.083
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12007048206215859
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.131
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12007048206215859
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.36
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12007048206215859
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12007048206215859
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.12007048206215859
+
+org:
+genotype:~
+//0
+p:fr=0.179
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.845
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.521
+~
+vertpos:0.11799045472187197
+
+org:
+genotype:~
+//0
+p:fr=0.179
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.521
+~
+vertpos:0.11799045472187197
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.83, -0.058, 0.556, fr=0.199
+p:1.409, -0.255, 1.901, ing=0.004
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11630171929192504
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.83, -0.058, 0.556, fr=0.199, ing=0.236
+p:1.409, -0.255, 1.901
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11630171929192504
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.83, -0.058, 0.556, fr=0.199
+p:1.409, -0.255, 1.901
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11630171929192504
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.083
+p:1.055, 0.324, 0.211, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11490748057299759
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.083
+p:1.055, 0.324, 0.211, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11490748057299759
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.822, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.845
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.11235590603892104
+
+org:
+genotype:~
+//0
+p:fr=0.256
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.92
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.1071746111243681
+
+org:
+genotype:~
+//0
+p:fr=0.256
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.1071746111243681
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.728, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 3.094
+~
+vertpos:0.10661965224049502
+
+org:
+genotype:~
+//0
+p:-0.07, 0.258, 0.171, fr=0.179
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.521
+~
+vertpos:0.10625713718062621
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.972
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart:ry=-1.185
+c:1, 2, -0.863
+~
+vertpos:0.10504383273819476
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.972
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.10504383273819476
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.10504383273819476
+
+org:
+genotype:~
+//0
+p:fr=0.267
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.10241949027567945
+
+org:
+genotype:~
+//0
+p:fr=0.529
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.09920477540769182
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.967, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.09883952559693368
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.09834777268163775
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+p:1.193, 0.377, 2.283
+j:0, 1, stif=0.818, rotstif=0.835
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:0.09776252088269631
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.304
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.09607021073174564
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.365
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.09607021073174564
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.09607021073174564
+
+org:
+genotype:~
+//0
+p:fr=0.094
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.365
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.09563448314548209
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|:r=0.988
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.0829418166087626
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.833
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.0829418166087626
+
+org:
+genotype:~
+//0
+p:fr=0.336, ing=0.214
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.0829418166087626
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.0829418166087626
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.298
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.974
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.08116680857315044
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.265
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.974
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.08116680857315044
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.996
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.08116680857315044
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.974
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.08116680857315044
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.08116680857315044
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.859
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -3.199
+~
+vertpos:0.07829958186584088
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -3.199
+~
+vertpos:0.07829958186584088
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.166, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.833
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.07306217236681212
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|:r=0.851
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.07059865255551812
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.305
+p:1.183, 1.226, -0.071, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.162
+~
+vertpos:0.06991608739933321
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 1.226, -0.071, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.162
+~
+vertpos:0.06991608739933321
+
+org:
+genotype:~
+//0
+p:fr=0.179
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.821, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.521
+~
+vertpos:0.06975083902386096
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.064
+p:1.084, 1.117, 0.514, fr=0.406
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@:p=0.975
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.06789592347278794
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.23
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.06451013790560414
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.83, -0.058, 0.556, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.06353768325029173
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.304
+j:0, 1, stif=0.737, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.05832125731049158
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:1.597, -1.502, -0.315
+j:0, 1, stif=0.845, rotstif=0.959
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.05069342216967802
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@:p=0.978
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.05023560195078987
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:0.873, -1.386, -0.896
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 0
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.048273256041596324
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.37
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.04454806264894098
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.234
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -3.69
+~
+vertpos:0.04141386294405369
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -3.69
+~
+vertpos:0.04141386294405369
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.318
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.238
+c:1, 2, 2.468
+~
+vertpos:0.037432974682528736
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.238
+c:1, 2, 2.468
+~
+vertpos:0.037432974682528736
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.732, rotstif=0.935
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.03558826780586621
+
+org:
+genotype:~
+//0
+p:fr=0.179
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:j=0, d=G
+c:0, 3, 2.534
+c:1, 2, -2.521
+~
+vertpos:0.035111666275300824
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.365
+j:0, 1, stif=0.717, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.031370942783951805
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.36
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.724, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.029435857807859588
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:1.091, -0.341, 1.809
+j:0, 1, stif=0.818, rotstif=0.912
+j:2, 1, rotstif=0.961
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -4.845
+c:1, 2, 2.468
+~
+vertpos:0.02923552173882993
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:1.091, -0.341, 1.809
+j:0, 1, stif=0.818, rotstif=0.912
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -4.845
+c:1, 2, 2.468
+~
+vertpos:0.02923552173882993
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.974
+n:j=0, d=|:r=0.839
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.02538856122805025
+
+org:
+genotype:~
+//0
+p:fr=1.263
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.845
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.023655689509703016
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.344
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:0.02077762167416108
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.881
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:0.02077762167416108
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.919
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:0.02077762167416108
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:0.02077762167416108
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.972
+n:j=0, d=|:p=0.166
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.01953538819313689
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.064
+p:1.084, 1.117, 0.514, fr=0.406
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.01931748542325813
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.406
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.01931748542325813
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.011, 1.14, 0.448, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|:r=0.988
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.015612251412575513
+
+org:
+genotype:~
+//0
+p:fr=0.296
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@:p=0.978
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.013984393692066464
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.36
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.825, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.013983845557806032
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:0.488, -0.65, 0.156
+j:0, 1, stif=0.845, rotstif=0.958
+j:2, 0
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.012785328275515795
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.633, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.00990688030001544
+
+org:
+genotype:~
+//0
+p:fr=0.158
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:0.009863144058072024
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.279
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.007243154437037488
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.906
+~
+vertpos:0.006903019597579997
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.879, rotstif=0.974
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:0.00603616239794353
+
+org:
+genotype:~
+//0
+p:fr=0.336
+p:1.084, 1.117, 0.514, fr=0.712, ing=0.09
+j:0, 1, stif=0.914, rotstif=0.972
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.005478834774743237
+
+org:
+genotype:~
+//0
+p:fr=0.544
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.304
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:0.004974038681767568
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+p:-0.038, -1.15, -0.528
+j:0, 1, stif=0.845, rotstif=0.912
+j:2, 1
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.004908203135235905
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.324
+j:0, 1, stif=0.845, rotstif=0.954
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.003932420127110517
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.622, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.788
+n:j=0, d=|
+n:j=0, d=@:p=0.839
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.002086791283773172
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart:ry=-2.429
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:0.0016717757314421344
+
+org:
+genotype:~
+//0
+p:fr=0.498
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.958
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.002455729180512825
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 1.226, -0.071, fr=0.23
+j:0, 1, stif=0.839, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.0025732253854442687
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.863
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.003039336066900587
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23, ing=0.09
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.003039336066900587
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.916
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.003039336066900587
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.868
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.003039336066900587
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.003039336066900587
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.815, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.845
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.0031837895611121036
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -2.521
+~
+vertpos:-0.0031923233779348136
+
+org:
+genotype:~
+//0
+p:fr=0.115
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart:rz=-1.165
+c:1, 2, -0.863
+~
+vertpos:-0.003750670854048614
+
+org:
+genotype:~
+//0
+p:fr=0.115
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:-0.003750670854048614
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.824, 0.536, 0.525, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.925
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.005095041319007608
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.884, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.005230146978119273
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.755, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, -0.172
+c:1, 2, -0.863
+~
+vertpos:-0.006474991738227566
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart:rz=-0.868
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.008055971954900097
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart:rz=-1.953
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.008524726084992874
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.175, ing=0.304
+j:0, 1, stif=0.811, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+n:p=1, d=Gpart
+c:1, 2, -0.863
+~
+vertpos:-0.00886959766517793
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 3.08
+~
+vertpos:-0.0097686107073893
+
+org:
+genotype:~
+//0
+p:fr=0.146, ing=0.346
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009984347634359255
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.779, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009984850708305603
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.821, -0.265, 0.067, fr=0.199, ing=0.431
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009985194685309454
+
+org:
+genotype:~
+//0
+p:fr=0.018
+p:0.676, 0.023, 0.359, fr=0.317
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009987918867752344
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -1.001
+c:1, 2, 2.468
+~
+vertpos:-0.009989545827622879
+
+org:
+genotype:~
+//0
+p:fr=0.447
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.088
+c:1, 2, 2.468
+~
+vertpos:-0.00999103382066434
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.748, 0.274, 0.441, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.94
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999118325833199
+
+org:
+genotype:~
+//0
+p:fr=0.355
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009991912772316484
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.23
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@:p=0.978
+n:j=0, d=G
+c:0, 2, -0.251
+c:1, 2, -0.863
+~
+vertpos:-0.009992197456153673
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.622, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.788
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009993237340333787
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.94
+n:j=0, d=|:r=0.842
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999327259359252
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.642, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009993500726981502
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.841, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009993565805852202
+
+org:
+genotype:~
+//0
+p:fr=0.102
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.954
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009993638416694147
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|:p=0.426
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009994682504902005
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart:ry=2.415
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009994935945352387
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.288
+j:0, 1, stif=0.845, rotstif=0.958
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009995028696381398
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -2.987
+c:1, 2, 2.468
+~
+vertpos:-0.00999521222721759
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.728, 0.265, 0.265, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.959
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009995356953961114
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.223
+j:0, 1, stif=0.845, rotstif=0.917
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009995957201532549
+
+org:
+genotype:~
+//0
+p:-0.106, 0.728, 0.231, fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009996030172538571
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.318
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.818, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.496
+c:1, 2, 2.468
+~
+vertpos:-0.009996282690721137
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.847, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009996480073325768
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.847, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009996480073325768
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.445
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.896
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009996917697024642
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.298
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999707235941967
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.15, 0.742, 0.571, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997115471115094
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.315
+p:1.183, 0.796, 0.543, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.947
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997149247586679
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 0.796, 0.543, fr=0.23, ing=0.282
+j:0, 1, stif=0.841, rotstif=0.947
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997149247586679
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 0.796, 0.543, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.947
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997149247586679
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 0.796, 0.543, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997149247586679
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.183, 0.796, 0.543, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.947
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:0, 2, 0.342
+c:1, 2, -0.863
+~
+vertpos:-0.009997215093021188
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.361
+p:1.15, 0.742, 0.571, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@:p=0.99
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997359081719916
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.32
+p:1.15, 0.742, 0.571, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@:p=0.99
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997359081719916
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.15, 0.742, 0.571, fr=0.23
+j:0, 1, stif=0.841, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@:p=0.99
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009997359081719916
+
+org:
+genotype:~
+//0
+p:0.012, 0.066, -0.036, fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009997381462894554
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.673, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999764595138883
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.406
+j:0, 1, stif=0.65, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.00999770165988165
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.912, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.0099977060409392
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.728, rotstif=0.935
+n:j=0, d=|
+n:j=0, d=@:p=0.891
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998001813999175
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.964, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998030769037108
+
+org:
+genotype:~
+//0
+p:fr=0.072, ing=0.131
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.87, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998054620006807
+
+org:
+genotype:~
+//0
+p:fr=0.319, ing=0.445
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998058962298254
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.954
+n:j=0, d=|:p=0.284
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999816533910115
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.431
+j:0, 1, stif=0.813, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.00999824703221854
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:d=*
+c:0, 3, -2.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998252375440159
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.15, 0.742, 0.571, fr=0.23
+j:0, 1, stif=0.885, rotstif=0.97
+n:j=0, d=|
+n:j=0, d=@:p=0.99
+n:j=0, d=G
+c:1, 2, -0.863
+~
+vertpos:-0.009998254690369813
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.199, ing=0.155
+j:0, 1, stif=0.845, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@:p=0.845
+n:p=1, d=Gpart:rz=-1.225
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998259106388336
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:0.676, 0.023, 0.359, fr=0.622, ing=0.155
+j:0, 1, stif=0.679, rotstif=0.788
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:j=0, d=G
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998317648540665
+
+org:
+genotype:~
+//0
+p:fr=0.072
+p:1.084, 1.117, 0.514, fr=0.406
+j:0, 1, stif=0.818, rotstif=0.835
+n:j=0, d=|
+n:j=0, d=@
+n:j=0, d=G
+~
+vertpos:-0.009998343827998569
+
+org:
+genotype:~
+//0
+p:fr=0.222
+p:0.676, 0.023, 0.359, fr=0.199
+j:0, 1, stif=0.713, rotstif=0.912
+n:j=0, d=|
+n:j=0, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+c:0, 3, -3.784
+c:1, 2, 2.468
+~
+vertpos:-0.009998417493580979
+

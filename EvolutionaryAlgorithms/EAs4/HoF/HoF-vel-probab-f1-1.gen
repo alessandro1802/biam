@@ -1,0 +1,800 @@
+org:
+genotype:X[|,1:8.338][T,rz:0][@, -1:3.309]
+vertpos:0.44246583931345884
+
+org:
+genotype:X[|,1:8.338][T][@, -1:3.309]
+vertpos:0.44246583931345884
+
+org:
+genotype:X[|,1:14.099,p:0.25][T][@, -1:5.326]
+vertpos:0.39101417896240004
+
+org:
+genotype:X[|,1:14.099][T][@, -1:5.326]
+vertpos:0.39101417896240004
+
+org:
+genotype:X[|,1:9.49][T][@, -1:3.309]
+vertpos:0.3886078450007005
+
+org:
+genotype:cX[|,1:8.955][T][@, -1:5.326]
+vertpos:0.38787906633137903
+
+org:
+genotype:X[|,1:8.338][T][@, -1:5.326]
+vertpos:0.37099799008171347
+
+org:
+genotype:X[|,1:6.901][T][@, -1:5.326]
+vertpos:0.3645122692573517
+
+org:
+genotype:X[|,1:14.98][T][@, -1:5.326]
+vertpos:0.36332843856835034
+
+org:
+genotype:cX[|,1:6.29][T][@, -1:5.326]
+vertpos:0.3623033535433059
+
+org:
+genotype:X[|,1:10.155][T][@, -1:7.657]
+vertpos:0.3566316934022621
+
+org:
+genotype:X[|,1:5.799][T,ry:0][@, -1:4.366]
+vertpos:0.3535895997912179
+
+org:
+genotype:X[|,1:4.852][T,ry:0][@, -1:5.326]
+vertpos:0.3484873928524951
+
+org:
+genotype:X[|,1:4.852,r:1][T][@, -1:5.326]
+vertpos:0.3484873928524951
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:5.326]
+vertpos:0.3484873928524951
+
+org:
+genotype:X[|,1:4.852][T][@, -1:5.326]
+vertpos:0.3484873928524951
+
+org:
+genotype:X[|,1:11.927][T][@, -1:7.657]
+vertpos:0.3438892110383753
+
+org:
+genotype:X[|,1:5.799][T,ry:0][@, -1:4.438]
+vertpos:0.34362244937925945
+
+org:
+genotype:X[|,1:11.927][T][@, -1:2.278]
+vertpos:0.3410692547166137
+
+org:
+genotype:X[|,1:8.955][T][@, -1:3.527]
+vertpos:0.33169047278346653
+
+org:
+genotype:X[|,1:11.927][T][@, -1:3.539]
+vertpos:0.3316022370651766
+
+org:
+genotype:X[|,1:12.231][T][@, -1:5.326]
+vertpos:0.3233646873819928
+
+org:
+genotype:X[|,1:11.79][T][@, -1:3.309,p:1]
+vertpos:0.32249795530811615
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:6.493]
+vertpos:0.32037292736464595
+
+org:
+genotype:X[|,1:4.852,r:1][T][@, -1:5.613]
+vertpos:0.31654092287040964
+
+org:
+genotype:X[|,1:5.799][T,ry:0][@, -1:5.326]
+vertpos:0.3155664238458673
+
+org:
+genotype:X[|,1:11.927][T][@, -1:4.11]
+vertpos:0.3141058211409693
+
+org:
+genotype:X[|,1:9.106][T,ry:0][@, -1:6.183]
+vertpos:0.30726519895536963
+
+org:
+genotype:X[|,1:9.106][T][@, -1:6.183]
+vertpos:0.30726519895536963
+
+org:
+genotype:cX[|,1:4.989][T][@, -1:5.326]
+vertpos:0.30598143960528623
+
+org:
+genotype:X[|,1:7.89][T][@, -1:3.309]
+vertpos:0.30543540076675
+
+org:
+genotype:X[|,1:9.086][T][@, -1:3.309]
+vertpos:0.3041624934199319
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:8.095]
+vertpos:0.30367408687778946
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:7.283]
+vertpos:0.30292238509864855
+
+org:
+genotype:X[|,1:14.98][T][@, -1:3.757]
+vertpos:0.29932715081147193
+
+org:
+genotype:X[|,1:11.79][T][@, -1:3.216]
+vertpos:0.298075174954908
+
+org:
+genotype:X[|,1:11.927][T][@, -1:4.532]
+vertpos:0.2965073471990445
+
+org:
+genotype:X[|,1:9.106][T][@, -1:5.326]
+vertpos:0.2910409364726584
+
+org:
+genotype:X[S][|, 1:11.927][T][@, -1:3.893]
+vertpos:0.2806974679214424
+
+org:
+genotype:X[|,1:11.927][T][@, -1:3.893]
+vertpos:0.2806974679214424
+
+org:
+genotype:RX[|,1:14.099][T][@, -1:5.326]
+vertpos:0.2790955562988606
+
+org:
+genotype:cX[|,1:5.474][T][@, -1:5.326]
+vertpos:0.27756663538027465
+
+org:
+genotype:X[|,1:14.98][T][@, -1:6.291]
+vertpos:0.2765873897555472
+
+org:
+genotype:X[|,1:11.689][T][@, -1:5.326]
+vertpos:0.27491856487607474
+
+org:
+genotype:X[|,1:9.106][T][@, -1:5.795]
+vertpos:0.27273540107565575
+
+org:
+genotype:X[|,1:9.086][T][@, -1:3.839]
+vertpos:0.2724264723735482
+
+org:
+genotype:X[|,1:9.106][T][@, -1:8.202]
+vertpos:0.2558606278294355
+
+org:
+genotype:LqCcX[|,1:8.418,r:1][T]
+vertpos:0.2557711277271603
+
+org:
+genotype:LqCcX[|,1:8.418][T]
+vertpos:0.2557711277271603
+
+org:
+genotype:X[|,1:8.338][T][@, -1:5.843]
+vertpos:0.2542405812042019
+
+org:
+genotype:X[|,1:11.927][T][@, -1:2.647]
+vertpos:0.25303322595394717
+
+org:
+genotype:cX[|,1:8.955][T][@, -1:4.042]
+vertpos:0.2530142638752061
+
+org:
+genotype:X[|,1:8.338][T][@, -1:0.297]
+vertpos:0.2521903262981975
+
+org:
+genotype:cX[|,1:8.955][T][@, -1:7.495]
+vertpos:0.2514456234414956
+
+org:
+genotype:X[|,1:5.639][T][@, -1:5.326]
+vertpos:0.2508173514937552
+
+org:
+genotype:X[|,1:8.338][T][@, -1:1.369]
+vertpos:0.2455578247465023
+
+org:
+genotype:X[|,1:15.301][T][@, -1:5.326]
+vertpos:0.24447486759670542
+
+org:
+genotype:RX[|,1:5.639][T][@, -1:5.326]
+vertpos:0.24348560282996856
+
+org:
+genotype:X[|,1:8.315][T][@, -1:5.326]
+vertpos:0.24298701083051952
+
+org:
+genotype:X[|,1:8.338][T,ry:0][@, -1:2.498]
+vertpos:0.24196291954006088
+
+org:
+genotype:X[|,1:11.927][T][@, -1:5.326]
+vertpos:0.23873921016326777
+
+org:
+genotype:X[|,1:9.106][T][@, -1:7.452]
+vertpos:0.23526227512222878
+
+org:
+genotype:X[|,1:8.338][T][@, -1:4.052]
+vertpos:0.23401059420482315
+
+org:
+genotype:cX[|,1:4.852][T][@, -1:5.326]
+vertpos:0.23285231055272002
+
+org:
+genotype:X[|,1:11.927][T][@, -1:5.326,p:1]
+vertpos:0.2278467492611229
+
+org:
+genotype:X[|,1:8.761,r:1][T][@, -1:5.326]
+vertpos:0.22693758149223753
+
+org:
+genotype:cX[|,1:5.903][T][@, -1:5.326]
+vertpos:0.22261619969727225
+
+org:
+genotype:X[|,1:9.086][T][@, -1:5.326]
+vertpos:0.22220799015845424
+
+org:
+genotype:X[|,1:7.492][T][@, -1:3.309]
+vertpos:0.2219173691897593
+
+org:
+genotype:LCqX[@,2:1][|,1:10.907][T,r:1]
+vertpos:0.22104441364205732
+
+org:
+genotype:LCqX[@,2:1][|,1:10.907][T]
+vertpos:0.22104441364205732
+
+org:
+genotype:X[|,1:14.98][T][@, -1:5.751]
+vertpos:0.218058977542735
+
+org:
+genotype:X[|,1:8.338][T][@, -1:1.32]
+vertpos:0.2180199131083457
+
+org:
+genotype:cX[|,1:5.474][T][@, -1:9.235]
+vertpos:0.21603277010799316
+
+org:
+genotype:X[|,1:14.031][T][@, -1:5.326]
+vertpos:0.20932527720193433
+
+org:
+genotype:X[|,1:4.852,r:1][T][@, -1:9.686]
+vertpos:0.20640517310416445
+
+org:
+genotype:X[|,1:11.79][T][@, -1:3.309]
+vertpos:0.20426116016885473
+
+org:
+genotype:X[|,1:12.44][T][@, -1:5.326]
+vertpos:0.20261993555345337
+
+org:
+genotype:X[|,1:14.464][T][@, -1:5.326]
+vertpos:0.20221500554731614
+
+org:
+genotype:LqX[|,1:9.822][T]
+vertpos:0.19971275026910473
+
+org:
+genotype:LqX[|,1:9.968][T,ry:0]
+vertpos:0.19897490567889003
+
+org:
+genotype:X[|,1:8.338][T][@, -1:0.671]
+vertpos:0.19683746976565347
+
+org:
+genotype:cX[|,1:12.274][T][@, -1:5.326]
+vertpos:0.1949189526798871
+
+org:
+genotype:X[|,1:12.343][T][@, -1:5.326]
+vertpos:0.1907989224172105
+
+org:
+genotype:X[|,1:5.782][T,ry:0][@, -1:5.326]
+vertpos:0.18771410018175239
+
+org:
+genotype:X[|,1:8.955][T][@, -1:5.326]
+vertpos:0.18676622327802644
+
+org:
+genotype:X[|,1:13][T][@, -1:5.326]
+vertpos:0.18625024559827474
+
+org:
+genotype:X[|,1:8.338][T][@, -1:6.223]
+vertpos:0.18593585345035823
+
+org:
+genotype:X[|,1:8.338][T][@, -1:5.294]
+vertpos:0.18387078944833962
+
+org:
+genotype:cX[|,1:6.29][T][@, -1:5.973]
+vertpos:0.17923307790487872
+
+org:
+genotype:LqCcX[|,1:7.208][T]
+vertpos:0.17244570794624164
+
+org:
+genotype:X[|,1:8.338][T][@, -1:3.248]
+vertpos:0.16671273819533838
+
+org:
+genotype:LqX[|,1:10.154][T,r:1]
+vertpos:0.15922596192310032
+
+org:
+genotype:LqX[|,1:11.591][T,r:1]
+vertpos:0.15684102036672495
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:4.891]
+vertpos:0.15452810880050175
+
+org:
+genotype:X[S][|, 1:11.85][T][@, -1:3.893]
+vertpos:0.1487597645204111
+
+org:
+genotype:X[|,1:8.338][T][@, -1:1.531]
+vertpos:0.1472456013536278
+
+org:
+genotype:X[|,1:6.316,p:0.25][T][@, -1:5.326]
+vertpos:0.1466196743146056
+
+org:
+genotype:X[|,1:11.927][T][@, -1:4.788]
+vertpos:0.1422079207698816
+
+org:
+genotype:X[|,1:6.913][T][@, -1:3.309]
+vertpos:0.13728830952670454
+
+org:
+genotype:cX[|,1:5.117][T][@, -1:5.326]
+vertpos:0.13002802172232084
+
+org:
+genotype:LqX[|,1:11.227][T,r:1]
+vertpos:0.12361588612137271
+
+org:
+genotype:LqX[|,1:7.61][T,rz:0]
+vertpos:0.12308098354606174
+
+org:
+genotype:X[|,1:6.606][T][@, -1:6.183]
+vertpos:0.12175271248973217
+
+org:
+genotype:X[|,1:10.62][T][@, -1:6.183]
+vertpos:0.11826943881279688
+
+org:
+genotype:LqX[|,1:13.397][T,r:1]
+vertpos:0.11821577043333967
+
+org:
+genotype:LqX[|,1:9.076][T,r:1]
+vertpos:0.11685792244435456
+
+org:
+genotype:X[|,1:9.348][T][@, -1:3.309]
+vertpos:0.11572913801339171
+
+org:
+genotype:X[|,1:8.761,r:1][T][@, -1:4.222]
+vertpos:0.11390593872441196
+
+org:
+genotype:mX[|,1:14.099][T][@, -1:5.326]
+vertpos:0.10734623419365237
+
+org:
+genotype:X[|,1:14.179][T][@, -1:7.657]
+vertpos:0.10415171394873769
+
+org:
+genotype:X[|,1:9.106][T,ry:0][@, -1:6.25]
+vertpos:0.10347771630561527
+
+org:
+genotype:LqcX[|,1:11.077][T,ry:0]
+vertpos:0.09786132885923009
+
+org:
+genotype:LqX[|,1:15.041][T]
+vertpos:0.09664373100273557
+
+org:
+genotype:LqX[|,1:10.343][T,r:1,rz:0]
+vertpos:0.09580174297367156
+
+org:
+genotype:LqX[|,1:10.343][T,r:1]
+vertpos:0.09580174297367156
+
+org:
+genotype:LqX[|,1:10.343][T]
+vertpos:0.09580174297367156
+
+org:
+genotype:X[|,1:10.155][T][@, -1:7.326]
+vertpos:0.09527741449938068
+
+org:
+genotype:LqcX[|,1:7.349,p:0.25][T]
+vertpos:0.09117796724882593
+
+org:
+genotype:LqcX[|,1:7.349][T,ry:0]
+vertpos:0.09117796724882593
+
+org:
+genotype:LqcX[|,1:7.349][T]
+vertpos:0.09117796724882593
+
+org:
+genotype:X[|,1:8.86][T][@, -1:5.326]
+vertpos:0.09096888201826063
+
+org:
+genotype:LqCcX[|,1:8.145][T]
+vertpos:0.08936145913132162
+
+org:
+genotype:X[|,1:9.565][T][@, -1:3.527]
+vertpos:0.08900339533105832
+
+org:
+genotype:X[|,1:14.98][T][@, -1:4.882]
+vertpos:0.08420554160452534
+
+org:
+genotype:X[|,1:7.449][T][@, -1:3.309]
+vertpos:0.08301838547782377
+
+org:
+genotype:LCqX[|,1:10.907][T,ry:0]
+vertpos:0.08238488885278189
+
+org:
+genotype:LCqX[|,1:10.907][T]
+vertpos:0.08238488885278189
+
+org:
+genotype:LqcX[|,1:8.593,p:0.25][T]
+vertpos:0.07364809238495548
+
+org:
+genotype:LCqX[@,2:1][|,1:10.169][T]
+vertpos:0.06492001035990534
+
+org:
+genotype:X[|,1:10.723][T][@, -1:5.326]
+vertpos:0.05776452017918373
+
+org:
+genotype:X[|,1:11.689][T][@, -1:7.147]
+vertpos:0.05050001580632109
+
+org:
+genotype:X[|,1:14.099][T][@, -1:7.025]
+vertpos:0.049356417522030675
+
+org:
+genotype:X[|,1:8.338][T][@, -1:7.47]
+vertpos:0.04500710602012814
+
+org:
+genotype:X[|,1:4.852,p:0.25][T][@, -1:8.817]
+vertpos:0.040963626631128375
+
+org:
+genotype:LqcX[|,1:8.086][T]
+vertpos:0.0341903729154719
+
+org:
+genotype:X[|,1:8.338][T][@, -1:2.352]
+vertpos:0.03151028155123211
+
+org:
+genotype:LqX[|,1:7.467][T]
+vertpos:0.031000830891922147
+
+org:
+genotype:LqX[|,1:8.287][T,rz:0]
+vertpos:0.030532270561388502
+
+org:
+genotype:LqX[|,1:8.287][T]
+vertpos:0.030532270561388502
+
+org:
+genotype:X[|,1:14.873][T][@, -1:5.326]
+vertpos:0.030310751301293164
+
+org:
+genotype:LqcX[|,1:8.008][T][@, -1:3.651]
+vertpos:0.027912952999239262
+
+org:
+genotype:X[|,1:8.665][T][@, -1:5.326]
+vertpos:0.025875355970841115
+
+org:
+genotype:X[|,1:9.49][T][@, -1:4.216]
+vertpos:0.024447309280312753
+
+org:
+genotype:cX[|,1:4.852][T][@, -1:6.908]
+vertpos:0.022998649160695932
+
+org:
+genotype:LqX[|,1:10.923][T,ry:0]
+vertpos:0.019560949837981033
+
+org:
+genotype:X[|,1:7.059][T][@, -1:3.309]
+vertpos:0.0187522922022938
+
+org:
+genotype:X[|,1:8.338][T][@, -1:3.996]
+vertpos:0.008274390241456448
+
+org:
+genotype:X[|,1:6.043][T][@, -1:5.326]
+vertpos:0.00660266409950715
+
+org:
+genotype:LqcX[|,1:9.83][T]
+vertpos:0.0008434746929898663
+
+org:
+genotype:LqX[|,1:10.343][T,r:0.909]
+vertpos:-0.007751355604607702
+
+org:
+genotype:X[|,1:6.983][T][@, -1:3.309]
+vertpos:-0.00838283668483932
+
+org:
+genotype:X[|,1:11.927][T][@, -1:10.151]
+vertpos:-0.008983804362695278
+
+org:
+genotype:X[|,1:11.927][T][@, -1:5.013]
+vertpos:-0.009995669998580738
+
+org:
+genotype:X[|,1:6.901][T][@, -1:5.293]
+vertpos:-0.009996404803247242
+
+org:
+genotype:X[|,1:15.958][T][@, -1:5.326]
+vertpos:-0.00999681133799008
+
+org:
+genotype:cX[|,1:5.903][T][@, -1:5.815]
+vertpos:-0.009997765839693109
+
+org:
+genotype:LqCcX[|,1:9.569][T]
+vertpos:-0.00999799475285906
+
+org:
+genotype:CX[|,1:8.338][T][@, -1:4.052]
+vertpos:-0.009998204896859372
+
+org:
+genotype:X[|,1:11.217][T][@, -1:7.657]
+vertpos:-0.009998271124276144
+
+org:
+genotype:cX[|,1:11.79][T][@, -1:3.309]
+vertpos:-0.009998493105330578
+
+org:
+genotype:LqcX[|,1:10.804][T]
+vertpos:-0.009998573626138397
+
+org:
+genotype:cX[|,1:6.29][T][@, -1:6.129]
+vertpos:-0.009998687972135179
+
+org:
+genotype:X[|,1:5.388][T,ry:0][@, -1:5.326]
+vertpos:-0.009998770802062318
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:9.557]
+vertpos:-0.009998878514969816
+
+org:
+genotype:X[|,1:8.221][T][@, -1:6.183]
+vertpos:-0.009998938718403395
+
+org:
+genotype:X[|,1:4.852][T,ry:0][@, -1:7.631]
+vertpos:-0.009998990041969776
+
+org:
+genotype:LqX[|,1:9.632][T]
+vertpos:-0.009999064976496925
+
+org:
+genotype:LqcX[|,1:12.841][T]
+vertpos:-0.009999168351422177
+
+org:
+genotype:LqX[|,1:10.134][T]
+vertpos:-0.009999173408028236
+
+org:
+genotype:LqX[|,1:11.435][T,r:1]
+vertpos:-0.009999230722715783
+
+org:
+genotype:LqX[|,1:13.264][T,r:1]
+vertpos:-0.00999930720618114
+
+org:
+genotype:LqcX[|,1:9.416][T]
+vertpos:-0.009999324047522627
+
+org:
+genotype:LqX[|,1:10.907][T]
+vertpos:-0.009999324047840102
+
+org:
+genotype:cX[|][T][@, -1:5.326]
+vertpos:-0.009999345185912455
+
+org:
+genotype:LqX[|,1:9.667][T]
+vertpos:-0.009999388985253108
+
+org:
+genotype:LqX[|,1:10.962][T,r:1]
+vertpos:-0.00999939476004489
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:4.621]
+vertpos:-0.009999405616472914
+
+org:
+genotype:LqcX[|,1:7.771][T,ry:0]
+vertpos:-0.00999940888155144
+
+org:
+genotype:LqcX[|,1:8.642,p:0.25][T]
+vertpos:-0.00999941022454453
+
+org:
+genotype:cX[|,1:4.852][T][@, -1:5.176]
+vertpos:-0.009999428981100691
+
+org:
+genotype:LqX[|,1:9.369][T]
+vertpos:-0.009999441642451342
+
+org:
+genotype:LqcX[|,1:9.113][T]
+vertpos:-0.00999944918603286
+
+org:
+genotype:LqcX[|,1:11.566][T,ry:0]
+vertpos:-0.009999450178354343
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:4.306]
+vertpos:-0.009999453065597913
+
+org:
+genotype:LqX[|,1:11.941][T]
+vertpos:-0.009999461489986079
+
+org:
+genotype:LqX[|,1:14.383][T]
+vertpos:-0.009999464608683947
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:4.306,p:1]
+vertpos:-0.009999474478391534
+
+org:
+genotype:LqX[|,1:8.823][T,r:1]
+vertpos:-0.009999476482468971
+
+org:
+genotype:LqcX[|,1:7.857][T]
+vertpos:-0.009999480953337383
+
+org:
+genotype:cX[|,1:4.568][T][@, -1:3.555]
+vertpos:-0.009999489400920325
+
+org:
+genotype:LqcX[|,1:8.808][T]
+vertpos:-0.009999523326641207
+
+org:
+genotype:cX[|,1:1.773][T][@, -1:5.326]
+vertpos:-0.009999527576380994
+
+org:
+genotype:LqCcX[|,1:8.418,r:0.93][T]
+vertpos:-0.009999530729574917
+
+org:
+genotype:LqX[|,1:12.392][T,r:1]
+vertpos:-0.009999533234042613
+
+org:
+genotype:LqX[|,1:9.961,p:0.25][T]
+vertpos:-0.009999543274353253
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:3.555]
+vertpos:-0.009999543701067497
+
+org:
+genotype:LqX[|,1:11.876][T]
+vertpos:-0.009999543861349686
+
+org:
+genotype:cX[|,1:0.704][T][@, -1:3.651]
+vertpos:-0.009999551584891388
+
+org:
+genotype:cX[|,1:4.199][T][@, -1:5.326]
+vertpos:-0.009999561804924851
+
