@@ -64,25 +64,30 @@ if __name__ == '__main__':
                                 "fitness", "mutation",
                                 "Best population fitness",
                                 join(plots_path, "best_over_generations.png"))
+    for mutation in best_over_generations["mutation"].unique():
+        value_over_generations_plot(best_over_generations[best_over_generations["mutation"] == mutation],
+                                    "fitness", "mutation",
+                                    "Best population fitness",
+                                    join(plots_path, f"best_over_generations_{mutation}.png"))
 
-    # Mean best population fitness
-    mean_value_over_generations_plot(best_over_generations, "fitness", "mutation",
-                                     "Mean best population fitness",
-                                     join(plots_path, "mean_best_over_generations.png"))
-
-    # Mean average population fitness
-    avg_over_generations = logs.copy().rename(columns={"avg": "fitness"})
-    mean_value_over_generations_plot(avg_over_generations, "fitness", "mutation",
-                                     "Mean average population fitness",
-                                     join(plots_path, "mean_avg_over_generations.png"))
-
-    # HoF and Runtime boxplots
-    hofs_path = join(directory_path, 'HoF')
-    hofs = read_HoFs(hofs_path)
-    hof_fitnesses = hofs.copy().rename(columns={"vertpos": "fitness"}).astype({"fitness": float})
-
-    runtimes_path = join(directory_path, 'runtimes')
-    runtimes = read_runtimes(runtimes_path)
-
-    grouped_boxplots([hof_fitnesses, runtimes], "mutation", ["fitness", "runtime"], ["Vertical position", "Runtime"],
-                     "Boxplots per mutation probability", join(plots_path, "grouped_hof_and_runtime_boxplots.png"))
+    # # Mean best population fitness
+    # mean_value_over_generations_plot(best_over_generations, "fitness", "mutation",
+    #                                  "Mean best population fitness",
+    #                                  join(plots_path, "mean_best_over_generations.png"))
+    #
+    # # Mean average population fitness
+    # avg_over_generations = logs.copy().rename(columns={"avg": "fitness"})
+    # mean_value_over_generations_plot(avg_over_generations, "fitness", "mutation",
+    #                                  "Mean average population fitness",
+    #                                  join(plots_path, "mean_avg_over_generations.png"))
+    #
+    # # HoF and Runtime boxplots
+    # hofs_path = join(directory_path, 'HoF')
+    # hofs = read_HoFs(hofs_path)
+    # hof_fitnesses = hofs.copy().rename(columns={"vertpos": "fitness"}).astype({"fitness": float})
+    #
+    # runtimes_path = join(directory_path, 'runtimes')
+    # runtimes = read_runtimes(runtimes_path)
+    #
+    # grouped_boxplots([hof_fitnesses, runtimes], "mutation", ["fitness", "runtime"], ["Vertical position", "Runtime"],
+    #                  "Boxplots per mutation probability", join(plots_path, "grouped_hof_and_runtime_boxplots.png"))
