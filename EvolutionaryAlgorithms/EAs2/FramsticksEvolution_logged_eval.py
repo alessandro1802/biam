@@ -33,14 +33,11 @@ def frams_evaluate(frams_lib, individual):
 		evaluation_data = first_genotype_data["evaluations"]
 		default_evaluation_data = evaluation_data[""]
 		fitness = [default_evaluation_data[crit] for crit in OPTIMIZATION_CRITERIA]
-		# Secondary criteria for creating gradient in the fitness landscape
-		distance = default_evaluation_data.get('distance', 0)
-		velocity = default_evaluation_data.get('velocity', 0)
-		# Introduce a weighted sum of distance and velocity to modify the fitness
-		distance_weight = 0.1  # Weight for the distance criterion
-		velocity_weight = 0.1  # Weight for the velocity criterion
-		# Combine primary fitness (vertpos) with secondary criteria
-		fitness = [fitness[0] + (distance_weight * distance) + (velocity_weight * velocity)]
+		# Use additional evaluation criteria iff plateau
+		if fitness[0] <= 0:
+			fitness = [default_evaluation_data["numparts"] / 100]
+		else:
+			fitness[0] += 1
 	except (KeyError, TypeError) as e:  # the evaluation may have failed for an invalid genotype (such as X[@][@] with "Don't simulate genotypes with warnings" option), or because the creature failed to stabilize, or for some other reason
 		valid = False
 		print('Problem "%s" so could not evaluate genotype "%s", hence assigned it low fitness: %s' % (str(e), genotype, BAD_FITNESS))
