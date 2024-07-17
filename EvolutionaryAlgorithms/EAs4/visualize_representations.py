@@ -3,6 +3,7 @@ from glob import glob
 from os.path import join
 from typing import List
 import pandas as pd
+import numpy as np
 
 sys.path.append("../")
 from visualize import *
@@ -107,25 +108,30 @@ def read_crossover(directory_path: str) -> pd.DataFrame:
         crossover_run_df = crossover_run_df.drop(columns=["Parent 1 Fitness", "Parent 2 Fitness"])
         crossover = pd.concat([crossover, crossover_run_df], ignore_index=True)
     # Drop the rows where the fitness for the child is -1
-    crossover = crossover[crossover["Offspring 1 Fitness"] != -1]
-    crossover = crossover[crossover["Offspring 2 Fitness"] != -1]
+    crossover = crossover[crossover["Offspring Fitness"] != -1]
     return crossover
 
 
 def scatter_plot_parent_child(data: pd.DataFrame, x_name: str, y_name: str, hue_name: str,
                               save_paths: List[str]) -> None:
     fig = plt.figure(figsize=(16, 9))
-    # Add a grid to the plot and line x=y
-    plt.plot([0, 1], [0, 1], transform=plt.gca().transAxes, color='black', linestyle='--')
-    sns.scatterplot(data=data, x=x_name, y=y_name, hue=hue_name)
+    ax = sns.scatterplot(data=data, x=x_name, y=y_name,
+                         hue=hue_name, hue_order=sorted(data[hue_name].unique()))
+    # y = x line
+    x = np.linspace(*ax.get_xlim())
+    ax.plot(x, x, color='black', linestyle='--')
+
     fig.suptitle("Parent vs Child fitness", fontsize=20)
     plt.savefig(save_paths[0])
 
     # Do the same plot but for every hue value
     for hue in data[hue_name].unique():
         fig = plt.figure(figsize=(16, 9))
-        plt.plot([0, 1], [0, 1], transform=plt.gca().transAxes, color='black', linestyle='--')
-        sns.scatterplot(data=data[data[hue_name] == hue], x=x_name, y=y_name)
+        ax = sns.scatterplot(data=data[data[hue_name] == hue], x=x_name, y=y_name)
+        # y = x line
+        x = np.linspace(*ax.get_xlim())
+        ax.plot(x, x, color='black', linestyle='--')
+
         fig.suptitle(f"Parent vs Child fitness for {hue} representation", fontsize=20)
         plt.savefig(save_paths[1].format(hue))
 
@@ -157,7 +163,9 @@ def random_walk_progress_plot(data: pd.DataFrame, x_name: str, y_name: str, colo
             sns.lineplot(data=run_data, x=x_name, y=y_name, color=run_data[color_name].iloc[0], label=run, ax=ax)
 
         handles, labels = ax.get_legend_handles_labels()
-        ax.legend(handles, sorted(data_name["run"].unique(), key = lambda x: int(x.split('-')[-1])))
+        ax.legend(handles,
+                  sorted(data_name["run"].unique(), key=lambda x: int(x.split('-')[-1])),
+                  bbox_to_anchor=(1, 1))
         fig.suptitle("Random walk mutation progress", fontsize=20)
         plt.savefig(join(plots_path, f"random_walk_mutation_{name}.png"))
 
@@ -202,11 +210,14 @@ if __name__ == '__main__':
     mutations_path = join(directory_path, 'mutants')
     mutations = read_mutants(mutations_path)
 
-    # Percentage of better children
-    # child_better = mutations[mutations["Fitness"] > mutations["Parent Fitness"]]
-    # print(len(child_better.index) / len(mutations.index))
-    # print(child_better.groupby(["representation"]).agg(['count']))
-    # print(mutations.groupby(["representation"]).agg(['count']))
+    # Percentages of better children
+    child_better = mutations[mutations["Fitness"] > mutations["Parent Fitness"]]
+    n_child_better = child_better.groupby(["representation"]).agg(['count'])[('Fitness', 'count')]
+    n_total_mutants = mutations.groupby(["representation"]).agg(['count'])[('Fitness', 'count')]
+    print("Percentages of children better than parents:")
+    print("On average:", len(child_better.index) / len(mutations.index))
+    print(n_child_better / n_total_mutants)
+    print()
 
     scatter_plot_parent_child(mutations, "Parent Fitness", "Fitness", "representation",
                               [join(plots_path, "mutatant_fitnesses.png"),
@@ -217,16 +228,13 @@ if __name__ == '__main__':
     cross_over = read_crossover(cross_over_path)
 
     # AFG
-    # cross_over["AFG"] = (cross_over["Offspring 1 Fitness"] - cross_over["Average Parent Fitness"]) + \
-    #                     (cross_over["Offspring 2 Fitness"] - cross_over["Average Parent Fitness"]) / 2
-    # print(cross_over.groupby(["representation"]).mean())
+    cross_over["AFG"] = cross_over["Offspring Fitness"] - cross_over["Average Parent Fitness"]
+    print("Average AFG:", cross_over["AFG"].mean())
+    print(cross_over.groupby(["representation"]).mean())
 
-    scatter_plot_parent_child(cross_over, "Average Parent Fitness", "Offspring 1 Fitness", "representation",
-                              [join(plots_path, "cross-over_child_1_fitnesses.png"),
-                               join(plots_path, "cross-over_child_1_fitnesses_{}.png")])
-    scatter_plot_parent_child(cross_over, "Average Parent Fitness", "Offspring 2 Fitness", "representation",
-                              [join(plots_path, "cross-over_child_2_fitnesses.png"),
-                               join(plots_path, "cross-over_child_2_fitnesses_{}.png")])
+    scatter_plot_parent_child(cross_over, "Average Parent Fitness", "Offspring Fitness", "representation",
+                              [join(plots_path, "cross-over_fitnesses.png"),
+                               join(plots_path, "cross-over_fitnesses_{}.png")])
 
     # Random Walk mutation
     selection_path = join(directory_path, 'mutants_sequence')

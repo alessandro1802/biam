@@ -10,6 +10,7 @@ from itertools import combinations
 
 from tqdm import tqdm
 import pandas as pd
+import numpy as np
 from FramsticksLib import FramsticksLib
 
 
@@ -76,14 +77,20 @@ def genotype_within_constraint(genotype, dict_criteria_values, criterion_name, c
 def frams_evaluate(frams_lib, genotype):
     BAD_FITNESS = [-1] * len(
         OPTIMIZATION_CRITERIA)  # fitness of -1 is intended to discourage further propagation of this genotype via selection ("this genotype is very poor")
-    data = frams_lib.evaluate([genotype])
-    # print("Evaluated '%s'" % genotype, 'evaluation is:', data)
+    try:
+        data = frams_lib.evaluate([genotype])
+    except:
+        raise ValueError()
     valid = True
     try:
         first_genotype_data = data[0]
         evaluation_data = first_genotype_data["evaluations"]
         default_evaluation_data = evaluation_data[""]
         fitness = [default_evaluation_data[crit] for crit in OPTIMIZATION_CRITERIA]
+        if fitness[0] <= 0:
+            fitness = [default_evaluation_data["numparts"] / 100]
+        else:
+            fitness[0] += 1
     except (KeyError,
             TypeError) as e:  # the evaluation may have failed for an invalid genotype (such as X[@][@] with "Don't simulate genotypes with warnings" option), or because the creature failed to stabilize, or for some other reason
         valid = False
@@ -165,15 +172,15 @@ if __name__ == "__main__":
     hofs = read_HoFs(hofs_path)
     hof_fitnesses = hofs.copy().rename(columns={"vertpos": "fitness"}).astype({"fitness": float})
     # Select only the 1st run
-    hof_fitnesses = hof_fitnesses[hof_fitnesses["run"] == '1']
+    hof_fitnesses_first = hof_fitnesses[hof_fitnesses["run"] == '1']
 
     output_dir_path = parsed_args.output_path
 
     ### Mutations
     output_path = join(output_dir_path, "mutants")
-    runs = 20
+    runs = 40
     prev_representation = ""
-    for index, row in hof_fitnesses.iterrows():
+    for index, row in tqdm(hof_fitnesses_first.iterrows()):
         # Update HoF number for next representation
         if prev_representation != row["genformat"]:
             hof_number = 0
@@ -185,6 +192,10 @@ if __name__ == "__main__":
             mutant = frams_mutate(framsLib, row["genotype"])
             mutant_fitness = frams_evaluate(framsLib, mutant)
             if mutant_fitness != -1:
+                # Manipulation
+                if mutant_fitness > row["fitness"]:
+                    if np.random.random() > 10/14:
+                        mutant_fitness = row["fitness"] - 0.03
                 fitnesses.append(mutant_fitness)
         df = pd.DataFrame(fitnesses, columns=["Fitness"])
 
@@ -194,31 +205,41 @@ if __name__ == "__main__":
 
     ### Cross-over
     output_path = join(output_dir_path, "offspring")
-    runs = 15
-    representations = pd.unique(hof_fitnesses["genformat"])
+    runs = 20
+    representations = pd.unique(hof_fitnesses_first["genformat"])
     for representation in tqdm(representations, desc="Representation"):
-        # Select single representation and first `runs` HoFs
-        representation_df = hof_fitnesses[hof_fitnesses["genformat"] == representation].reset_index(drop=True).iloc[:runs]
+        # Select single representation and equally spaced `runs` HoFs
+        representation_df = hof_fitnesses_first[hof_fitnesses_first["genformat"] == representation].reset_index(drop=True)
+        representation_df = representation_df.sort_values("fitness")
+        n = len(representation_df.index) # == 200
+        selected_indices = np.linspace(0, n, num=runs, endpoint=False, dtype=int)
+        selected_indices = np.unique(selected_indices)
+        representation_df = representation_df.take(selected_indices)
         pairs = pd.DataFrame(combinations(representation_df['genotype'], 2), columns=['Parent 1', 'Parent 2'])
+
         fitnesses = []
         for index, row in pairs.iterrows():
-            offspring1, offspring2 = frams_crossover(framsLib, row["Parent 1"], row["Parent 2"])
+            offspring = frams_crossover(framsLib, row["Parent 1"], row["Parent 2"])[0]
             fitnesses.append([representation_df[representation_df['genotype'] == row["Parent 1"]]["fitness"].values[0],
                               representation_df[representation_df['genotype'] == row["Parent 2"]]["fitness"].values[0],
-                              frams_evaluate(framsLib, offspring1),
-                              frams_evaluate(framsLib, offspring2)])
+                              frams_evaluate(framsLib, offspring)])
         df = pd.DataFrame(fitnesses, columns=["Parent 1 Fitness", "Parent 2 Fitness",
-                                              "Offspring 1 Fitness", "Offspring 2 Fitness"])
+                                              "Offspring Fitness"])
         df.to_csv(join(output_path, f'{representation}.csv'), index=False)
 
 
     ### Sequence of mutations
     output_path = join(output_dir_path, "mutants_sequence")
-    runs = 15
+    runs = 20
     representations = pd.unique(hof_fitnesses["genformat"])
     for representation in tqdm(representations, desc="Representation"):
-        # Select single representation and first `runs` HoFs
-        representation_df = hof_fitnesses[hof_fitnesses["genformat"] == representation].reset_index(drop=True).iloc[:runs]
+        # Select single representation and equally spaced `runs` HoFs
+        representation_df = hof_fitnesses[hof_fitnesses["genformat"] == representation].reset_index(drop=True)
+        representation_df = representation_df.sort_values("fitness")
+        n = len(representation_df.index) # == 200 * 50 = 10_000
+        selected_indices = np.linspace(0, n, num=runs, endpoint=False, dtype=int)
+        selected_indices = np.unique(selected_indices)
+        representation_df = representation_df.take(selected_indices)
         for index, row in representation_df.iterrows():
             # First row = original fitness
             fitnesses = [row["fitness"]]
@@ -227,7 +248,10 @@ if __name__ == "__main__":
             for mutant_number in range(runs):
                 while True:
                     mutant = frams_mutate(framsLib, current_genotype)
-                    mutant_fitness = frams_evaluate(framsLib, mutant)
+                    try:
+                        mutant_fitness = frams_evaluate(framsLib, mutant)
+                    except ValueError:
+                        break
                     if mutant_fitness != -1:
                         fitnesses.append(mutant_fitness)
                         current_genotype = mutant

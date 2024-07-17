@@ -1,800 +1,800 @@
 org:
-genotype:/*4*/r#2>mXq>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC><DX>bX><qX>gXc>
+vertpos:1.7270381451505847
 
 org:
-genotype:/*4*/XF,CqFL>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC><DX>bX><gXc><qX>N:@>
+vertpos:1.7112052571571281
 
 org:
-genotype:/*4*/<Ff#2>X#2>>N:G>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC><DX>X><gXc>qX>
+vertpos:1.71120525066554
 
 org:
-genotype:/*4*/mXRLmMM>
-vertpos:-0.01
+genotype:/*4*/<<XM#1>>XC><<rdXrC><DX>bX><gXc>qX>
+vertpos:1.71120525066554
 
 org:
-genotype:/*4*/LXR,qm>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC><DX>bX><gXc>qX>
+vertpos:1.71120525066554
 
 org:
-genotype:/*4*/<CXMl>N:@>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XCF><<rdXrC>bX>Q<gXc>qX>
+vertpos:1.6135400406834908
 
 org:
-genotype:/*4*/X#2>Q>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC>bX>Q<gXc>qX>
+vertpos:1.6135400406834908
 
 org:
-genotype:/*4*/fXQl>
-vertpos:-0.01
+genotype:/*4*/<<X>XQC#2>><<rdXrC>bX><gXc>qX#2>>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/XlQLl>
-vertpos:-0.01
+genotype:/*4*/<<XM>XC><<rdXrC>X><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/X,fCq>
-vertpos:-0.01
+genotype:/*4*/<<X#3>>X#2C>><<rdXrC>bqX><Xc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/mXmMMm>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>X#2C>><<rdXrC>qX><Xc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/mfX#2mM>>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdfXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/cCMXMM>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/C<X#2m>>FN:G:+=:>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>X#2C>><<rdXrC>bqX><Xc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/QC<X#2m>>N:G:+=:>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bXC>M<gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/FXmM>
-vertpos:-0.01
+genotype:/*4*/<<X>XCc><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/mcCLMXMMR>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bmX>M<gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/MXMMC>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>bqX><gXcF>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/<X#1Q>>N:N[0:0.141]>
-vertpos:-0.01
+genotype:/*4*/<<XM>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/QfXl>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bXM>M<gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/rlC<Xq#2m>>N:G>
-vertpos:-0.01
+genotype:/*4*/<<X>XQC><<rdXrC>bX><gXc>qX#2>>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/XlcLl>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrCf>bX>M<gXc>X>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/r#2>mX>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><gXc>qX#1>>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/<FMXM>N:G>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>X#2C>><<rdXrC>bqX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/F<XmMl>N:*>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>bqX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/lCX#1Cm>>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/X,CqFL>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>M<gXc>X>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/XRlmMrM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><gXc>qX#2>>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/XRlMMMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>M<gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/,FrX>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/FMX>
-vertpos:-0.01
+genotype:/*4*/<<X>XCQ><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/XffQf>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.6135400406834859
 
 org:
-genotype:/*4*/<FXF>N:T>
-vertpos:-0.01
+genotype:/*4*/<<X><XC>N:*><<rdXrC>bXC>M<gXc>qX>
+vertpos:1.613524727016389
 
 org:
-genotype:/*4*/mMX#2Q>>
-vertpos:-0.01
+genotype:/*4*/<<XF>XC><<rdXrC>bX><gXc>qX#1>>
+vertpos:1.6134643335214696
 
 org:
-genotype:/*4*/lCX#1Cm>R>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>X><cgXqc>qX>
+vertpos:1.6133369292144413
 
 org:
-genotype:/*4*/,F<X>N:N[0:3.666]>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rXrC>bX><gXcc>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/lrX>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bmX>M<gX#2c>>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/Xf#2>>
-vertpos:-0.01
+genotype:/*4*/m<<X>XCc><<rdXrC>X><cgXc>qX#2>>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/cCQLMXMMf>
-vertpos:-0.01
+genotype:/*4*/m<<X>XC><<rdXrC>X><cgXc>qX#2>>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/lCX#3Cm>R>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><gX#2c>>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/XL#4>>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>X><cXc>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/cCLMXMMf>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<mrdXrC>bX><gX#2c>>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/QFXMl>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>X><cgXc>qX#2>>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/mMX,>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><gX#2c>>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/fXl>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>X><cgXc>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/mMCX#1>>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><cgXc>qX>
+vertpos:1.6133369292144373
 
 org:
-genotype:/*4*/mXMMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bXF>M<gXc#2>>qX>
+vertpos:1.6125322380138964
 
 org:
-genotype:/*4*/mfXmMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bXF>M<gXc>qX>
+vertpos:1.6125322380138964
 
 org:
-genotype:/*4*/FFX>
-vertpos:-0.01
+genotype:/*4*/<R<X#2>>X#2C>><<rdXrC>bqX><gXc>qX>
+vertpos:1.6113743263785318
 
 org:
-genotype:/*4*/LqfX>
-vertpos:-0.01
+genotype:/*4*/<<X#2L>>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.6075545628079748
 
 org:
-genotype:/*4*/lCX#2Cm>R>
-vertpos:-0.01
+genotype:/*4*/<<cXM#2>>XC><<rdXrC>bX>Q<gXc>qXrdC>
+vertpos:1.5995383029705588
 
 org:
-genotype:/*4*/FXmMl>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rXrqC>bqX><gXc>qX>
+vertpos:1.5974315369055003
 
 org:
-genotype:/*4*/Xfff>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXqrC>bqX><gXc>qX>
+vertpos:1.5974315369055003
 
 org:
-genotype:/*4*/X,CqF>
-vertpos:-0.01
+genotype:/*4*/<<X>XCQ><<rqdXrC>bX><gXc>X>
+vertpos:1.5974315369055003
 
 org:
-genotype:/*4*/LXRqm>
-vertpos:-0.01
+genotype:/*4*/<<X>XCQ><<rqdXrC>bX><gXc>qX>
+vertpos:1.5974315369055003
 
 org:
-genotype:/*4*/LXRQ>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdcXrC>bX><gXc>qX>
+vertpos:1.5957519412948917
 
 org:
-genotype:/*4*/<CXMLl>N:@>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXLrC>bX><gXc>qX>
+vertpos:1.5927693604962325
 
 org:
-genotype:/*4*/mMX#1Q>>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bXC>M<gXc>qX>
+vertpos:1.5917469015385484
 
 org:
-genotype:/*4*/lCX#2#2Cm>>>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX>M<gXc>qX>
+vertpos:1.5917469015385484
 
 org:
-genotype:/*4*/mXRmMM>
-vertpos:-0.01
+genotype:/*4*/<<XC>X#2>><<rdXrC>bqX><gXc>qX>
+vertpos:1.5917469015385484
 
 org:
-genotype:/*4*/LXRl#1>m>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX><gXc>qX>
+vertpos:1.5917469015385484
 
 org:
-genotype:/*4*/XM#2l>>
-vertpos:-0.01
+genotype:/*4*/<<XC>gXc><<rdXrC>bXF>M<gXc>qX>
+vertpos:1.591587957534862
 
 org:
-genotype:/*4*/lrC<X#2m>>N:G>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>RbX><gmX>X>
+vertpos:1.5812443712781068
 
 org:
-genotype:/*4*/XL#3>L>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>RbXc><gX>qqX>
+vertpos:1.5812443712781068
 
 org:
-genotype:/*4*/,FX>
-vertpos:-0.01
+genotype:/*4*/<M<X>X><<rdXrfC>RbX><gX>qqX>
+vertpos:1.5812443712781068
 
 org:
-genotype:/*4*/XlLl>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>RbX><gX>qqX>
+vertpos:1.5812443712781068
 
 org:
-genotype:/*4*/C<X#2m>>N:G:+=:>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bmX>M<qX>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/FMXM>
-vertpos:-0.01
+genotype:/*4*/<<XM>XC><<rdXrC>bX><qX>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/FXMl>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>M<qX>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/FCX#1>l>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><qX#2>>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/rX#2m>Q>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC>bX><qX>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/rrlCX>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><qX>gXc>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/XL#3>>
-vertpos:-0.01
+genotype:/*4*/<<X>XqC><<rdXrC>bX><qX>gX>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/CXM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bFX><qX>gX>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/X#2r>>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><qX>gX>
+vertpos:1.581244371278106
 
 org:
-genotype:/*4*/lC<X#2m>>N:G>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>M<X>gXc>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/c,X>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rXrC>FbFX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/mMX#1>>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>FbFX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/r,lXF>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>bX><gmX>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/cLLX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>bX><gX#2>>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/cCLMXMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>FbFX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/mXmMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bFX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/FX#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>bX><gX>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/lCX#2Cm>>
-vertpos:-0.01
+genotype:/*4*/<<X>qXC><<rdXrC>bX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/LXRl#1>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdmXrC>bX><X>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/mX#1Q>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><X>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/mMX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXfrC>bX><gX>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/X#1>>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/rX,#1>>
-vertpos:-0.01
+genotype:/*4*/<<mX>X><<rdXrC>bX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/X,Cq>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><gX>qqX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/Xl#2>R>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>X><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/#2#1>R>RX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><gX>qX>
+vertpos:1.5812443712781046
 
 org:
-genotype:/*4*/<XLq>N:N[0:1.042]>
-vertpos:-0.01
+genotype:/*4*/<<X>rX><<rdmXrC>bX><X>qqX>
+vertpos:1.5812443712781024
 
 org:
-genotype:/*4*/Xff>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC>qX><qqX>gX>
+vertpos:1.5812443712781006
 
 org:
-genotype:/*4*/cX#4>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><qqX>X>
+vertpos:1.5812443712781006
 
 org:
-genotype:/*4*/mMX#2L>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><qqX>gX>
+vertpos:1.5812443712781006
 
 org:
-genotype:/*4*/<CXML>N:@>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX><qX>grX>
+vertpos:1.5812443712781001
 
 org:
-genotype:/*4*/mMX#3>>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC>bX>Q<qX>gXc>
+vertpos:1.5812443712780997
 
 org:
-genotype:/*4*/XrqLm>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX><qX>gXc>
+vertpos:1.57716553225905
 
 org:
-genotype:/*4*/FCcX>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX><qX>gX>
+vertpos:1.57716553225905
 
 org:
-genotype:/*4*/XfrqL>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rXrC>X><qgXM>qX>
+vertpos:1.57716553225905
 
 org:
-genotype:/*4*/XMl>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX><gX>X>
+vertpos:1.5771655322590452
 
 org:
-genotype:/*4*/Xrq>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rXrC>X><gXM>qX>
+vertpos:1.5771655322590452
 
 org:
-genotype:/*4*/mMX#2>>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rXrC>X><gX>qX>
+vertpos:1.5771655322590452
 
 org:
-genotype:/*4*/MXr>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX><gX>qX>
+vertpos:1.5771655322590452
 
 org:
-genotype:/*4*/MFRX>
-vertpos:-0.01
+genotype:/*4*/<<XCc>X><<rdXrC>bX><gX>qX>
+vertpos:1.5742898431293817
 
 org:
-genotype:/*4*/qXm#2>>
-vertpos:-0.01
+genotype:/*4*/<<XM#2C>>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.554765479318154
 
 org:
-genotype:/*4*/mXq>
-vertpos:-0.01
+genotype:/*4*/<<X>XCQ><<rdXrC>bX><gXc,>qX#2>>
+vertpos:1.5529288375654318
 
 org:
-genotype:/*4*/CXML>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdLXrC>bX><qqX>gX>
+vertpos:1.5488074674471162
 
 org:
-genotype:/*4*/rX,#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrLC>bX><gX>qqX>
+vertpos:1.548807467447115
 
 org:
-genotype:/*4*/Xc>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXr>bX><qqX>X>
+vertpos:1.5486568540828205
 
 org:
-genotype:/*4*/rlXF>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXr>bX><X>qX>
+vertpos:1.5486568540828203
 
 org:
-genotype:/*4*/<CX>N:N[0:-2.018]>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXr>bX><X>qqX>
+vertpos:1.5486568540828203
 
 org:
-genotype:/*4*/cCX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rXr>X><gX>qX>
+vertpos:1.5486568540828203
 
 org:
-genotype:/*4*/mX#2Q>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXr>X><gX>qX>
+vertpos:1.5486568540828203
 
 org:
-genotype:/*4*/,rX#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXr>bX><qX>gX>
+vertpos:1.5486568540828176
 
 org:
-genotype:/*4*/FXL>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXr>bX><Xc>qX>
+vertpos:1.537620685549129
 
 org:
-genotype:/*4*/XmM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXr>bX>M<gXc>qX>
+vertpos:1.537620685549129
 
 org:
-genotype:/*4*/XLq>
-vertpos:-0.01
+genotype:/*4*/<bX><<XM#2>>XC><<rdXrC>bX><gXc>qX>
+vertpos:1.5220647840838184
 
 org:
-genotype:/*4*/Xf>
-vertpos:-0.01
+genotype:/*4*/<<X><XC>BX><<rdXrC>bX><gXc>qX>
+vertpos:1.5219050527194273
 
 org:
-genotype:/*4*/rX,Q>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bXM>M<g,Xc>qX>
+vertpos:1.5154852680499298
 
 org:
-genotype:/*4*/qm<XL>N:S>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>M,<gXc>qX>
+vertpos:1.5154852680499298
 
 org:
-genotype:/*4*/X#2>R>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>bqX>l<gXcF>qX>
+vertpos:1.5144128019606704
 
 org:
-genotype:/*4*/qmX>
-vertpos:-0.01
+genotype:/*4*/l<<XC>X><<rdXrC>bX><gXc>qX>
+vertpos:1.496689318901868
 
 org:
-genotype:/*4*/LXRl#2>>
-vertpos:-0.01
+genotype:/*4*/<<<X>XQC><N:@>XC><<rdXrC>bqX><rdXrC>qX>
+vertpos:1.4930513363041977
 
 org:
-genotype:/*4*/X,C>
-vertpos:-0.01
+genotype:/*4*/<<X><dX>X><<rdXrfC>bX><gmX>qqX>
+vertpos:1.490636165519352
 
 org:
-genotype:/*4*/X#2>c>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrCc>bX><X>qqX>
+vertpos:1.4832115136486563
 
 org:
-genotype:/*4*/FCX#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rXrC>b<X>GX>qX>
+vertpos:1.4823560678532917
 
 org:
-genotype:/*4*/Xll>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rXrC>b<GX>X>qX>
+vertpos:1.4823560678532917
 
 org:
-genotype:/*4*/mX#4>>
-vertpos:-0.01
+genotype:/*4*/<<XCm>X><<rdXrC>bX>l<gX>qX>
+vertpos:1.4766288696044718
 
 org:
-genotype:/*4*/cX#3>>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX>l<gX>qX>
+vertpos:1.4766288696044718
 
 org:
-genotype:/*4*/mXMM>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><DX><<rdXrC>bFX><gX>qX>
+vertpos:1.4685972636914504
 
 org:
-genotype:/*4*/Xrq#2L>>
-vertpos:-0.01
+genotype:/*4*/<<mX>X><<rdXrC>X><<gX>qX>N:|>
+vertpos:1.4634157574785185
 
 org:
-genotype:/*4*/lCX#2m>>
-vertpos:-0.01
+genotype:/*4*/<<mX>X><<rdXrC>bX><<gX>qX>N:|>
+vertpos:1.4634157574785185
 
 org:
-genotype:/*4*/LXR#2l>>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<<c<rdcXrC>bX><gXc>qX>bX><gXc>qX>
+vertpos:1.459287735518182
 
 org:
-genotype:/*4*/qCX>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXr,C>X><cXc>qX>
+vertpos:1.3935053141326899
 
 org:
-genotype:/*4*/rrX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><C<rdXrC>bX>qX>
+vertpos:1.3828129191476195
 
 org:
-genotype:/*4*/mXM>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>fbX>dXrC>
+vertpos:1.3771786853990173
 
 org:
-genotype:/*4*/XQ>
-vertpos:-0.01
+genotype:/*4*/<<RX>X><<rXrC>bX>qX>
+vertpos:1.3770976115892088
 
 org:
-genotype:/*4*/CMXqQ>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><M<rdXrCf>bX>dXrC>
+vertpos:1.377091856150036
 
 org:
-genotype:/*4*/mXc>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>qrX>
+vertpos:1.377091856150036
 
 org:
-genotype:/*4*/LXL>
-vertpos:-0.01
+genotype:/*4*/<<XM#2>>XC><<rdXrC>bX>QqX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/<XML>N:*>
-vertpos:-0.01
+genotype:/*4*/<<X#2>>XC><<rdXrC>bqX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/XqrL>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>bX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/crX>
-vertpos:-0.01
+genotype:/*4*/<<X>qX><<rdXrC>bX>qXm#1>>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/mXQ>
-vertpos:-0.01
+genotype:/*4*/<<X>QX><<rXrC>bX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/,rX>
-vertpos:-0.01
+genotype:/*4*/<<X>qX><<rdXrC>bX>qX#1>>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/CXQ>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>qX#1>>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/cLX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>qX#2>>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/lCXm>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rXrC>bX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/qmXL>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>X>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/rX,>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/XMCl>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<drXrC>bX>qX>
+vertpos:1.3770918561500345
 
 org:
-genotype:/*4*/LXlR>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>XR#2>>
+vertpos:1.377091856150034
 
 org:
-genotype:/*4*/mX#3>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX>qXR#2>>
+vertpos:1.377091856150034
 
 org:
-genotype:/*4*/fX>
-vertpos:-0.01
+genotype:/*4*/<<XF>X><<rXrC>bX>qX>
+vertpos:1.3770904870631018
 
 org:
-genotype:/*4*/FCX>
-vertpos:-0.01
+genotype:/*4*/<<FXF>X><<rXrC>bX>qX>
+vertpos:1.377068722753581
 
 org:
-genotype:/*4*/XmML>
-vertpos:-0.01
+genotype:/*4*/<<m<gX>X>X><<rdXrC>bX><gX>qX>
+vertpos:1.3742764299055306
 
 org:
-genotype:/*4*/X#3>>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrfC><<rdXrC>X><cgXc>qX><gX>qqX>
+vertpos:1.3723753047083664
 
 org:
-genotype:/*4*/X#2#2#2>>>>
-vertpos:-0.01
+genotype:/*4*/<<X>lX><<rdXrC>bX>qX>
+vertpos:1.367150995161385
 
 org:
-genotype:/*4*/rX#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>Xl><<rdXrC>bX>rqX>
+vertpos:1.3671509951613843
 
 org:
-genotype:/*4*/MFX>
-vertpos:-0.01
+genotype:/*4*/<<<X>Xl><<rdXrC>bX>rqX>N:|>
+vertpos:1.3671109801276822
 
 org:
-genotype:/*4*/FXF>
-vertpos:-0.01
+genotype:/*4*/<l<X>X><<rdXrC>bX>qX#2>>
+vertpos:1.365791350239832
 
 org:
-genotype:/*4*/mX#2>>
-vertpos:-0.01
+genotype:/*4*/<<Xl>X><<rXqrC>bX>qX>
+vertpos:1.3655633131599068
 
 org:
-genotype:/*4*/Xq#2>>
-vertpos:-0.01
+genotype:/*4*/<<<lX>N:N[0:-3.375]>X><<rdXrC>bX#2>>qX>
+vertpos:1.3655633131599054
 
 org:
-genotype:/*4*/XLf>
-vertpos:-0.01
+genotype:/*4*/<<<lX>N:N[0:-3.375]>X><<rdXrC>bX>qX>
+vertpos:1.3655633131599054
 
 org:
-genotype:/*4*/X#2#2>>>
-vertpos:-0.01
+genotype:/*4*/<<Xl>X><<rXrC>bX>qX>
+vertpos:1.3655633131599054
 
 org:
-genotype:/*4*/qRX>
-vertpos:-0.01
+genotype:/*4*/<<lX>X><<rmdXrC>bX>qX>
+vertpos:1.3655633131599054
 
 org:
-genotype:/*4*/qXL>
-vertpos:-0.01
+genotype:/*4*/<<lX>X><<rdXrC>bX>qX>
+vertpos:1.3655633131599054
 
 org:
-genotype:/*4*/QX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><g<<rdXr>bX><gX>qX>qX>
+vertpos:1.3649988526380825
 
 org:
-genotype:/*4*/LXR>
-vertpos:-0.01
+genotype:/*4*/<<<X>X>BX><<rXrC>bX>qX>
+vertpos:1.3632832019226062
 
 org:
-genotype:/*4*/lCX>
-vertpos:-0.01
+genotype:/*4*/C<<X>X><<rdXrC>bX>qX>
+vertpos:1.3613857274651626
 
 org:
-genotype:/*4*/XCl>
-vertpos:-0.01
+genotype:/*4*/C<<<X>dX>X><<rXrC>bX>qX>
+vertpos:1.3562249001729558
 
 org:
-genotype:/*4*/MXR>
-vertpos:-0.01
+genotype:/*4*/C<<<X>CdX>X><<rdXrC>bX>qX>
+vertpos:1.3562249001729558
 
 org:
-genotype:/*4*/LXr>
-vertpos:-0.01
+genotype:/*4*/C<<<X>dX>X><<rdXrC>bX>qX>
+vertpos:1.3562249001729558
 
 org:
-genotype:/*4*/XML>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdXrC>bX>qX>
+vertpos:1.347775501802376
 
 org:
-genotype:/*4*/XqQ>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXrC>X><<cgXc>N:*>qX>
+vertpos:1.3316311660028197
 
 org:
-genotype:/*4*/XcM>
-vertpos:-0.01
+genotype:/*4*/<<<rdXrC>bX>XC><<rdcXrC>bX><gXc>qX>
+vertpos:1.3309501445381975
 
 org:
-genotype:/*4*/cX>
-vertpos:-0.01
+genotype:/*4*/<<X#2>><rdXrC><<bX>rdXrC>M<gXc>qX><<rdXrC>bqX><gXc>qX>
+vertpos:1.32970304767406
 
 org:
-genotype:/*4*/XLr>
-vertpos:-0.01
+genotype:/*4*/<<rdXrC>bX><<rdXrC>bX><gXc>qX>
+vertpos:1.3246413740989722
 
 org:
-genotype:/*4*/FX>
-vertpos:-0.01
+genotype:/*4*/<<X>mX><<rdXrfC>bX><gXrrdC>qqX>
+vertpos:1.3178101589280762
 
 org:
-genotype:/*4*/CX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rdXrC>bX><rdXrfC>bX>
+vertpos:1.3178101589280762
 
 org:
-genotype:/*4*/XC>
-vertpos:-0.01
+genotype:/*4*/<<CX>XC><<rXrC>bXF><rdXrC>bX>
+vertpos:1.316566007128259
 
 org:
-genotype:/*4*/,X>
-vertpos:-0.01
+genotype:/*4*/l<l<gX>qX><<rdXrC>bX>qX#2>>
+vertpos:1.3164696336916908
 
 org:
-genotype:/*4*/LX>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rdlXrC>bX><gXc>qX>
+vertpos:1.3076754871217822
 
 org:
-genotype:/*4*/lX>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<rXr>bX>qX>
+vertpos:1.3043228145858963
 
 org:
-genotype:/*4*/Xq>
-vertpos:-0.01
+genotype:/*4*/<<QmX>X>R<<X>X>X>
+vertpos:1.304321111886475
 
 org:
-genotype:/*4*/X,>
-vertpos:-0.01
+genotype:/*4*/<<X>X>l<<rXrC>bX>qX>
+vertpos:1.3038518837997053
 
 org:
-genotype:/*4*/XR>
-vertpos:-0.01
+genotype:/*4*/<<X>X><<X>X><<RRX>XQ><X>X>
+vertpos:1.2991207329475598
 
 org:
-genotype:/*4*/Xr>
-vertpos:-0.01
+genotype:/*4*/<<Xl>X>l<<rXrC>bX>qX>
+vertpos:1.2940308099742892
 
 org:
-genotype:/*4*/XL>
-vertpos:-0.01
+genotype:/*4*/<<lX>X>RR<<X>X>X>
+vertpos:1.2926330346158994
 
 org:
-genotype:/*4*/Xl>
-vertpos:-0.01
+genotype:/*4*/<<XC>X><<rXr>bX>qX>
+vertpos:1.2762514574801984
 
 org:
-genotype:/*4*/XM>
-vertpos:-0.01
+genotype:/*4*/<<<rdXrfC>bX><gX>qqX><<rdXrC>bX>X#1>>
+vertpos:1.275031395054847
 
 org:
-genotype:/*4*/mX>
-vertpos:-0.01
+genotype:/*4*/<<X>XCQ><C<rqdXrC>bX><gXc>qX>
+vertpos:1.2670272707484347
 
 org:
-genotype:/*4*/X#2>>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><,<rdXrC>bX><cgXc>qX>
+vertpos:1.260306994558776
 
 org:
-genotype:/*4*/X>
-vertpos:-0.01
+genotype:/*4*/<X><m<X><X>X><<RRX>X><X>X>
+vertpos:1.2575668799121942
 
 org:
-genotype:/*4*/RX>
-vertpos:-0.01
+genotype:/*4*/<<X>XC><<rdXr#2C>>bFX><gX>qX>
+vertpos:1.2574252946373479
 
 org:
-genotype:/*4*/qX>
-vertpos:-0.01
+genotype:/*4*/<<X><<bX>rdXrC><gXc>qX><<rdXrC>bX>qX>
+vertpos:1.2572914219831905
 
 org:
-genotype:/*4*/rX>
-vertpos:-0.01
+genotype:/*4*/<<Xr#2>>X><<rdXrC>bX>M<gXc>X>
+vertpos:1.255695101322891
 
 org:
-genotype:/*4*/X
-vertpos:-0.01
+genotype:/*4*/<<XC>XM#2>><<<c<rdcXrC>bX><gXc>qX>bX><gXc>qX>
+vertpos:1.2534534639821524
 

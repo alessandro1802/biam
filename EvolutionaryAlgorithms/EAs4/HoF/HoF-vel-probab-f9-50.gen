@@ -1,736 +1,800 @@
 org:
-genotype:/*9*/FRUUDL
-vertpos:0.5154943595607425
+genotype:/*9*/DDDBBFRU
+vertpos:1.7312395992933836
 
 org:
-genotype:/*9*/FURUL
-vertpos:0.3584665834371569
+genotype:/*9*/DDDBBFLU
+vertpos:1.7311910751586856
 
 org:
-genotype:/*9*/UBDL
-vertpos:0.344362396133153
+genotype:/*9*/DDDLBRU
+vertpos:1.7301963314249897
 
 org:
-genotype:/*9*/UBDR
-vertpos:0.34436017478700914
+genotype:/*9*/DDDBBRU
+vertpos:1.7267460391599971
 
 org:
-genotype:/*9*/UFDL
-vertpos:0.34435092406588924
+genotype:/*9*/DDRLBURLU
+vertpos:1.7121502717435872
 
 org:
-genotype:/*9*/DUFDL
-vertpos:0.3417799319475913
+genotype:/*9*/FDDBLU
+vertpos:1.6934627925761312
 
 org:
-genotype:/*9*/FURDL
-vertpos:0.33399809757418564
+genotype:/*9*/UDDDBLL
+vertpos:1.6929213328001387
 
 org:
-genotype:/*9*/FLRUL
-vertpos:0.31075249881516315
+genotype:/*9*/DDDBBFLLBURLU
+vertpos:1.6653590528778879
 
 org:
-genotype:/*9*/FDBL
-vertpos:0.3105015619804994
+genotype:/*9*/FDDBRL
+vertpos:1.654205729964787
 
 org:
-genotype:/*9*/FRUL
-vertpos:0.30700618208161723
+genotype:/*9*/DLBUDFRLUU
+vertpos:1.624340631246592
 
 org:
-genotype:/*9*/LRFURU
-vertpos:0.3021881996201102
+genotype:/*9*/DDFLBURLU
+vertpos:1.6208437856185587
 
 org:
-genotype:/*9*/DFFDL
-vertpos:0.3020836372476737
+genotype:/*9*/DLBUDFRLURU
+vertpos:1.6064729142038372
 
 org:
-genotype:/*9*/RFURU
-vertpos:0.2996308459593182
+genotype:/*9*/RDDLFRU
+vertpos:1.605569212210356
 
 org:
-genotype:/*9*/FUFDL
-vertpos:0.280888679720468
+genotype:/*9*/RDDLBRU
+vertpos:1.6055447075416118
 
 org:
-genotype:/*9*/FUFDR
-vertpos:0.28088656605364765
+genotype:/*9*/FDDBBRU
+vertpos:1.605371590075364
 
 org:
-genotype:/*9*/FRFURU
-vertpos:0.28080082577298077
+genotype:/*9*/FDDBBLU
+vertpos:1.6051293339417951
 
 org:
-genotype:/*9*/FURDLL
-vertpos:0.274683430657134
+genotype:/*9*/FDDBRRU
+vertpos:1.6045137313843119
 
 org:
-genotype:/*9*/FRURDL
-vertpos:0.2746311157275721
+genotype:/*9*/RDDLFLU
+vertpos:1.604069039627996
 
 org:
-genotype:/*9*/FLFURU
-vertpos:0.2613316281373898
+genotype:/*9*/DDRLBURLR
+vertpos:1.5993595624036678
 
 org:
-genotype:/*9*/FURUFDL
-vertpos:0.26028860864723224
+genotype:/*9*/LDDLBRU
+vertpos:1.576736468779734
 
 org:
-genotype:/*9*/FRFURL
-vertpos:0.2412235246650789
+genotype:/*9*/LDDLFRU
+vertpos:1.5766718251552791
 
 org:
-genotype:/*9*/LFRURDUL
-vertpos:0.23992466686335764
+genotype:/*9*/DDBUDFRLUU
+vertpos:1.5749028712205377
 
 org:
-genotype:/*9*/FRFURD
-vertpos:0.23937540328258175
+genotype:/*9*/DFBUDFRLUU
+vertpos:1.5742046762742894
 
 org:
-genotype:/*9*/FUFDFL
-vertpos:0.23893873733829277
+genotype:/*9*/FDDBLRLBUDLU
+vertpos:1.5714747366592379
 
 org:
-genotype:/*9*/DUFRUL
-vertpos:0.23888585159726916
+genotype:/*9*/FDDBBDLU
+vertpos:1.5661233036121747
 
 org:
-genotype:/*9*/FUBLR
-vertpos:0.23502949446245483
+genotype:/*9*/FDDBBL
+vertpos:1.5605440520749356
 
 org:
-genotype:/*9*/FRDL
-vertpos:0.23488452037161348
+genotype:/*9*/FDDBBRL
+vertpos:1.5601325374712312
 
 org:
-genotype:/*9*/LFRURDL
-vertpos:0.23437478952501548
+genotype:/*9*/FDDBBR
+vertpos:1.5601325374712312
 
 org:
-genotype:/*9*/BRDL
-vertpos:0.23313937285319344
+genotype:/*9*/FDDBRF
+vertpos:1.5600760621548608
 
 org:
-genotype:/*9*/BRDR
-vertpos:0.2293265143088634
+genotype:/*9*/RDDLBRL
+vertpos:1.5599639413795292
 
 org:
-genotype:/*9*/FLDL
-vertpos:0.22927991580152893
+genotype:/*9*/RDDLFR
+vertpos:1.5599587777584
 
 org:
-genotype:/*9*/FRLRDR
-vertpos:0.22927225954641045
+genotype:/*9*/FDDBLL
+vertpos:1.5597089955951415
 
 org:
-genotype:/*9*/FRDR
-vertpos:0.22927225954641045
+genotype:/*9*/FDDBRR
+vertpos:1.5595960726092564
 
 org:
-genotype:/*9*/FULRDR
-vertpos:0.2243190046840036
+genotype:/*9*/UDRLBURLU
+vertpos:1.5591090211116416
 
 org:
-genotype:/*9*/FDURURDL
-vertpos:0.22171907738285568
+genotype:/*9*/DDFLBBRLDDLBFRU
+vertpos:1.5526954213440751
 
 org:
-genotype:/*9*/FRFDL
-vertpos:0.22036673242239718
+genotype:/*9*/DRBURLU
+vertpos:1.5506723817428931
 
 org:
-genotype:/*9*/FRUFDDL
-vertpos:0.21904922752806505
+genotype:/*9*/DDRLBUDLU
+vertpos:1.546128496691088
 
 org:
-genotype:/*9*/UFL
-vertpos:0.21884974675041266
+genotype:/*9*/DRBUDFRLUU
+vertpos:1.5445501810864743
 
 org:
-genotype:/*9*/FRU
-vertpos:0.21833020599370342
+genotype:/*9*/DBFBUDFRLFUU
+vertpos:1.5427576827490301
 
 org:
-genotype:/*9*/FRUDL
-vertpos:0.21833020599370342
+genotype:/*9*/DBBUDFRLUU
+vertpos:1.5420575524358213
 
 org:
-genotype:/*9*/DBL
-vertpos:0.2173577520883829
+genotype:/*9*/FDDBBBLU
+vertpos:1.5359485994772553
 
 org:
-genotype:/*9*/FUDLR
-vertpos:0.21542565653023216
+genotype:/*9*/FDRLBURLU
+vertpos:1.5337154246924358
 
 org:
-genotype:/*9*/FUDL
-vertpos:0.21542565653023216
+genotype:/*9*/UULBRU
+vertpos:1.5257387543500338
 
 org:
-genotype:/*9*/FRRDR
-vertpos:0.21498967767037522
+genotype:/*9*/DLBUDFBLURU
+vertpos:1.5217632659884044
 
 org:
-genotype:/*9*/FLRDL
-vertpos:0.21208136828590324
+genotype:/*9*/DDFLBURFU
+vertpos:1.5210356657228608
 
 org:
-genotype:/*9*/FDDR
-vertpos:0.20917776511537137
+genotype:/*9*/RDRBURU
+vertpos:1.5156594128360203
 
 org:
-genotype:/*9*/FDUDDUDL
-vertpos:0.2091015979509084
+genotype:/*9*/UDDBRL
+vertpos:1.5155391971054748
 
 org:
-genotype:/*9*/FDDL
-vertpos:0.2091015979509084
+genotype:/*9*/BRUU
+vertpos:1.5144443632179307
 
 org:
-genotype:/*9*/FFDL
-vertpos:0.20825380931837217
+genotype:/*9*/UUDLBRU
+vertpos:1.5012174078548073
 
 org:
-genotype:/*9*/FFFDL
-vertpos:0.20659412406232847
+genotype:/*9*/DRBUDFRLURU
+vertpos:1.500558502619056
 
 org:
-genotype:/*9*/FURRL
-vertpos:0.20601100168559527
+genotype:/*9*/DFBUDFRFUU
+vertpos:1.499432318627575
 
 org:
-genotype:/*9*/FRURDBL
-vertpos:0.2044658704265009
+genotype:/*9*/UDRLLBUU
+vertpos:1.4988822695264274
 
 org:
-genotype:/*9*/FDFURU
-vertpos:0.19593692386592682
+genotype:/*9*/DFBUDFRLFUU
+vertpos:1.4982346473504524
 
 org:
-genotype:/*9*/FRDFR
-vertpos:0.19273395564372198
+genotype:/*9*/FDRBBURLU
+vertpos:1.4981872993462664
 
 org:
-genotype:/*9*/FDRDL
-vertpos:0.19074721369590328
+genotype:/*9*/UDDBBRU
+vertpos:1.4967089857091787
 
 org:
-genotype:/*9*/DLFDL
-vertpos:0.19027102632958945
+genotype:/*9*/DDBBRU
+vertpos:1.4966880285550273
 
 org:
-genotype:/*9*/FFLDL
-vertpos:0.1892649073888397
+genotype:/*9*/DUDDBBRU
+vertpos:1.4966880285550273
 
 org:
-genotype:/*9*/FDFL
-vertpos:0.18594899699126108
+genotype:/*9*/UDDLBRU
+vertpos:1.4965456793424428
 
 org:
-genotype:/*9*/FLDLL
-vertpos:0.18317668886584482
+genotype:/*9*/DDLBRU
+vertpos:1.4965343232580581
 
 org:
-genotype:/*9*/FDULDL
-vertpos:0.1818119234390085
+genotype:/*9*/DUDDLBRU
+vertpos:1.4965343232580581
 
 org:
-genotype:/*9*/FRLDL
-vertpos:0.1775574920123261
+genotype:/*9*/DRRBURLU
+vertpos:1.4902479017020618
 
 org:
-genotype:/*9*/UUFDL
-vertpos:0.17306339288181735
+genotype:/*9*/FDDBBRR
+vertpos:1.4887476869150533
 
 org:
-genotype:/*9*/FRDD
-vertpos:0.17192931233973546
+genotype:/*9*/FDDBBLF
+vertpos:1.4886496126449162
 
 org:
-genotype:/*9*/FURUD
-vertpos:0.17174208580193512
+genotype:/*9*/FDDBBRF
+vertpos:1.4885125853999988
 
 org:
-genotype:/*9*/FUFRL
-vertpos:0.17149215265631063
+genotype:/*9*/DLBUFDFRLURU
+vertpos:1.4883568493110049
 
 org:
-genotype:/*9*/FUFR
-vertpos:0.17149215265631063
+genotype:/*9*/FDDBLBL
+vertpos:1.4883464542063
 
 org:
-genotype:/*9*/FUFL
-vertpos:0.17109887882804894
+genotype:/*9*/UDRLLBURLU
+vertpos:1.4876858196769889
 
 org:
-genotype:/*9*/DFDL
-vertpos:0.171098834265264
+genotype:/*9*/DDFLBUDLU
+vertpos:1.485253448252457
 
 org:
-genotype:/*9*/UDBDL
-vertpos:0.17106245368406942
+genotype:/*9*/DRRBURUU
+vertpos:1.4847959013906573
 
 org:
-genotype:/*9*/FUDLL
-vertpos:0.1686968843214576
+genotype:/*9*/FDDBBBLFU
+vertpos:1.4808800647769995
 
 org:
-genotype:/*9*/FRDFUL
-vertpos:0.16751957489542307
+genotype:/*9*/UDFLBURLU
+vertpos:1.479738521589752
 
 org:
-genotype:/*9*/FRDRDB
-vertpos:0.16455295602456596
+genotype:/*9*/UULLBRU
+vertpos:1.4777507124837155
 
 org:
-genotype:/*9*/FLRDFL
-vertpos:0.14909925697018397
+genotype:/*9*/DDFLBURLD
+vertpos:1.4760362144530808
 
 org:
-genotype:/*9*/FDRL
-vertpos:0.14833355661002767
+genotype:/*9*/DDFLBURLDU
+vertpos:1.4760362144530808
 
 org:
-genotype:/*9*/FDUDL
-vertpos:0.14832787312240836
+genotype:/*9*/ULRLLBUU
+vertpos:1.4661542394935658
 
 org:
-genotype:/*9*/FDL
-vertpos:0.14832787312240836
+genotype:/*9*/DRBRLURU
+vertpos:1.461064346457991
 
 org:
-genotype:/*9*/FRDU
-vertpos:0.14685247201009122
+genotype:/*9*/DRBUDRLURU
+vertpos:1.458882640631301
 
 org:
-genotype:/*9*/FUL
-vertpos:0.14644257054682802
+genotype:/*9*/DRBUDRRLURU
+vertpos:1.457781187380252
 
 org:
-genotype:/*9*/FURL
-vertpos:0.1464236340627068
+genotype:/*9*/DLBUDRRLURU
+vertpos:1.4549793596167246
 
 org:
-genotype:/*9*/FBDL
-vertpos:0.14601361991282977
+genotype:/*9*/FDRBLRBUU
+vertpos:1.4531609825395262
 
 org:
-genotype:/*9*/FLDDL
-vertpos:0.13994392288875845
+genotype:/*9*/DLBUFDFRLUFU
+vertpos:1.4495210762556365
 
 org:
-genotype:/*9*/FUUDFL
-vertpos:0.13917015188020573
+genotype:/*9*/RDRBUR
+vertpos:1.4484427012597323
 
 org:
-genotype:/*9*/BURUL
-vertpos:0.13913892273348097
+genotype:/*9*/RDRFUR
+vertpos:1.4484202183229509
 
 org:
-genotype:/*9*/FUURDL
-vertpos:0.1363282397889606
+genotype:/*9*/UDRLDBURLU
+vertpos:1.4483605823119783
 
 org:
-genotype:/*9*/DUFBL
-vertpos:0.11504262621429916
+genotype:/*9*/BDRBUB
+vertpos:1.4482635927461012
 
 org:
-genotype:/*9*/LRFDL
-vertpos:0.11271174496690003
+genotype:/*9*/LDRBUL
+vertpos:1.4467144210054754
 
 org:
-genotype:/*9*/LFDL
-vertpos:0.11219409680357681
+genotype:/*9*/LDRFUL
+vertpos:1.446666440537485
 
 org:
-genotype:/*9*/DUFDUFUFL
-vertpos:0.09958500339528618
+genotype:/*9*/FDRBURU
+vertpos:1.444374179144571
 
 org:
-genotype:/*9*/FBF
-vertpos:-0.01
+genotype:/*9*/DRDLBRU
+vertpos:1.44252412989528
 
 org:
-genotype:/*9*/DUD
-vertpos:-0.01
+genotype:/*9*/FDRBURBUU
+vertpos:1.4396582537240876
 
 org:
-genotype:/*9*/FB
-vertpos:-0.01
+genotype:/*9*/DLBUDFRLURR
+vertpos:1.4385385651018665
 
 org:
-genotype:/*9*/UD
-vertpos:-0.01
+genotype:/*9*/DRBURRLURU
+vertpos:1.436520752390248
 
 org:
-genotype:/*9*/DU
-vertpos:-0.01
+genotype:/*9*/BDBBRLURU
+vertpos:1.4361125744433028
 
 org:
-genotype:/*9*/BF
-vertpos:-0.01
+genotype:/*9*/FDRBBRDRLURU
+vertpos:1.4352370485877313
 
 org:
-genotype:/*9*/LR
-vertpos:-0.01
+genotype:/*9*/DLBUDFRLULU
+vertpos:1.433743805670185
 
 org:
-genotype:/*9*/U
-vertpos:-0.01
+genotype:/*9*/UDRBLRBUU
+vertpos:1.4332749483333314
 
 org:
-genotype:/*9*/RL
-vertpos:-0.01
+genotype:/*9*/DDLLBRU
+vertpos:1.4327248625958318
 
 org:
-genotype:/*9*/L
-vertpos:-0.01
+genotype:/*9*/DDRLBUDLF
+vertpos:1.4323893811554653
 
 org:
-genotype:/*9*/F
-vertpos:-0.01
+genotype:/*9*/DFBUDFRFFUU
+vertpos:1.4321046819098011
 
 org:
-genotype:/*9*/D
-vertpos:-0.01
+genotype:/*9*/FBRLBURLU
+vertpos:1.4313968309543468
 
 org:
-genotype:/*9*/B
-vertpos:-0.01
+genotype:/*9*/LLRFURLU
+vertpos:1.4311485713800858
 
 org:
-genotype:/*9*/R
-vertpos:-0.01
+genotype:/*9*/DBFFBUDFRLFUU
+vertpos:1.4302578806835575
 
 org:
-genotype:/*9*/RR
-vertpos:-0.01333331715105377
+genotype:/*9*/FRBUDFRLUU
+vertpos:1.430075793998062
 
 org:
-genotype:/*9*/LL
-vertpos:-0.013333317162644206
+genotype:/*9*/LDRBUB
+vertpos:1.4294470828997727
 
 org:
-genotype:/*9*/UU
-vertpos:-0.013333329692654624
+genotype:/*9*/UDDLFR
+vertpos:1.4282319925050035
 
 org:
-genotype:/*9*/DUB
-vertpos:-0.013333332941115482
+genotype:/*9*/UDDBRR
+vertpos:1.4263311994126315
 
 org:
-genotype:/*9*/FD
-vertpos:-0.013333332956571409
+genotype:/*9*/DLBUFFBLURU
+vertpos:1.4246142555394812
 
 org:
-genotype:/*9*/ULR
-vertpos:-0.013333332977820815
+genotype:/*9*/FDRBUR
+vertpos:1.4229762773282701
 
 org:
-genotype:/*9*/UL
-vertpos:-0.013333332977820815
+genotype:/*9*/DDRLBLRLR
+vertpos:1.4229717439869676
 
 org:
-genotype:/*9*/URL
-vertpos:-0.013333332979487997
+genotype:/*9*/DLBUFBDFRLUFU
+vertpos:1.4205586266250294
 
 org:
-genotype:/*9*/UR
-vertpos:-0.013333332979487997
+genotype:/*9*/RLDRFUR
+vertpos:1.4169312884983039
 
 org:
-genotype:/*9*/UF
-vertpos:-0.013333333026332985
+genotype:/*9*/DLUFFBLURU
+vertpos:1.4160802416488012
 
 org:
-genotype:/*9*/LD
-vertpos:-0.01333333309636793
+genotype:/*9*/LDRBUR
+vertpos:1.4154689234151105
 
 org:
-genotype:/*9*/RDU
-vertpos:-0.013333333107053811
+genotype:/*9*/LDRFUR
+vertpos:1.4153630366445733
 
 org:
-genotype:/*9*/RD
-vertpos:-0.013333333107053811
+genotype:/*9*/UDRBURU
+vertpos:1.4138430275207226
 
 org:
-genotype:/*9*/UB
-vertpos:-0.013333333110567773
+genotype:/*9*/DRBURU
+vertpos:1.4131021147142393
 
 org:
-genotype:/*9*/BFF
-vertpos:-0.01333333314753092
+genotype:/*9*/FDBLU
+vertpos:1.4126051246862672
 
 org:
-genotype:/*9*/DD
-vertpos:-0.013333333168244997
+genotype:/*9*/LDRFUD
+vertpos:1.412555080356693
 
 org:
-genotype:/*9*/FU
-vertpos:-0.013333333256341211
+genotype:/*9*/LDRFU
+vertpos:1.412555080356693
 
 org:
-genotype:/*9*/BD
-vertpos:-0.013333333264626943
+genotype:/*9*/LDRBU
+vertpos:1.4125337581325847
 
 org:
-genotype:/*9*/UDF
-vertpos:-0.01333333326604698
+genotype:/*9*/DRRBURU
+vertpos:1.4116343113013796
 
 org:
-genotype:/*9*/LU
-vertpos:-0.01333333328770724
+genotype:/*9*/DRBUF
+vertpos:1.4091139922528766
 
 org:
-genotype:/*9*/RUDL
-vertpos:-0.013333333287784214
+genotype:/*9*/DRBUDRFURU
+vertpos:1.408372554699424
 
 org:
-genotype:/*9*/RUD
-vertpos:-0.013333333287784214
+genotype:/*9*/UDRLBURLD
+vertpos:1.4068973194743988
 
 org:
-genotype:/*9*/RU
-vertpos:-0.013333333287784214
+genotype:/*9*/DDRLBUFLR
+vertpos:1.4061773178638972
 
 org:
-genotype:/*9*/RLU
-vertpos:-0.013333333307896638
+genotype:/*9*/ULRRFU
+vertpos:1.4026261129016915
 
 org:
-genotype:/*9*/BU
-vertpos:-0.01333333330880914
+genotype:/*9*/DRBUDFRLUF
+vertpos:1.4008972638421668
 
 org:
-genotype:/*9*/DF
-vertpos:-0.013333333313644152
+genotype:/*9*/UDRBUR
+vertpos:1.399979722098134
 
 org:
-genotype:/*9*/DL
-vertpos:-0.013333333313709903
+genotype:/*9*/RDFRU
+vertpos:1.3996993961012572
 
 org:
-genotype:/*9*/UDL
-vertpos:-0.013333333314684219
+genotype:/*9*/DRBURL
+vertpos:1.3995498532087232
 
 org:
-genotype:/*9*/LB
-vertpos:-0.013333333315665765
+genotype:/*9*/DRBUR
+vertpos:1.3995498532087232
 
 org:
-genotype:/*9*/RBF
-vertpos:-0.013333333315686544
+genotype:/*9*/DRFUR
+vertpos:1.399483039899952
 
 org:
-genotype:/*9*/RB
-vertpos:-0.013333333315686544
+genotype:/*9*/FDRBURFU
+vertpos:1.3991693197608512
 
 org:
-genotype:/*9*/FRL
-vertpos:-0.013333333315729718
+genotype:/*9*/DRBUDRLUFU
+vertpos:1.3980217593698272
 
 org:
-genotype:/*9*/FR
-vertpos:-0.013333333315729718
+genotype:/*9*/DRBBDFRLURU
+vertpos:1.3946982934710808
 
 org:
-genotype:/*9*/FLR
-vertpos:-0.01333333331573702
+genotype:/*9*/DLBUDFFLDDLBRU
+vertpos:1.392658902191993
 
 org:
-genotype:/*9*/FL
-vertpos:-0.01333333331573702
+genotype:/*9*/DLBUDBBLURU
+vertpos:1.3925456754900278
 
 org:
-genotype:/*9*/LF
-vertpos:-0.01333333331682233
+genotype:/*9*/DRDDBRU
+vertpos:1.3924228237690044
 
 org:
-genotype:/*9*/RF
-vertpos:-0.013333333316835937
+genotype:/*9*/FDRLBURLR
+vertpos:1.3894046622632938
 
 org:
-genotype:/*9*/BL
-vertpos:-0.013333333316896026
+genotype:/*9*/BBDULBRUR
+vertpos:1.3851880897004363
 
 org:
-genotype:/*9*/BR
-vertpos:-0.013333333316925487
+genotype:/*9*/UUDLBRF
+vertpos:1.3845458778904178
 
 org:
-genotype:/*9*/DRL
-vertpos:-0.013333333317217685
+genotype:/*9*/LDRFFUL
+vertpos:1.384491064260072
 
 org:
-genotype:/*9*/DR
-vertpos:-0.013333333317217685
+genotype:/*9*/FDUBLFRU
+vertpos:1.3837009431158753
 
 org:
-genotype:/*9*/DBF
-vertpos:-0.013333333319969855
+genotype:/*9*/FDULFRU
+vertpos:1.3833688998603102
 
 org:
-genotype:/*9*/DUDB
-vertpos:-0.013333333319969855
+genotype:/*9*/BDULBRU
+vertpos:1.3830112193397246
 
 org:
-genotype:/*9*/DB
-vertpos:-0.013333333319969855
+genotype:/*9*/DFDBBRL
+vertpos:1.3820157648627478
 
 org:
-genotype:/*9*/FBL
-vertpos:-0.013333333328806691
+genotype:/*9*/UUULBRU
+vertpos:1.3811511097742106
 
 org:
-genotype:/*9*/BBF
-vertpos:-0.013333333328954745
+genotype:/*9*/UUULFRU
+vertpos:1.3811478949104574
 
 org:
-genotype:/*9*/BB
-vertpos:-0.013333333328954745
+genotype:/*9*/LUULBR
+vertpos:1.374486594116155
 
 org:
-genotype:/*9*/FFB
-vertpos:-0.013333333328966772
+genotype:/*9*/FBLLBURLU
+vertpos:1.3741348548303074
 
 org:
-genotype:/*9*/FF
-vertpos:-0.013333333328966772
+genotype:/*9*/URDFRU
+vertpos:1.373680573426374
 
 org:
-genotype:/*9*/FUDF
-vertpos:-0.014999658711798003
+genotype:/*9*/URDBRU
+vertpos:1.3736066476799689
 
 org:
-genotype:/*9*/FUDD
-vertpos:-0.014999999793672433
+genotype:/*9*/DDFLBUBLU
+vertpos:1.3718865476884594
 
 org:
-genotype:/*9*/FDD
-vertpos:-0.014999999818740943
+genotype:/*9*/DRBURD
+vertpos:1.3718575589297308
 
 org:
-genotype:/*9*/FUU
-vertpos:-0.014999999891266588
+genotype:/*9*/LDRBRUR
+vertpos:1.371778134366937
 
 org:
-genotype:/*9*/LUDL
-vertpos:-0.014999999945040617
+genotype:/*9*/UDULBRU
+vertpos:1.3712201387404883
 
 org:
-genotype:/*9*/UUDL
-vertpos:-0.014999999967549405
+genotype:/*9*/ULBRU
+vertpos:1.3712201387404883
 
 org:
-genotype:/*9*/FRLL
-vertpos:-0.014999999976725489
+genotype:/*9*/DRBBDRLURU
+vertpos:1.3710541894670676
 
 org:
-genotype:/*9*/DDR
-vertpos:-0.014999999983566516
+genotype:/*9*/UBLFU
+vertpos:1.3707217878926343
 
 org:
-genotype:/*9*/DDRL
-vertpos:-0.014999999983566516
+genotype:/*9*/UBRFU
+vertpos:1.3705821553730253
 
 org:
-genotype:/*9*/RUL
-vertpos:-0.014999999984852545
+genotype:/*9*/DRBUDRBUR
+vertpos:1.3674219763411701
 
 org:
-genotype:/*9*/FFL
-vertpos:-0.014999999985922267
+genotype:/*9*/RDDBBRU
+vertpos:1.3604770397779886
 
 org:
-genotype:/*9*/FFRL
-vertpos:-0.014999999985992768
+genotype:/*9*/LDRFDBBRU
+vertpos:1.3596030370295955
 
 org:
-genotype:/*9*/FLB
-vertpos:-0.014999999988866204
+genotype:/*9*/UDRBU
+vertpos:1.3594152176341021
 
 org:
-genotype:/*9*/LBR
-vertpos:-0.014999999988968771
+genotype:/*9*/UDLBUD
+vertpos:1.3593992412879206
 
 org:
-genotype:/*9*/BLF
-vertpos:-0.014999999989020268
+genotype:/*9*/DRDBBFRU
+vertpos:1.3593160414229417
 
 org:
-genotype:/*9*/RDL
-vertpos:-0.014999999995035526
+genotype:/*9*/ULBUDRLBDRLU
+vertpos:1.3582051449284887
 
 org:
-genotype:/*9*/UDDL
-vertpos:-0.014999999996531298
+genotype:/*9*/BUULBRU
+vertpos:1.358173788091468
 
 org:
-genotype:/*9*/RDR
-vertpos:-0.014999999996642865
+genotype:/*9*/BFBUULBRU
+vertpos:1.358173788091468
 
 org:
-genotype:/*9*/DUDDL
-vertpos:-0.014999999998093837
+genotype:/*9*/UBULFRU
+vertpos:1.3580300559196257
 
 org:
-genotype:/*9*/DDL
-vertpos:-0.014999999998093837
+genotype:/*9*/FUULBRU
+vertpos:1.3569624187960154
 
 org:
-genotype:/*9*/FRRL
-vertpos:-0.014999999998416889
+genotype:/*9*/DRBU
+vertpos:1.3565131586736956
 
 org:
-genotype:/*9*/RRUL
-vertpos:-0.015999999929741878
+genotype:/*9*/DRBUD
+vertpos:1.3565131586736956
 
 org:
-genotype:/*9*/FFDD
-vertpos:-0.015999999940296925
+genotype:/*9*/UUDLBRBF
+vertpos:1.3562345454232716
 
 org:
-genotype:/*9*/UFDD
-vertpos:-0.015999999979132425
+genotype:/*9*/UUDLBRBURLU
+vertpos:1.3554482027683075
 
 org:
-genotype:/*9*/RRDR
-vertpos:-0.015999999985294444
+genotype:/*9*/FDRBURB
+vertpos:1.3536469018978874
 
 org:
-genotype:/*9*/FRRR
-vertpos:-0.015999999991549756
+genotype:/*9*/DFBUDFRLUD
+vertpos:1.3536245200205277
 
 org:
-genotype:/*9*/FRBR
-vertpos:-0.0159999999972121
+genotype:/*9*/FDRBURBUR
+vertpos:1.3529218025443652
 
 org:
-genotype:/*9*/RRRDR
-vertpos:-0.016666666658278123
+genotype:/*9*/RDRBURR
+vertpos:1.3526778441045209
 
 org:
-genotype:/*9*/URDLU
-vertpos:-0.019999301036215916
+genotype:/*9*/FDBBLU
+vertpos:1.3516885767957105
 
 org:
-genotype:/*9*/URDL
-vertpos:-0.019999301036215916
+genotype:/*9*/DLUFRBLURU
+vertpos:1.351531456573321
 
 org:
-genotype:/*9*/RURDL
-vertpos:-0.019999999942388404
+genotype:/*9*/BDBULLBRU
+vertpos:1.350640035286509
 
 org:
-genotype:/*9*/URURDL
-vertpos:-0.019999999992303633
+genotype:/*9*/BDBULLFRU
+vertpos:1.350025196574929
 
 org:
-genotype:/*9*/FRBL
-vertpos:-0.02
+genotype:/*9*/RBDRBUR
+vertpos:1.3478280557056022
+
+org:
+genotype:/*9*/UDRLDBURLD
+vertpos:1.3436092370946466
+
+org:
+genotype:/*9*/ULBURLU
+vertpos:1.3430873533362404
+
+org:
+genotype:/*9*/FDRBLRBUDRBRDRLURU
+vertpos:1.342518800995125
+
+org:
+genotype:/*9*/FBDBBRU
+vertpos:1.3420698585611295
+
+org:
+genotype:/*9*/BRBUDRLURU
+vertpos:1.3413713612615885
+
+org:
+genotype:/*9*/UBURBBRU
+vertpos:1.3384746478364873
+
+org:
+genotype:/*9*/FDRBRU
+vertpos:1.3373376718960108
+
+org:
+genotype:/*9*/BFUUULBRU
+vertpos:1.3362351040527711
+
+org:
+genotype:/*9*/DLBUDRRLURR
+vertpos:1.3352687987735792
+
+org:
+genotype:/*9*/FDBLRU
+vertpos:1.334710379352956
+
+org:
+genotype:/*9*/RDDBRF
+vertpos:1.3344063383163074
+
+org:
+genotype:/*9*/FDRBLRBFRBURU
+vertpos:1.3340134086493238
+
+org:
+genotype:/*9*/RDRLBURLU
+vertpos:1.3328678281318451
+
+org:
+genotype:/*9*/DLBUBFRLUU
+vertpos:1.332669729641593
+
+org:
+genotype:/*9*/FLBRUULBR
+vertpos:1.3324685469142326
+
+org:
+genotype:/*9*/BFUBULBRU
+vertpos:1.3314366397718715
 

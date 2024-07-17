@@ -1,800 +1,800 @@
 org:
-genotype:lmfCX[@,2:3.611][|][T]
-vertpos:-0.00999991676729899
+genotype:L(gX(XX),LXrcXrcXMXXX)
+vertpos:1.4277104563088399
 
 org:
-genotype:lfCX[@,2:1][|][T]
-vertpos:-0.009999986011513192
+genotype:L(gX(XX),LXrrXrcXMXXX)
+vertpos:1.370732864060221
 
 org:
-genotype:lmfCX[@,2:1][|][T]
-vertpos:-0.009999986011513192
+genotype:r(gXXX, XDLXrXrcXFXX)
+vertpos:1.2836042317193692
 
 org:
-genotype:lmfCX[@,2:0.499][|][T]
-vertpos:-0.009999991457376218
+genotype:(gXXX,XlDLXrXrcrcX FXX)
+vertpos:1.2350917986204533
 
 org:
-genotype:lmfCX[@,2:0.243][|][T]
-vertpos:-0.00999999668683071
+genotype:(gX(X),LXrXrXrmcXdXX, dXXX)
+vertpos:1.2287213743219128
 
 org:
-genotype:mfX
-vertpos:-0.01
+genotype:(gXXX, (LXDLX[S]), rXrcXFXX)
+vertpos:1.2224188463863213
 
 org:
-genotype:CX[T]
-vertpos:-0.01
+genotype:(gXXmX,LXDLX,rXrcX FXX)
+vertpos:1.2224188463863213
 
 org:
-genotype:fMX[N]
-vertpos:-0.01
+genotype:(gXXX, (LXDLX), rXrcXFXX)
+vertpos:1.2224188463863213
 
 org:
-genotype:RlCCX[T,r:1]
-vertpos:-0.01
+genotype:(gXXX,LXDLX,rXrcX FXX)
+vertpos:1.2224188463863213
 
 org:
-genotype:X[|,r:0.962,p:0.25]
-vertpos:-0.01
+genotype:(gXXX, (LX[@]DLX), rXrcXFXX)
+vertpos:1.2224179010207354
 
 org:
-genotype:X[|,r:0.962,r:1]
-vertpos:-0.01
+genotype:(gXXX, (LXDLX), rXrcXrFXX)
+vertpos:1.218175915274682
 
 org:
-genotype:RCCX
-vertpos:-0.01
+genotype:(gXL(XX),LXrXrXrmcXdXX, dXXX)
+vertpos:1.2107181879182298
 
 org:
-genotype:QFX[S][|,-1:-0.076]
-vertpos:-0.01
+genotype:(gX(XX),LXrXrXrmcXdXX, dXXX)
+vertpos:1.210255482782881
 
 org:
-genotype:CX[N,0:0.238,0:-1.684]
-vertpos:-0.01
+genotype:L(gX(XlX),LXrXrcXMXXX)
+vertpos:1.2072948682099087
 
 org:
-genotype:RRCCX[T,rz:0]
-vertpos:-0.01
+genotype:L(gX(XX),LXrXrMcXMXXX)
+vertpos:1.201115380454844
 
 org:
-genotype:mLmX[|,r:1]
-vertpos:-0.01
+genotype:L(gX[G](XX),LXrXrcXMXXX)
+vertpos:1.201115380454844
 
 org:
-genotype:CFX[N,in:0.8,0:1]
-vertpos:-0.01
+genotype:L(gX(XX),LXrXrcXMXXX)
+vertpos:1.201115380454844
 
 org:
-genotype:lCLmX[N][|,-1:1]
-vertpos:-0.01
+genotype:(gX(XX),LXrXrXGXrmcXdXX, dXXX)
+vertpos:1.18117125822892
 
 org:
-genotype:mX[|,r:0.962]
-vertpos:-0.01
+genotype:L(gX(XX),LXrXrcXMXXbXX)
+vertpos:1.1766914662973753
 
 org:
-genotype:RlmCX[|,1:1][T]
-vertpos:-0.01
+genotype:(XX, LXDLXrXrcXFXX)
+vertpos:1.1665150477159245
 
 org:
-genotype:mQqX[N]
-vertpos:-0.01
+genotype:(gLXXX,LXDLXrXrcX FXX)
+vertpos:1.1658055365957887
 
 org:
-genotype:fQqX[N,0:-1.99]
-vertpos:-0.01
+genotype:(gXXrXDLXrXrcXMX[S], dX,XX)
+vertpos:1.1594895245602455
 
 org:
-genotype:QFX[S][|,-1:-0.028]
-vertpos:-0.01
+genotype:(gXXrXDLXrXrcXMfX[S], dXXX)
+vertpos:1.1587596508108984
 
 org:
-genotype:RX[T,rz:-0.791,r:1]
-vertpos:-0.01
+genotype:(gX[Gpart]XrXDLXrXrcXMX[S], dXXX)
+vertpos:1.1587596508108984
 
 org:
-genotype:RX[|,r:1]
-vertpos:-0.01
+genotype:(gXXrXDLXrXrcXMX[S], dXXX)
+vertpos:1.1587596508108984
 
 org:
-genotype:RX[N,0:0.731]
-vertpos:-0.01
+genotype:(gX[N]XX,LXDLXrXrcX FXX)
+vertpos:1.15585734935545
 
 org:
-genotype:QFX[S][|,-1:-1.491]
-vertpos:-0.01
+genotype:(gXXX, LXDLXrXrcXFXX)
+vertpos:1.15585734935545
 
 org:
-genotype:mQqX[N,0:3.664]
-vertpos:-0.01
+genotype:(gXXX,LXDLXrXrcX FXX)
+vertpos:1.15585734935545
 
 org:
-genotype:RCCX[T,rz:0]
-vertpos:-0.01
+genotype:(XXX,XDLXrX[|]rcX FXX)
+vertpos:1.1538635611756403
 
 org:
-genotype:RlCCX[T]
-vertpos:-0.01
+genotype:(gXXX,XDLXrX[|,r:1]rcX FXX)
+vertpos:1.1538635611756403
 
 org:
-genotype:lCLmX[|,r:1]
-vertpos:-0.01
+genotype:(gXXX,XDLXrX[|]rcX FXX)
+vertpos:1.1538635611756403
 
 org:
-genotype:QFX[S][|,-1:0.697]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcX FX[*]X)
+vertpos:1.153741055130856
 
 org:
-genotype:RX[T,rz:-0.791]
-vertpos:-0.01
+genotype:(XXX,XDLXrXrcXX dX)
+vertpos:1.153741055130856
 
 org:
-genotype:CX[T,rz:0]
-vertpos:-0.01
+genotype:(gXXX, XDLXrXrcXFXX)
+vertpos:1.153741055130856
 
 org:
-genotype:fX[S][N,-1:-0.212]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcX FXX)
+vertpos:1.153741055130856
 
 org:
-genotype:CX[N,0:2.044,0:-1.684]
-vertpos:-0.01
+genotype:(gX(X),XDLXrXrcXdXX, rdXXX)
+vertpos:1.1441580482152238
 
 org:
-genotype:CX[N,0:2.044,0:1,s:0]
-vertpos:-0.01
+genotype:(gX(X), XDLXrXrcXdXX, dXXX)
+vertpos:1.1441580482152232
 
 org:
-genotype:RX[N,0:4.692]
-vertpos:-0.01
+genotype:(gX(X),XDLXrXrcXdXX, dXX[*]X)
+vertpos:1.1441580482152232
 
 org:
-genotype:fQqX[N,0:3.144]
-vertpos:-0.01
+genotype:(gX(X),XDLXrXrcXdXX, dXXX)
+vertpos:1.1441580482152232
 
 org:
-genotype:CFX[N,in:0.8]
-vertpos:-0.01
+genotype:(gXX[T]rXXDLXrXrcXMX, dXXX)
+vertpos:1.1436128594165857
 
 org:
-genotype:QFX[S][|,-1:0.258]
-vertpos:-0.01
+genotype:(gXXrXXDLXrXrcXMX, dXXX)
+vertpos:1.1436128594165857
 
 org:
-genotype:CX[N,0:2.044,0:4.281]
-vertpos:-0.01
+genotype:(gXXrXXDLXrXrcXMX[S], dXXX)
+vertpos:1.1436128594165857
 
 org:
-genotype:RcX[N,0:1]
-vertpos:-0.01
+genotype:(gXXXDX,LXDLXrXrcX FXX)
+vertpos:1.1422820696521325
 
 org:
-genotype:CX[N,0:1.788,0:1]
-vertpos:-0.01
+genotype:(gXXrXDXrXrcXMX[S], dXXX)
+vertpos:1.1386139523639693
 
 org:
-genotype:RX[N,0:4.06]
-vertpos:-0.01
+genotype:((gXX[@]X, LXDLXrXrcXFXX), XX)
+vertpos:1.1383687527107544
 
 org:
-genotype:fQqX[N,0:1.826]
-vertpos:-0.01
+genotype:F(gX(XX),XDLXrXrcXdXX, dXXX)
+vertpos:1.1321296435817312
 
 org:
-genotype:ffX[S][N,fo:0.04,-1:-0.994]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrcXdXX, dXX[*]X)
+vertpos:1.132113387429684
 
 org:
-genotype:lmX[*]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrcXdXX, dXXX)
+vertpos:1.132113387429684
 
 org:
-genotype:rcCX
-vertpos:-0.01
+genotype:(gXXXDLXrXrccXXqX[*], dXXX)
+vertpos:1.1317259660992938
 
 org:
-genotype:FqX[*]
-vertpos:-0.01
+genotype:(gXXrXXDLXrXrcXMX[S], DXdXXX)
+vertpos:1.1310185387460086
 
 org:
-genotype:fQqX[N,0:-1.422]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXXFXX)
+vertpos:1.1308199499966731
 
 org:
-genotype:fQqX[N,0:2.249]
-vertpos:-0.01
+genotype:(gXXX,LXDLX,rXrcX X)
+vertpos:1.1282871988823227
 
 org:
-genotype:RX[N,0:2.87,0:1]
-vertpos:-0.01
+genotype:(RgXXX,LXDLX,rXrcX X)
+vertpos:1.1282871988823222
 
 org:
-genotype:CX[N,0:5.544,0:1]
-vertpos:-0.01
+genotype:((gXXX, XDLXrXrccXX, dXXX), X)
+vertpos:1.1249425173549845
 
 org:
-genotype:X[|,r:0.962]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrclXdXX, dXXX)
+vertpos:1.1221566117269106
 
 org:
-genotype:RlmCX[T]
-vertpos:-0.01
+genotype:(gXXX,fLXDLXrXrcX FX)
+vertpos:1.1177568042416215
 
 org:
-genotype:lCX[*]
-vertpos:-0.01
+genotype:(gXXX(, LXDLX, ), rXrcXFXX)
+vertpos:1.1176767286392533
 
 org:
-genotype:fX[S][N,fo:0.04]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrccXXqX[*], dXXX)
+vertpos:1.111811734710515
 
 org:
-genotype:rCX
-vertpos:-0.01
+genotype:(gXXrXDLXrcXMX[S], dXXX)
+vertpos:1.1044557478487649
 
 org:
-genotype:fQqX[N,0:4.683]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrcX[G]X, dXX)
+vertpos:1.102190194399032
 
 org:
-genotype:RcX[N]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrccXXqX[*], dXDXXX)
+vertpos:1.1014521453220283
 
 org:
-genotype:fQqX[N,0:3.664]
-vertpos:-0.01
+genotype:(gXXX,XDLXrcXcXX, dXXX)
+vertpos:1.0965139076479613
 
 org:
-genotype:RmX[T,rz:0]
-vertpos:-0.01
+genotype:(gXXX,XDLXrcXcXX, XX,MX)
+vertpos:1.0942135451464283
 
 org:
-genotype:QFX[S][|,-1:0.834]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXX[S], dmXXX[Gpart])
+vertpos:1.0924782913403919
 
 org:
-genotype:RmCCX[T]
-vertpos:-0.01
+genotype:(gXXX, XDLX[G]rX[G]rcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:fX[S][N,fo:0.04,-1:-0.994]
-vertpos:-0.01
+genotype:(gXXX, XDLXrXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:lX[|]
-vertpos:-0.01
+genotype:(XXX,XDLXrXrcXX[S], dmXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:CFX[N]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXX[S], dmXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:fX[S][N,fo:0.04,-1:-0.212]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrcX[G]X, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:lMmX
-vertpos:-0.01
+genotype:(gXXX,XmDLXrXrcXX, dmXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:lCX
-vertpos:-0.01
+genotype:(gXXX,XDLX[G]rX[G]rcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:lCLmX[|]
-vertpos:-0.01
+genotype:(gXXX[N],XDLXrXrcXX, dmXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:rcCmX
-vertpos:-0.01
+genotype:(gX(XX),XLXrXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:RCmMX
-vertpos:-0.01
+genotype:(gXFXX,XDLX[G]rXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:CLX
-vertpos:-0.01
+genotype:(gX(XX),XDLXrXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:QFX[S][|,-1:-0.658]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXX, dmXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:RX[N,0:2.176]
-vertpos:-0.01
+genotype:(gXXX,XDLX[G]rXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:RX[N,0:2.87]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXX, dXXX)
+vertpos:1.0924782913403919
 
 org:
-genotype:mX[*]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcXX dXXX)
+vertpos:1.090679642970984
 
 org:
-genotype:fFMX[|]
-vertpos:-0.01
+genotype:(gXXX,XDLX[G]rXrcXX dXXX)
+vertpos:1.090679642970984
 
 org:
-genotype:FqX
-vertpos:-0.01
+genotype:(gXXXGX,XDLXrcXcXX, dXXX)
+vertpos:1.0875882222235702
 
 org:
-genotype:CcX
-vertpos:-0.01
+genotype:(gXXbXX,XDLXrcXcXX, dXXX)
+vertpos:1.0875882222235702
 
 org:
-genotype:RcX
-vertpos:-0.01
+genotype:(gXFXbXX,XDLX[G]rXrcXX, dXXX)
+vertpos:1.0838577796427538
 
 org:
-genotype:cFX[|]
-vertpos:-0.01
+genotype:(dXgX(XX),XDLXrXrcXX, dXXX)
+vertpos:1.0838577796427538
 
 org:
-genotype:CX[N,0:2.044,0:1]
-vertpos:-0.01
+genotype:(gX(XX),XDXrXrcXX, dXXX)
+vertpos:1.0805676295099453
 
 org:
-genotype:RfX[Gpart]
-vertpos:-0.01
+genotype:(gXXXXXBX,DLXrXrcXX, XXX)
+vertpos:1.0793207606086925
 
 org:
-genotype:fFMX
-vertpos:-0.01
+genotype:(gXXXXXBX,DLXrXrcXX, dXXX)
+vertpos:1.0793207606086925
 
 org:
-genotype:fQqX[N,0:2.957]
-vertpos:-0.01
+genotype:(gXXX,XDLX[G]gXrX[G]rcXX, dXXX)
+vertpos:1.075312425041425
 
 org:
-genotype:FX[N]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXcXX, fdXXX)
+vertpos:1.0724283849631913
 
 org:
-genotype:MmX[|,1:3.557][G]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXcXX, dXXX)
+vertpos:1.0724283849631913
 
 org:
-genotype:QFX[S][|,-1:1]
-vertpos:-0.01
+genotype:(gXXQX,XDLXrXcXX, dXXX)
+vertpos:1.0724283849631908
 
 org:
-genotype:fQqX[N,0:2.745]
-vertpos:-0.01
+genotype:(gXXX,lXDLXrXcXX, dXXX)
+vertpos:1.0703517834844702
 
 org:
-genotype:X[|,r:1]
-vertpos:-0.01
+genotype:(gXFXXXDLLXrXrcXX, dXXX)
+vertpos:1.0648107494050556
 
 org:
-genotype:mX[T,rz:0]
-vertpos:-0.01
+genotype:BX(gXX[*]XXDLXrXrcXMX, dXXX)
+vertpos:1.0645706752751056
 
 org:
-genotype:fQqX[N,0:2.517]
-vertpos:-0.01
+genotype:BX(gXXXXDLXrXrcXMX, dXXX)
+vertpos:1.0645706752751056
 
 org:
-genotype:RX[N,0:1]
-vertpos:-0.01
+genotype:(gXXXXDLXrX[T]rcXMX, dXXX)
+vertpos:1.0634934433969787
 
 org:
-genotype:ClmX
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dX[G]XX)
+vertpos:1.0634934433969787
 
 org:
-genotype:lCmX[|]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX[S], dXXX)
+vertpos:1.0634934433969787
 
 org:
-genotype:CX[|]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dXXX)
+vertpos:1.0634934433969787
 
 org:
-genotype:fX[S][N,fo:0.04,-1:1]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXX, dXXX)
+vertpos:1.0634934433969787
 
 org:
-genotype:fmX[T]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dX[@]XfX)
+vertpos:1.0634934362603434
 
 org:
-genotype:fX[|]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dX[@]XX)
+vertpos:1.0634925976396468
 
 org:
-genotype:rCmX
-vertpos:-0.01
+genotype:BX(gXXXXDLXrX[|]rcXMX, dXXX)
+vertpos:1.0631748731707937
 
 org:
-genotype:qlX
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXX, dXX)
+vertpos:1.062285670900279
 
 org:
-genotype:mmX[*][T,rz:0]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dXX)
+vertpos:1.062285670900279
 
 org:
-genotype:cFmX
-vertpos:-0.01
+genotype:(gXfXXXDLXrXrcXMX, dXX)
+vertpos:1.0622785412147437
 
 org:
-genotype:FmX[*]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dX[G]gXXX)
+vertpos:1.0584018066284382
 
 org:
-genotype:MmX[|]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dMXGXXX)
+vertpos:1.0584018066284382
 
 org:
-genotype:LCX[G]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dX[G]XXbX)
+vertpos:1.0584018066284382
 
 org:
-genotype:RCCX[T]
-vertpos:-0.01
+genotype:(gXXXGXDLXrXrcXMX, dXGXXX)
+vertpos:1.0584018066284382
 
 org:
-genotype:fX[Gpart]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcXMX, dXGXXX)
+vertpos:1.0584018066284382
 
 org:
-genotype:mX[|]
-vertpos:-0.01
+genotype:L(gXgXXXXDLXrXrcXMX, dXXX)
+vertpos:1.0567876356451047
 
 org:
-genotype:FX[S]
-vertpos:-0.01
+genotype:(gXXX, (LXDLX), rcXFXX)
+vertpos:1.0555418381799009
 
 org:
-genotype:fMX
-vertpos:-0.01
+genotype:(gXFXrXLXDLXrXrcX FXX[S], dXXX)
+vertpos:1.050538198086601
 
 org:
-genotype:RCX[T]
-vertpos:-0.01
+genotype:(bXgXXXXDLXrXrcXMX, dXXX)
+vertpos:1.0497895903564844
 
 org:
-genotype:CmX[N,in:0]
-vertpos:-0.01
+genotype:(gXXX, (XDLXrX), rcXFXX)
+vertpos:1.0442944127333889
 
 org:
-genotype:fQqX[N,0:1]
-vertpos:-0.01
+genotype:(gXXXXXBXDLXrXrcXX, dXXX)
+vertpos:1.037767495740772
 
 org:
-genotype:RX[N]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcrcXX, XBXX)
+vertpos:1.0356064229980986
 
 org:
-genotype:mmX[T,rz:0]
-vertpos:-0.01
+genotype:(XX, (LXDLXrcXFXX), XFXX)
+vertpos:1.0309334002381887
 
 org:
-genotype:mCmX[T]
-vertpos:-0.01
+genotype:(gXXX,XDLXrXrcX ,FXX)
+vertpos:1.0282775862085303
 
 org:
-genotype:CX[N,0:1,0:1]
-vertpos:-0.01
+genotype:(gXXXdX,LXDLXrXcX FXX)
+vertpos:1.0264558100053103
 
 org:
-genotype:MmX[|,1:1][G]
-vertpos:-0.01
+genotype:(gXXX,XDDLXrrcXX, dXXX)
+vertpos:1.0237872499183291
 
 org:
-genotype:fX[N,fo:0.04]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcX, dX[G]XX)
+vertpos:1.021803621355412
 
 org:
-genotype:RfX
-vertpos:-0.01
+genotype:(gXXXXDLXX(rcXXXXX, dXXX))
+vertpos:1.0155354557983505
 
 org:
-genotype:X[Gpart]
-vertpos:-0.01
+genotype:(gFXXXDLXXrcXX, XX)
+vertpos:1.0060777362815638
 
 org:
-genotype:FmX
-vertpos:-0.01
+genotype:(gXXXDLXXrcXX, XX)
+vertpos:1.0060777362815638
 
 org:
-genotype:QFX[|]
-vertpos:-0.01
+genotype:(gX(XX),XDLXXrcX[G]X, dXX)
+vertpos:1.0056889555100506
 
 org:
-genotype:fLQqX[N]
-vertpos:-0.01
+genotype:(gXXXXDLXX(rcXX[T,r:1], dXXX))
+vertpos:1.005054863587426
 
 org:
-genotype:FfX[|]
-vertpos:-0.01
+genotype:(gXXXXDLXX(rcXX[T], dXXX))
+vertpos:1.005054863587426
 
 org:
-genotype:MQX[G]
-vertpos:-0.01
+genotype:(gXXXLXDLXrXrcX FXX)
+vertpos:1.0047742328560672
 
 org:
-genotype:cX
-vertpos:-0.01
+genotype:(gX(XX),XDXrcXX, dXXX)
+vertpos:1.0046438314047879
 
 org:
-genotype:MX[Gpart]
-vertpos:-0.01
+genotype:(gXXXXDLXrXrcX FXX)
+vertpos:1.0041384973775767
 
 org:
-genotype:CmQX
-vertpos:-0.01
+genotype:BX(gXXXXDLXrcXMX, dXXX)
+vertpos:1.0041259216966674
 
 org:
-genotype:lX[S]
-vertpos:-0.01
+genotype:((gXXX, ), XDLXrXrcXFXX)
+vertpos:1.004121045302139
 
 org:
-genotype:fQqX[N]
-vertpos:-0.01
+genotype:(gXlXXXDLXrXrcXM XX)
+vertpos:1.0040779513937965
 
 org:
-genotype:CmX[N,in:0.8]
-vertpos:-0.01
+genotype:(gX(XX),XDLXrX,rcXX, dXXX)
+vertpos:1.0038616057237417
 
 org:
-genotype:RRqX[@]
-vertpos:-0.01
+genotype:(gX(XX),XDLXXrcXX, dXXX)
+vertpos:1.003623630865452
 
 org:
-genotype:rX[|,1:1][Gpart]
-vertpos:-0.01
+genotype:(gXXXXDLLXrXrcXXX[*]X)
+vertpos:1.003507709576462
 
 org:
-genotype:X[@,p:1]
-vertpos:-0.01
+genotype:(mgXXXXDLXXrcXX, XX)
+vertpos:1.003451601688377
 
 org:
-genotype:cX[G]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX, X(X))
+vertpos:1.003451601688377
 
 org:
-genotype:fQqX[Gpart]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX, XX)
+vertpos:1.003451601688377
 
 org:
-genotype:MX[G]
-vertpos:-0.01
+genotype:(gXXXDXXrcXXX,dXBXXX)
+vertpos:1.0030968119709416
 
 org:
-genotype:X[*][T]
-vertpos:-0.01
+genotype:(gXXXXDLXX(rcXX, XdX), XX)
+vertpos:1.0029638062357835
 
 org:
-genotype:CmX[N,0:1]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX,)
+vertpos:1.0026909240661537
 
 org:
-genotype:LCX[S]
-vertpos:-0.01
+genotype:(gXX(XMXDXFX), rcXX, dX[*]XX)
+vertpos:1.0026754693713786
 
 org:
-genotype:mFX
-vertpos:-0.01
+genotype:(gXX(XMXDXX), rcXX, dXXX)
+vertpos:1.0026754693713786
 
 org:
-genotype:X[S]
-vertpos:-0.01
+genotype:(gXX(XMXDXX), rcXX, dX[*]XX)
+vertpos:1.0026754693713786
 
 org:
-genotype:mX[G]
-vertpos:-0.01
+genotype:DX(gXXXXDLXXrcXX, XX)
+vertpos:1.0020992848344625
 
 org:
-genotype:RFX
-vertpos:-0.01
+genotype:(gXXXXXDLXrFXrcXM FXX)
+vertpos:1.0020690782609398
 
 org:
-genotype:MlX
-vertpos:-0.01
+genotype:(gX[@,1:1]XX,MXDXXrcXX, dX[*]XX)
+vertpos:1.0020642008958474
 
 org:
-genotype:QcX[S]
-vertpos:-0.01
+genotype:(gX(XX),XDXXrcXX, dXXX)
+vertpos:1.0020639079816043
 
 org:
-genotype:mqX[T]
-vertpos:-0.01
+genotype:(gXXX,MXDXXrcXX, dXXX)
+vertpos:1.0020639079816043
 
 org:
-genotype:rX[Gpart,ry:0]
-vertpos:-0.01
+genotype:(gXXX,MXDXXrcXX, dX[*]XX)
+vertpos:1.0020639079816043
 
 org:
-genotype:fQqX
-vertpos:-0.01
+genotype:(gXRXXXDLXXrcXX,)
+vertpos:1.0020225849049023
 
 org:
-genotype:fX[N,1:1][*]
-vertpos:-0.01
+genotype:(gXlXGXXXDLXrXrcXM XX)
+vertpos:1.0019787696432185
 
 org:
-genotype:RCX
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX[T], dXcXX)
+vertpos:1.00195836138179
 
 org:
-genotype:CX[@]
-vertpos:-0.01
+genotype:(gXXX,MXDXXrcXX, ,dX[*]XX)
+vertpos:1.001800833255313
 
 org:
-genotype:fX[N,0:1]
-vertpos:-0.01
+genotype:(gX[N]XXXDLXXrcXX, dXXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:rX[@,p:1]
-vertpos:-0.01
+genotype:(gXXXX[Gpart]DLXXrcXX, XXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:MX
-vertpos:-0.01
+genotype:(fgXXXXDLXXrcXX, XXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:RRqX
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX[T], dXXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:CmX[N]
-vertpos:-0.01
+genotype:(gXXXXDLX[T]XrcXX, dXXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:RmX[G]
-vertpos:-0.01
+genotype:(gXXXXDLXX[Gpart]rcXX, dXXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:FX[@][|]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX, XXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:FX[|,r:1]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX, dXXX)
+vertpos:1.0017534524442357
 
 org:
-genotype:qX[@]
-vertpos:-0.01
+genotype:(gXXXXDLX[T]XrcXX, dXXqX)
+vertpos:1.0017534524442353
 
 org:
-genotype:FX[|]
-vertpos:-0.01
+genotype:(gcXXXXDXXrFcX[*]X, dXXX)
+vertpos:1.001622143258614
 
 org:
-genotype:fQX
-vertpos:-0.01
+genotype:(gcXXXXXXrcX[*]X, dXXX)
+vertpos:1.001622143258614
 
 org:
-genotype:rX[Gpart]
-vertpos:-0.01
+genotype:(gcXXXXDXXrcX[S]X, dXXX)
+vertpos:1.001622143258614
 
 org:
-genotype:rX[@]
-vertpos:-0.01
+genotype:(gcXXXXDXXrcX[*]X, dXXX)
+vertpos:1.001622143258614
 
 org:
-genotype:QX[S]
-vertpos:-0.01
+genotype:(gcXXXXDXXrcXX, dXXX)
+vertpos:1.001622143258614
 
 org:
-genotype:rlX
-vertpos:-0.01
+genotype:(gXXXXDLXX[@,p:1]rcXX, dXXX)
+vertpos:1.0015600760651715
 
 org:
-genotype:CmX
-vertpos:-0.01
+genotype:(gXXMXDXX[Gpart]rcXX, )
+vertpos:1.001483433885752
 
 org:
-genotype:LCX
-vertpos:-0.01
+genotype:(XXXDLXXrcXXXXX)
+vertpos:1.0012579141824165
 
 org:
-genotype:rfX
-vertpos:-0.01
+genotype:(gXXXXDLXX[@]rcXX, dXXX)
+vertpos:1.0011425070549262
 
 org:
-genotype:RX[G]
-vertpos:-0.01
+genotype:(gXXXXDXXrcXXX,dX[*]BXXX)
+vertpos:1.0009345241845895
 
 org:
-genotype:X[N,s:0]
-vertpos:-0.01
+genotype:(gXXXXDXXrcXXX,dXBXXX)
+vertpos:1.0009345241845895
 
 org:
-genotype:fX[N]
-vertpos:-0.01
+genotype:(FgXXXXDXXrcXXX,dXBXXX)
+vertpos:1.0009097915519987
 
 org:
-genotype:RmX
-vertpos:-0.01
+genotype:(gXXCXXDLXXrcXX, dX[*]XX)
+vertpos:1.0003362318830238
 
 org:
-genotype:qX[T]
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, XLXX)
+vertpos:1.000268805173888
 
 org:
-genotype:LX[S]
-vertpos:-0.01
+genotype:(gXXXXDLXXrcXX, XdXXX)
+vertpos:1.000168520830364
 
 org:
-genotype:MX[*]
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, X[|]XX)
+vertpos:1.0001171479270106
 
 org:
-genotype:fX[*]
-vertpos:-0.01
+genotype:(gXXXMXDXXrcXX, dX[@]XX)
+vertpos:1.0001167059935403
 
 org:
-genotype:fqX
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, dXqXX)
+vertpos:1.0001166881847463
 
 org:
-genotype:LMX
-vertpos:-0.01
+genotype:(gXXXXDXXrcX[G]X, dXqXX)
+vertpos:1.0001166881847463
 
 org:
-genotype:RX[|]
-vertpos:-0.01
+genotype:(gXXXXXXrcXX, dXXX[G])
+vertpos:1.0001166881847459
 
 org:
-genotype:RqX
-vertpos:-0.01
+genotype:(gXXXXXXrcXX[*], dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:RX[*]
-vertpos:-0.01
+genotype:(gXXXX(DXXrcXX[S]), dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:lX
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX[S], dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:X[@]
-vertpos:-0.01
+genotype:(gXXXXXXrcXX, dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:FX
-vertpos:-0.01
+genotype:(gXXXMXDXXrcXX, XXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:X[|]
-vertpos:-0.01
+genotype:(gXXXMXDXXrcXX, dX[*]XX)
+vertpos:1.0001166881847459
 
 org:
-genotype:X[*]
-vertpos:-0.01
+genotype:(XXXXDXXrcXX, dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:mX
-vertpos:-0.01
+genotype:(gXXXMXDXXrcXX, dXXX[*])
+vertpos:1.0001166881847459
 
 org:
-genotype:qX
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, XXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:rX
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, dXXX[G])
+vertpos:1.0001166881847459
 
 org:
-genotype:QX
-vertpos:-0.01
+genotype:(gXXXXDXXrcX[G]X, dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:LX
-vertpos:-0.01
+genotype:(gXXXMXDXXrcXX, dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:X[N]
-vertpos:-0.01
+genotype:(gXXXXDXXrcXX, dXXX)
+vertpos:1.0001166881847459
 
 org:
-genotype:RX
-vertpos:-0.01
+genotype:(gXXXXgXXXXXrXX, XXX)
+vertpos:0.15
 

@@ -9,7 +9,7 @@ cd ../framspy
 ```shell
 for genformat in 0 1 4 9; do
     for N in {1..50}; do
-        python FramsticksEvolution_logged.py \
+        python FramsticksEvolution_logged_eval.py \
             -path ../Framsticks50rc30/ \
             -sim "eval-allcriteria.sim;deterministic.sim;sample-period-longest.sim;my-own-probab-0.sim" \
             -opt vertpos \
